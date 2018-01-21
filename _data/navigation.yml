@@ -1,0 +1,31 @@
+# main links links
+main:
+  - title: "<b>Прошивка<br>3DS, WiiU</b>"
+    url: http://customfw.xyz
+  - title: "<i>Купить<br>прошитую</i>"
+    url: https://3dscfw.olx.ua/
+  - title: "Проблемы и<br>их решения"
+    url: /troubleshooting
+  - title: "FAQ"
+    url: /faq
+  - title: "Установка<br>игр"
+    url: /games
+  - title: "Полезные<br>инструкции"
+    url: /addons
+  - title: "NTRBoot"
+    url: /ntrboot
+  - title: "Хардмод"
+    url: /making-hardmod
+  - title: "Список ПО"
+    url: /soft
+  - title: "Навигация по сайту"
+    url: /site-navigation
+  - title: "Пожертвования"
+    url: /donations
+  - title: "Благодарности"
+    url: /credits               
+                
+bottom:
+  - title: Если вам помогло или просто понравилось это руководство, то я принимаю <a href="/donations" target="_blank">пожертвования</a> на карту Visa, или Bitcoin.
+  - title: По вопросам, касающимся взлома обращайтесь в <a href="https://vk.com/3ds_cfw" target="_blank">группу в вконтакте</a>, <a href="https://discord.gg/h2s4aP7" target="_blank">Discord</a> или <a href="https://t.me/homebrew_group" target="_blank">Telegram</a>.
+  - title: Об ошибках и неточностях просьба писать в <a href="https://vk.com/3ds_cfw" target="_blank">группу руководства</a>, <a href="https://discord.gg/VKYYWmY" target="_blank">Discord</a> или в <a href="https://t.me/rashevskyv" target="_blank">Telegram</a>.
