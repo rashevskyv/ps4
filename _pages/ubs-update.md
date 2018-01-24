@@ -7,7 +7,7 @@ author_profile: true
 
 # Что понадобится
 
-* [Файл системного обновления](https://fex.net#!820085799780/226167071) (fex.net) для Playstation 4 версии 4.05 ([MEGA.NX](https://mega.nz/#F!85FmXbpY!3XKTrAAwSqsVJtCB3aXhQA))
+* [Файл системного обновления](https://fex.net#!820085799780/226167071) (fex.net) для Playstation 4 версии 4.05 ([Mega.nz](https://mega.nz/#F!85FmXbpY!3XKTrAAwSqsVJtCB3aXhQA))
 * USB-флешка
 
 # Инструкция
