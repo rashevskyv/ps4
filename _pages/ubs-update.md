@@ -7,7 +7,7 @@ author_profile: true
 
 # Что понадобится
 
-* [Файл системного обновления](https://fex.net#!820085799780/226167071) (fex.net) для Playstation 4 версии 4.05 ([Mega.nz](https://mega.nz/#F!85FmXbpY!3XKTrAAwSqsVJtCB3aXhQA))
+* [Файл системного обновления](https://fex.net#!820085799780/226167071){:target="_blank"} (fex.net) для Playstation 4 версии 4.05 ([Mega.nz](https://mega.nz/#F!85FmXbpY!3XKTrAAwSqsVJtCB3aXhQA){:target="_blank"})
 * USB-флешка
 
 # Инструкция
@@ -17,7 +17,7 @@ author_profile: true
 1. Отформатируйте USB-флешку в FAT32 или exFAT
 1. В корне USB-флешки создайте папку `PS4`, а в ней папку `UPDATE`
 1. Перенесите файлы "PS4UPDATE.PUP" и "PS4UPDATE.PUP.md5" в папку `PS4/UPDATE`
-1. Установите [Total Commander](https://www.ghisler.com/download.htm), перейдите в нем на USB-носитель в папку `PS4/UPDATE` и запустите файл "PS4UPDATE.PUP.md5"
+1. Установите [Total Commander](https://www.ghisler.com/download.htm){:target="_blank"}, перейдите в нем на USB-носитель в папку `PS4/UPDATE` и запустите файл "PS4UPDATE.PUP.md5"
 1. По окончанию пересчета чек-суммы в заголовке окна должно быть написано "CRC: Ошибок: 0". Если это так - продолжайте выполнять инструкцию. Если нет, то целостность файлов нарушена - перекачайте файлы и делайте проверку снова. 
 
 ## Часть II - Обновление прошивки PS4
