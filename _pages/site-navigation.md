@@ -16,6 +16,7 @@ author_profile: true
 * [Обновление установленных игр](update-game){:target="_blank"}
 * [Пожертвования](donations){:target="_blank"}
 * [Полезные инструкции](addons){:target="_blank"}
+* [Применение игровых патчей](game-patches){:target="_blank"}
 * [Создание дампов собственных игр](game-dumps){:target="_blank"}
 * [Установка и запуск игр в формате PKG](games){:target="_blank"}
 * [Часто задаваемые вопросы](faq){:target="_blank"}

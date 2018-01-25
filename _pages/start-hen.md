@@ -17,7 +17,14 @@ author_profile: true
 
 ## Часть II - Запуск эксплойта
 
-{% include /inc/launch_payload.txt %}
+{% include inc/launch-exploit.txt 
+
+	exploit="`specter`"
+
+	payload='"*Integrated HEN (VV1LD)*"'
+
+	key="число, соответствующее строке с названием этого пейлоада" 
+%}
 
 Если вы не планируете ничего, кроме установки и запуска игр на своей приставке, вы можете упростить процедуру запуска эксплойта, [восстановив работоспособность браузера и запуская PS4HEN через него](start-hen-browser). 
 

@@ -1,5 +1,5 @@
 ---
-title: "Часто задаваемые вопросы" #
+title: "Полезные инструкции" #
 sitemap: false
 permalink: /addons.html
 author_profile: true
