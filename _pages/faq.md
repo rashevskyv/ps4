@@ -23,3 +23,6 @@ author_profile: true
 
 ### **В:** Как купить приставку с нужной прошивкой? 
 **О:** Некоторую информацию по этому вопросу можно подчерпнуть [здесь](https://gbatemp.net/threads/suggestion-ps4-bundles-firmware-list.487337/){:target="_blank"} (англ.)
+
+### **В:** Приставка скачала обновление и просит обновиться. Как удалить? 
+**О:** [Подключитесь по FTP](https://ps4.customfw.xyz/games#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-%D1%84%D0%B8%D0%BA%D1%81%D0%BE%D0%B2){:target="_blank"} к приставке и удалите файл `PS4UPDATE.PUP` из папки `/update` в корне вашей приставки
