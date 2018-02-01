@@ -8,7 +8,7 @@ author_profile: true
 # Что понадобится
 
 * Свежая версия [ps4-exploit-host](https://github.com/Al-Azif/ps4-exploit-host/releases){:target="_blank"}
-1. [BlockerV2.bin](https://github.com/LightningMods/PS4-HEN-Update-Blocker-Payload/blob/master/BlockerV2.bin)
+* [BlockerV2.bin](https://github.com/LightningMods/PS4-HEN-Update-Blocker-Payload/blob/master/BlockerV2.bin?raw=true)
 
 
 # Инструкция
