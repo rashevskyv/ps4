@@ -51,6 +51,8 @@ author_profile: true
 1. Запустите браузер
 1. В адресной строке введите любой из нижеследующих адресов: 
 
+  + `https://darksoftware.us/Update_Blocker`
+  + `https://darksoftware.xyz/Update_Blocker`
   + `http://ps4.exploit.cx/`
   + `https://darksoftware.xyz/ps4hen/index.html`
   + `https://sce.party/ps4/hen/`

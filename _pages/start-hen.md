@@ -8,12 +8,15 @@ author_profile: true
 # Что понадобится
 
 * Свежая версия [ps4-exploit-host](https://github.com/Al-Azif/ps4-exploit-host/releases){:target="_blank"}
+1. [BlockerV2.bin](https://github.com/LightningMods/PS4-HEN-Update-Blocker-Payload/blob/master/BlockerV2.bin)
+
 
 # Инструкция
 
 ## Часть I - Подготовительные работы 
 
 {% include /inc/set-up-dns.txt %}
+1. Поместите пейлоад `BlockerV2.bin` в папку `ps4-exploit-host\payloads`
 
 ## Часть II - Запуск эксплойта
 
@@ -21,7 +24,7 @@ author_profile: true
 
 	exploit="`specter`"
 
-	payload='"*Integrated HEN (VV1LD)*"'
+	payload='"*BlockerV2.bin*"'
 
 	key="число, соответствующее строке с названием этого пейлоада" 
 %}
