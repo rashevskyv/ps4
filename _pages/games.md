@@ -1,6 +1,6 @@
 ---
 permalink: /games.html
-title: Создание дампов собственных игр
+title: Установка PKG
 author_profile: true
 ---
 {% include toc title="Разделы" %}
