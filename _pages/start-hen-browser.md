@@ -9,6 +9,7 @@ author_profile: true
 
 * Свежая версия [ps4-exploit-host](https://github.com/Al-Azif/ps4-exploit-host/releases){:target="_blank"}
 * [enableWebBrowser405.bin](files/enableWebBrowser405.bin)
+* [Python 2.7.x](https://www.python.org/ftp/python/2.7.14/python-2.7.14.amd64.msi){:target='_blank'}
 
 # Инструкция
 
@@ -16,6 +17,16 @@ author_profile: true
 
 ## Часть I - Подготовительные работы 
 
+1. Установите Python 2.7.x и перезагрузите ПК
+1. Убедитесь, что он работает. Для этого запустите командную строку (`Win + R` => `cmd`) и введите в ней "python". 
+1. Убедитесь, что версия в командной строке 2.7.x
+	
+	![](http://3ds.customfw.xyz/images/seedminer/python_ver.png){:target="_blank"}
+	{: .text-center}
+	{: .notice--info}
+		
+	* Если версия не соответствует указанной, переустановите Python
+	* Если по какой-то причине после ввода команды ничего не происходит, или возникает ошибка - [google it](http://google.com)!
 {% include /inc/set-up-dns.txt %}
 
 ## Часть II - Восстановление браузера
