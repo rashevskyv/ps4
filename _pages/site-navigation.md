@@ -8,11 +8,13 @@ author_profile: true
 {% capture notice-2 %}
 
 * [PS4 Guide](/){:target="_blank"}
+* [Важно знать](info){:target="_blank"}
 * [Запуск PS4HEN](start-hen){:target="_blank"}
 * [Запуск PS4HEN через браузер](start-hen-browser){:target="_blank"}
 * [Запуск пейлоадов (payloads)](payloads){:target="_blank"}
 * [Начнем](get-started){:target="_blank"}
-* [Обновление прошивки до 4.05](usb-update){:target="_blank"}
+* [Настройка FTP-соединения](ftp){:target="_blank"}
+* [Обновление прошивки до {% include /vars/sys_version.txt %}](usb-update){:target="_blank"}
 * [Обновление установленных игр](update-game){:target="_blank"}
 * [Пожертвования](donations){:target="_blank"}
 * [Полезные инструкции](addons){:target="_blank"}
