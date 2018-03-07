@@ -15,7 +15,6 @@ author_profile: true
 * [Начнем](get-started){:target="_blank"}
 * [Настройка FTP-соединения](ftp){:target="_blank"}
 * [Обновление прошивки до {% include /vars/sys_version.txt %}](usb-update){:target="_blank"}
-* [Обновление установленных игр](update-game){:target="_blank"}
 * [Пожертвования](donations){:target="_blank"}
 * [Полезные инструкции](addons){:target="_blank"}
 * [Применение игровых патчей](game-patches){:target="_blank"}
