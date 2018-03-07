@@ -46,7 +46,6 @@ author_profile: true
 
 	exploit="`specter`"
 
-	payload="пейлоад, который вы закинули в папку `ps4-exploit-host\payloads`" 
+	payload="*HEN* и в окне программы ps4-exploit-host на вашем ПК нажмите число, соответствующее вашему пейлоаду" 
 
-	key="число, соответствующее строке с названием этого пейлоада" 
 %}
