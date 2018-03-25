@@ -46,6 +46,6 @@ author_profile: true
 
 	exploit="`specter`"
 
-	payload="*HEN* и в окне программы ps4-exploit-host на вашем ПК нажмите число, соответствующее вашему пейлоаду" 
+	payload="*Original* и в окне программы ps4-exploit-host на вашем ПК нажмите число, соответствующее вашему пейлоаду" 
 
 %}
