@@ -19,7 +19,7 @@ author_profile: true
 		
 ### Часть II - Настройка DNS
 		
-{% include /inc/set-up-dns.txt %}
+{% include /inc/custom_payload.txt %}
 
 ### Часть III - Запуск FTP-сервера
 

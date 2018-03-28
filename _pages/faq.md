@@ -30,5 +30,9 @@ author_profile: true
 ### **В:** Приставка скачала обновление и просит обновиться. Как удалить? 
 **О:** [Подключитесь по FTP](ftp){:target="_blank"} к приставке и удалите файл `PS4UPDATE.PUP` из папки `/update` в корне вашей приставки. Либо установите эту же версию прошивки через рекавери
 
+### **В:** У меня нет возможности предоставить активное интернет-соединение для консоли. Что мне делать? 
+**О:** Вы можете передать пейлоадер через мобильный телефон (см. ниже), либо воспользоваться [USB WiFi-модулем ESP-12E](https://www.youtube.com/watch?v=WlD4jdkjQew){:target="_blank"}
+
 ### **В:** Можно ли хостить эксплойт на мобильном телефоне? 
-**О:** Да, для [Android](https://4pda.ru/forum/index.php?showtopic=885825&view=findpost&p=69750206) и [iOS](https://www.psxhax.com/threads/how-to-host-ps4hen-for-airdisk-ios-iphone-guide-by-leslie84.4383/) есть соответствующее ПО
+**О:** Да, для [Android](https://4pda.ru/forum/index.php?showtopic=885825&view=findpost&p=69750206){:target="_blank"} и [iOS](https://www.psxhax.com/threads/how-to-host-ps4hen-for-airdisk-ios-iphone-guide-by-leslie84.4383/){:target="_blank"} есть соответствующее ПО
+

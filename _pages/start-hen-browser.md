@@ -15,7 +15,7 @@ author_profile: true
 ### Часть I - Подготовительные работы 
 
 1. Положите `enableWebBrowser455.bin` в папку `ps4-exploit-host\payloads` на вашем ПК
-{% include /inc/set-up-dns.txt %}
+{% include /inc/custom_payload.txt %}
 
 ### Часть II - Восстановление браузера
 
