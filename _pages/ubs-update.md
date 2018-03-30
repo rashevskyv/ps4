@@ -8,6 +8,7 @@ author_profile: true
 # Что понадобится
 
 * [Файл системного обновления](https://psarchive.darksoftware.xyz/Firmware_4.55/PS4UPDATE_SYSTEM.PUP){:target="_blank"} для Playstation 4 версии {% include /vars/sys_version.txt %}
+	* Версию для рекавери можно скачать [здесь](http://darthsternie.bplaced.net/ps4.html){:target="_blank"}
 * USB-флешка
 
 # Инструкция
