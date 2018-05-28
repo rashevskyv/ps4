@@ -18,6 +18,7 @@ author_profile: true
 
 Первым делом нам следует заблокировать обновления через интернет
 
+1. Отключите приставку
 1. Вытащите физически интернет-кабель из приставки, отключите WiFi-роутер, и только потом включайте консоль. Если в приводе есть диск - извлеките
 1. Зайдите в настройки PS4 и перейдите в "Система" -> "Автоматические загрузки"
 1. Снимите галочки с пунктов “Файлы обновлений системного программного обеспечения” и “Автоматическая установка”
@@ -52,8 +53,8 @@ author_profile: true
       <td style="text-align: center; font-weight: bold;"><a href="start-hen">Запуск PS4HEN</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">4.70</td>
-      <td style="text-align: center; font-weight: bold;">5.05</td>
+      <td style="text-align: center; font-weight: bold;">5.50</td>
+      <td style="text-align: center; font-weight: bold;">5.55</td>
       <td style="text-align: center; font-weight: bold;">Запуск эксплойта невозможен!</td>
     </tr>
   </tbody>

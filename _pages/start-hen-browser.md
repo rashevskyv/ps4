@@ -35,10 +35,8 @@ author_profile: true
 1. Запустите на ПК `ps4-exploit-host`
 1. Запустите браузер
 1. В адресной строке введите
-
-  + `https://ps4.editzz.net/` или 
-  + `http://ps4exploits.darksoftware.xyz/index.html`
-  
+  + `http://ps4exploits.darksoftware.xyz/index.html` (выберите HEN+Mira)
+  + `http://crack.bargains/505k/`
 1. После того как эксплойт загрузится, он автоматически запустит PS4HEN 
 1. Нажмите кнопку (OPTIONS) и выберите пункт "Добавить закладку", чтобы не вводить каждый раз адрес вручную после перезагрузки приставки
 
