@@ -13,7 +13,7 @@ author_profile: true
 
 # Что понадобится
 
-* Свежая версия [ps4-exploit-host](https://github.com/Al-Azif/ps4-exploit-host/releases/latest){:target="_blank"} (ps4-exploit-host-win* - для windows)
+* Свежая версия [ps4-exploit-host](https://github.com/Al-Azif/ps4-exploit-host/releases/latest){:target="_blank"} (*ps4-exploit-host-win* - для windows*)
 * Пейлоадеры, которые вы хотите запустить на приставке 
 
 # Инструкция
@@ -26,6 +26,8 @@ author_profile: true
 
 {% include inc/launch-exploit.txt 
 
-	payload="*Original* и в окне программы ps4-exploit-host на вашем ПК нажмите число, соответствующее вашему пейлоаду" 
+	payload="*Mira*, затем запустите "Руководство пользователя" ещё раз и в окне программы ps4-exploit-host на вашем ПК нажмите число, соответствующее вашему пейлоаду" 
 
 %}
+
+Если вы просто хотите запустить эксплойт с ПК, вместо того, чтобы загружать его через интернет, просто единожды выберите Mira

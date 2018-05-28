@@ -10,7 +10,7 @@ author_profile: true
 # Что понадобится
 
 * [Fake PKG Generator 1.1.3](files/FPKGG113.7z)
-* [ps4-dumper](https://github.com/xvortex/ps4-dumper/releases){:target="_blank"} (`gengp4.exe` и `ps4-dumper.bin`)
+* [ps4-dumper](https://github.com/xvortex/ps4-dumper-vtx/releases/latest){:target="_blank"} (`gengp4.exe` и `ps4-dumper.bin`)
 * Вы должны уметь [запускать пейлоады на вашей консоли](payloads){:target="_blank"}
 * USB-накопитель не менее 60Гб (это условная цифра, в ряде случаев игры весят много меньше и спокойно смогут поместится на флешку в 32Гб)
 * Свободное место на жестком диске ПК в количестве равном размеру игры, или двукратное количество свободного места на USB-накопителе
@@ -34,7 +34,7 @@ author_profile: true
 1. Запустите ps4-exploit-host на вашем ПК
 {% include inc/launch-exploit.txt 
 
-	payload="*Original* и в окне программы ps4-exploit-host на вашем ПК нажмите число, соответствующее вашему пейлоаду" 
+	payload="*Mira*, затем запустите "Руководство пользователя" ещё раз и в окне программы ps4-exploit-host на вашем ПК нажмите число, соответствующее вашему пейлоаду" 
 %}
 1. Сверните браузер кнопкой (PS)
 	* Браузер необходимо именно свернуть, а не закрывать!

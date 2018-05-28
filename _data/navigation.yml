@@ -12,6 +12,8 @@ main:
     url: /games
   - title: "Запуск эксплойта<br>через браузер"
     url: /games
+  - title: "Запуск эксплойта<br>с ПК"
+    url: /payloads
   - title: "Применение<br>игровых патчей"
     url: /game-patches
   - title: "Полезные<br>инструкции"
