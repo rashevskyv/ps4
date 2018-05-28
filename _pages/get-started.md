@@ -24,6 +24,9 @@ author_profile: true
 1. Снимите галочки с пунктов “Файлы обновлений системного программного обеспечения” и “Автоматическая установка”
 1. Вернитесь в меню Настройки и перейдите в "Настройки энергосбережения" -> "Выбрать функции, доступные в режиме покоя"
 1. Снимите галочку с пункта "Сохранить подключение к Интернету"
+1. Верните кабель в приставку\включите роутер
+
+Многие жалуются, что приставка после этого все равно скачивает обновление - это не страшно, на следующей странице мы удалим его полностью и заблокируем от последующей скачки. 
 
 ## Выберите прошивку
 
@@ -50,7 +53,7 @@ author_profile: true
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">{% include /vars/sys_version.txt %}</td>
-      <td style="text-align: center; font-weight: bold;"><a href="start-hen">Запуск Mira</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="start-hen">Запуск MiraCFW</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">5.50</td>

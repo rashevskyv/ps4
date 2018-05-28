@@ -15,6 +15,7 @@ author_profile: true
 
 * Свежая версия [ps4-exploit-host](https://github.com/Al-Azif/ps4-exploit-host/releases/latest){:target="_blank"} (*ps4-exploit-host-win* - для windows*)
 * Пейлоадеры, которые вы хотите запустить на приставке 
+* Приставка и ваш ПК должны находится в одной сети
 
 # Инструкция
 
