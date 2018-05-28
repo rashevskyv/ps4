@@ -30,6 +30,9 @@ author_profile: true
 	payload='"*Mira*"'
 
 %}
+
+Если не получается запустить эксплойт через установку DNS - пробуйте сделать это [через ваш ПК](payloads){:target="_blank"}
+{: .notice--info}
 	
 ### Часть II - Установка игр
 
