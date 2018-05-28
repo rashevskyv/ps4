@@ -41,7 +41,7 @@ author_profile: true
 Если у вас нет возможности использовать активное интерне-соединение, обратитесь к [FAQ](faq#%D0%B2-%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE-%D0%BB%D0%B8-%D1%85%D0%BE%D1%81%D1%82%D0%B8%D1%82%D1%8C-%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D0%BE%D0%B9%D1%82-%D0%BD%D0%B0-%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC-%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%B5){:target="_blank"} за альтернативными решениями
 {: .notice--warning}
 
-Скачанное обновление системного ПО можно удалить. Обратитесь в (faq)[faq#%D0%B2-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0-%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D0%BB%D0%B0-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8-%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C%D1%81%D1%8F-%D0%BA%D0%B0%D0%BA-%D1%83%D0%B4%D0%B0%D0%BB%D0%B8%D1%82%D1%8C]{:target="_blank"} , чтобы научиться как.
+Скачанное обновление системного ПО можно удалить. Обратитесь в [faq](faq#%D0%B2-%D0%BF%D1%80%D0%B8%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0-%D1%81%D0%BA%D0%B0%D1%87%D0%B0%D0%BB%D0%B0-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B8-%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C%D1%81%D1%8F-%D0%BA%D0%B0%D0%BA-%D1%83%D0%B4%D0%B0%D0%BB%D0%B8%D1%82%D1%8C){:target="_blank"} , чтобы научиться как.
 
 ___
 
