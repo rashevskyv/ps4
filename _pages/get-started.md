@@ -50,7 +50,7 @@ author_profile: true
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">{% include /vars/sys_version.txt %}</td>
-      <td style="text-align: center; font-weight: bold;"><a href="start-hen">Запуск PS4HEN</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="start-hen">Запуск Mira</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">5.50</td>

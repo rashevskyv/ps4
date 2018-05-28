@@ -51,5 +51,5 @@ author_profile: true
 
 ___
 
-Следующий шаг: [Запуск PS4HEN](start-hen) 
+Следующий шаг: [Запуск MiraCFW](start-hen) 
 {: .notice--success}
