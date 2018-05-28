@@ -52,8 +52,7 @@ author_profile: true
 **О:** [Подключитесь по FTP](ftp){:target="_blank"} к приставке и удалите файл `PS4UPDATE.PUP` из папки `/update` в корне вашей приставки. Либо установите эту же версию прошивки через рекавери. После этого можете (заблокировать обновление)[start-hen#%D1%87%D0%B0%D1%81%D1%82%D1%8C-ii---%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F]{:target="_blank"} более надежным способом.
 
 ### **В:** У меня нет возможности предоставить активное интернет-соединение для консоли. Что мне делать? 
-**О:** Вы можете передать пейлоадер через мобильный телефон (см. ниже), либо воспользоваться [USB WiFi-модулем ESP-12E](https://www.youtube.com/watch?v=WlD4jdkjQew){:target="_blank"}
+**О:** Вы можете передать пейлоадер через мобильный телефон (см. ниже), либо воспользоваться [USB WiFi-модулем ESP](https://4pda.ru/forum/index.php?showtopic=885825&view=findpost&p=73705006){:target="_blank"}
 
 ### **В:** Можно ли хостить эксплойт на мобильном телефоне? 
 **О:** Да, для [Android](https://4pda.ru/forum/index.php?showtopic=885825&view=findpost&p=69750206){:target="_blank"} и [iOS](https://www.psxhax.com/threads/how-to-host-ps4hen-for-airdisk-ios-iphone-guide-by-leslie84.4383/){:target="_blank"} есть соответствующее ПО
-
