@@ -11,7 +11,7 @@ main:
   - title: "Установка<br>игр"
     url: /games
   - title: "Запуск эксплойта<br>через браузер"
-    url: /games
+    url: /start-hen-browser
   - title: "Запуск эксплойта<br>с ПК"
     url: /payloads
   - title: "Применение<br>игровых патчей"
