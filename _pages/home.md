@@ -7,7 +7,7 @@ header:
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: 'Полное руководство по прошивке запуску MiraCFW на PS4 / PS4 PRO на стоковой прошивке версии 5.05 и ниже<br />**Последнее изменение:** 28 мая 2018'
+excerpt: 'Полное руководство по прошивке запуску MiraCFW на PS4 / PS4 PRO на стоковой прошивке версии 5.05 и ниже<br />**Последнее изменение:** 29 мая 2018'
 ---
 
 {% include toc title="Разделы" %}

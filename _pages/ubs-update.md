@@ -7,8 +7,8 @@ author_profile: true
 
 # Что понадобится
 
-* [Файл системного обновления](https://psarchive.darksoftware.xyz/505Retail.PUP){:target="_blank"} ([зеркало](https://nzxtrules.stackstorage.com/s/UqZQbEL8OzulBej){:target="_blank"}, [зеркало на ЯД](https://yadi.sk/d/5eIXarTK3RZcZD){:target="_blank"}) для Playstation 4 версии {% include /vars/sys_version.txt %}
-	* Если вы хотите сменить жесткий диск на приставке, либо у вас уже скачалось обновление на последнюю невзламываемую версию ПО, то качайте [версию для рекавери](https://psarchive.darksoftware.xyz/PS4UPDATE5.05REC.PUP){:target="_blank"} ([зеркало](https://nzxtrules.stackstorage.com/s/QQvXQn9zB7XM9rU){:target="_blank"}), она весит в районе 900Мб. 
+* [Файл системного обновления](https://psarchive.darksoftware.xyz/505Retail.PUP){:target="_blank"} ([зеркало](https://nzxtrules.stackstorage.com/s/UqZQbEL8OzulBej){:target="_blank"} для Playstation 4 версии {% include /vars/sys_version.txt %}
+	* Если вы хотите сменить жесткий диск на приставке, либо у вас уже скачалось обновление на последнюю невзламываемую версию ПО, то качайте [версию для рекавери](https://psarchive.darksoftware.xyz/PS4UPDATE5.05REC.PUP){:target="_blank"} ([зеркало](https://nzxtrules.stackstorage.com/s/QQvXQn9zB7XM9rU){:target="_blank"}), [зеркало на ЯД](https://yadi.sk/d/5eIXarTK3RZcZD){:target="_blank"}), она весит в районе 900Мб. 
 * USB-флешка
 
 # Инструкция
