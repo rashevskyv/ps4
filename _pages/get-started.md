@@ -48,7 +48,7 @@ author_profile: true
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.01</td>
-      <td style="text-align: center; font-weight: bold;">4.50</td>
+      <td style="text-align: center; font-weight: bold;">5.03</td>
       <td style="text-align: center; font-weight: bold;"><a href="usb-update">Обновление до {% include /vars/sys_version.txt %}</a></td>
     </tr>
     <tr>
