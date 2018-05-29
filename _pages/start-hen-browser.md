@@ -38,6 +38,7 @@ author_profile: true
   + `http://ps4exploits.darksoftware.xyz/index.html` (выберите HEN+Mira)
   + `http://crack.bargains/505k/`
   + `http://www.ps4-hack.site/#5.05` (выбирайте HEN)
+  + `ps4-hack.site`
 1. После того как эксплойт загрузится, он автоматически запустит MiraCFW 
 1. Нажмите кнопку (OPTIONS) и выберите пункт "Добавить закладку", чтобы не вводить каждый раз адрес вручную после перезагрузки приставки
 
