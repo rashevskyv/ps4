@@ -1,5 +1,5 @@
 ---
-title: "Запуск пейлоадоа (payloads)" #
+title: "Запуск пейлоадов (payloads)" #
 sitemap: false
 permalink: /payloads.html
 author_profile: true
