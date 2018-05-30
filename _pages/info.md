@@ -16,7 +16,7 @@ author_profile: true
 * НЕ НАЖИМАЙТЕ в Debug Settings никуда, кроме Game, Package Installer!
 * Для замены жёсткого диска используйте системное [обновление для рекавери](usb-update#%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D1%80%D0%B5%D0%BA%D0%B0%D0%B2%D0%B5%D1%80%D0%B8){:target="_blank"}. Вставьте новый диск и установите это обновление. Приставка сама подготовит диск к работе
 * Периодически делайте бекап вашей базы (желательно после установки каждой новой игры). Для этого подключитесь к приставке через FTP и скопируйте на ПК следующие файлы:
-	*  `/system_data/priv/mms/app.db`
+	* `/system_data/priv/mms/app.db`
 	* `/system_data/priv/mms/addcont.db`
 * Начиная с прошивки 4.55 можно [устанавливать игры на внешний HDD](https://vk.com/@slashgoresplatter-apptousb){:target="_blank"}
 	
