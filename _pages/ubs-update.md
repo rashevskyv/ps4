@@ -51,5 +51,5 @@ author_profile: true
 
 ___
 
-Следующий шаг: [Запуск MiraCFW](start-hen) 
+Следующий шаг: [Запуск взлома](start-hen) 
 {: .notice--success}

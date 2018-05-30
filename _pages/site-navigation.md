@@ -9,8 +9,8 @@ author_profile: true
 
 * [PS4 Guide](/){:target="_blank"}
 * [Важно знать](info){:target="_blank"}
-* [Запуск MiraCFW](start-hen){:target="_blank"}
-* [Запуск MiraCFW через браузер](start-hen-browser){:target="_blank"}
+* [Запуск эксплойта](start-hen){:target="_blank"}
+* [Запуск эксплойта через браузер](start-hen-browser){:target="_blank"}
 * [Запуск пейлоадов (payloads)](payloads){:target="_blank"}
 * [Начнем](get-started){:target="_blank"}
 * [Настройка FTP-соединения](ftp){:target="_blank"}

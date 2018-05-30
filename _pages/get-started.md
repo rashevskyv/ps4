@@ -53,7 +53,7 @@ author_profile: true
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">{% include /vars/sys_version.txt %}</td>
-      <td style="text-align: center; font-weight: bold;"><a href="start-hen">Запуск MiraCFW</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="start-hen">Запуск взлома</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">5.50</td>

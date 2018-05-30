@@ -1,6 +1,6 @@
 ---
 permalink: /start-hen-browser.html
-title: Запуск MiraCFW через браузер
+title: Запуск эксплойта через браузер
 author_profile: true
 ---
 {% include toc title="Разделы" %}
