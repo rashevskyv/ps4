@@ -1,6 +1,6 @@
 ---
 permalink: /game-patches.html
-title: Применение игровых патчей
+title: Применение игровых патчей на лицензионные копии игр
 author_profile: true
 ---
 {% include toc title="Разделы" %}
