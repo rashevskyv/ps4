@@ -5,3 +5,18 @@
 {:toc .toc__menu}
 </nav>
 </aside>
+
+<hr>
+
+{% assign split_path = page.path | split: "/" %}
+
+{% for link in site.data.navigation.bottom %}
+  {% if link.url contains 'http' %}
+	{% assign domain = '' %}
+  {% else %}
+	{% assign domain = site.url | append: site.baseurl %}
+  {% endif %}
+  <div class ="notice"><b>{{ link.title }}</b></div>
+{% endfor %}
+
+<hr>
