@@ -13,7 +13,7 @@ author_profile: true
 	* нужно запускать всего раз
 	* Чтобы отключить, удалите содержимое папки `update` через [FTP-соединение](ftp){:target="_blank"}
 * [Dumper](https://github.com/xvortex/ps4-dumper-vtx/releases/latest){:target="_blank"} - [дампит игры](game-dumps){:target="_blank"}
-* [FTP](https://github.com/xvortex/ps4-ftp-vtx/releases/latest{:target="_blank"} - [FTP-сервер](ftp){:target="_blank"}
+* [FTP](https://github.com/xvortex/ps4-ftp-vtx/releases/latest){:target="_blank"} - [FTP-сервер](ftp){:target="_blank"}
 * [HEN](https://github.com/xvortex/ps4-hen-vtx/releases/latest){:target="_blank"} - Homebrew Enabler. Проще говоря, запустите его, чтобы пиратить
 * [Linux Loader](https://github.com/valentinbreiz/PS4-Linux-Loader/tree/5.05){:target="_blank"} - необходим для запуска Linux
 * Mira+HEN - то же, что и хен + функционал MiraCFW
