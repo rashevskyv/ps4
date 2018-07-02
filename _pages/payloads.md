@@ -27,7 +27,7 @@ author_profile: true
 
 {% include inc/launch-exploit.txt 
 
-	payload='*Original*, в окне программы ps4-exploit-host на вашем ПК нажмите число, соответствующее вашему пейлоаду' 
+	payload='**HEN**, затем вернитесь в Руководство пользователя и выберите **Original**, в окне программы ps4-exploit-host на вашем ПК нажмите число, соответствующее вашему пейлоаду' 
 
 %}
 
