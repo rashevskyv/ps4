@@ -6,10 +6,10 @@ author_profile: true
 {% include toc title="Разделы" %}
 
 Запускать эксплойт можно следующими методами: 
-	* [Через ПК с помощью ps4-exploit-host](payloads){:target="_blank"}
-	* С помощью мобильного телефона на базе [Android](https://4pda.ru/forum/index.php?showtopic=885825&view=findpost&p=70298081){:target="_blank"} и [iOS](https://vk.com/@jailbreakps4-instrukciya-dlya-zapuska-eksploita-s-pomoschu-ios){:target="_blank"}
-	* С помощью внешнего [ESP8266-модуля с WiFi](https://4pda.ru/forum/index.php?showtopic=885825&st=1520#entry73705006){:target="_blank"}
-	* Запуск эксплойта через DNS будет рассмотрен ниже 
+* [Через ПК с помощью ps4-exploit-host](payloads){:target="_blank"}
+* С помощью мобильного телефона на базе [Android](https://4pda.ru/forum/index.php?showtopic=885825&view=findpost&p=70298081){:target="_blank"} и [iOS](https://vk.com/@jailbreakps4-instrukciya-dlya-zapuska-eksploita-s-pomoschu-ios){:target="_blank"}
+* С помощью внешнего [ESP8266-модуля с WiFi](https://4pda.ru/forum/index.php?showtopic=885825&st=1520#entry73705006){:target="_blank"}
+* Запуск эксплойта через DNS будет рассмотрен ниже 
 	
 Запуск эксплойта через DNS я считаю наиболее простым и удобным и рекомендую пользоваться именно им последующим причинам:
 * Прописанные DNS блокируют доступ консоли к серверам SONY
