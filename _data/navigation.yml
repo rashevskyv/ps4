@@ -8,6 +8,8 @@ main:
     url: /info
   - title: "Установка<br>игр"
     url: /games
+  - title: "Запуск эксплойта<br>через DNS"
+    url: /start-hen
   - title: "Запуск эксплойта<br>через браузер"
     url: /start-hen-browser
   - title: "Запуск<br>эксплойта с ПК"
