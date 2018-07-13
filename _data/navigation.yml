@@ -58,3 +58,5 @@ addons:
     url: /start-hen-browser
   - title: Настройка FTP-соединения 
     url: /ftp
+  - title: Использование Remote Play без активации системы и входа в PSN
+    url: /remote-play
