@@ -86,7 +86,7 @@ author_profile: true
 
 DLC делятся на два типа - ключи разблокировки и DLC с дополнительными файлами. В первом случае DLC является просто ключом для контента, который и так уже есть в игре, DLC его просто активирует. Во втором же случае DLC добавляет контент в игру и содержит в себе ещё ряд дополнительных файлов, за счёт которых, собственно, и идёт добавление нового контента. Дампятся они так же по разному. 
 
-Для того, чтобы понять какого типа ваше дополнение, перейдите в [Playstation Store](https://store.playstation.com/en-us/home/games){:target="**_blank"}, введите в поиске название вашей игры и перейдите на её страницу. Пролистайте вниз и в разделе "Дополнения**" выберите интересующее вас DLC. Посмотрите в левую часть страницы, под изображением игры. Если там указан размер игры - это DLC второго типа. Если размера нет - первого. 
+Для того, чтобы понять какого типа ваше дополнение, перейдите в [Playstation Store](https://store.playstation.com/en-us/home/games){:target="_blank"}, **введите в поиске название вашей игры и перейдите на её страницу. Пролистайте вниз и в разделе "Дополнения**" выберите интересующее вас DLC. Посмотрите в левую часть страницы, под изображением игры. Если там указан размер игры - это DLC второго типа. Если размера нет - первого. 
 
 ![]({{ base_path }}/images/screenshots/dlc-types.png) 
 {: .text-center}
@@ -94,27 +94,15 @@ DLC делятся на два типа - ключи разблокировки 
 
 ### Дампинг DLC первого типа (без дополнительных данных)
 
-1. Запустите `orbis-pub-sfo.exe` из папки с **Fake PKG Generator** 
-1. В основном окне в списке "**Category**" выберите "**(PS4) Additional Content**"
-1. Нажмите "**Yes**"
-1. В поле "**ContentID**" впишите ID вашего DLC. Его можно найти на странице вашего дополнения в [Playstation Store](https://store.playstation.com/en-us/home/games){:target="_blank"} в адресной строке браузера 
-	* Например для 'Gravity Rush 2: The Ark of Time - Raven's Choice' это будет `UP9000-CUSA03694_00-ACUSCROWXXXXXXXX`
-1. В левой части окна выберите "**Title Text**" и в поле "**Additional Content Name (Default Language)**" введите название вашего DLC, которое так же можно посмотреть в [Playstation Store](https://store.playstation.com/en-us/home/games){:target="_blank"}
-	* Например 'Gravity Rush 2: The Ark of Time - Raven's Choice'
-1. В меню "**File" выберите "Save**" и сохраните полученный `.sfo`-файл в папке `PS4/sce_sys` под именем `param.sfo`
-	* Например 'PS4/sce_sys/param.sfo'
-1. Запустите `orbis-pub-gen.exe` из папки с **Fake PKG Generator** 
-1. В меню "**File" выберите "New Project -> Additional Content Package *without* Extra Data**"
-1. Дважды нажмите на "**Image0**" и перетащите в открывшееся окно папку `sce_sys` в которой находится созданный выше `param.sfo`
-1. Закройте окно
-1. В меню "**Commands" выберите "Project settings" и перейдите на вкладку "Package**"
-1. В поле "**ContentID**" впишите ID вашего DLC, который вы использовали ранее
-	* Например для 'Gravity Rush 2: The Ark of Time - Raven's Choice' это будет `UP9000-CUSA03694_00-ACUSCROWXXXXXXXX`
-1. в поле "**Passcode (32 chars)**" введите `00000000000000000000000000000000`, убедитесь, что в поле "**Entitlement Key**" так же прописано `00000000000000000000000000000000`
-1. Нажмите "**OK**"
-1. В меню Command выберите "**Build Image -> Output Path**" и выберите место для сохранения вашего fakePKG и нажмите "**Build**"
-1. Подождите пока создастся PKG-файл. 
-	* В логе не должно быть ошибок красного цвета
+#### Что понадобится
+
+* Свежая версия [psDLC](https://github.com/stooged/psDLC/releases/latest){:target="_blank"}
+
+1. Заспакуйте `.zip`-архив psDLC в ту же папку, где у вас находится `orbis-pub-cmd.exe` (**Fake PKG Generator**)
+1. Запустите `psDLC.exe`
+1. Введите ID игры для которой ищите DLC в текстовое поле и нажмите "Get DLC List"
+1. Выберите нужное DLC (Add-On) и нажмите кнопку Create fPKG 
+1. Нужное DLC в формате fakePKG появится в папке `fake_dlc_pkg`
 	
 ### Дампинг DLC второго типа (с дополнительными данными)
 

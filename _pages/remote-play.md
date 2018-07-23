@@ -16,7 +16,7 @@ author_profile: true
 1. [Запустите HEN](start-hen#%D1%87%D0%B0%D1%81%D1%82%D1%8C-iii---%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D0%BE%D0%B9%D1%82%D0%B0){:target="_blank"}, если ещё не сделали этого
 1. Перейдите в "Настройки" -> "Debug Settings" -> "System" -> "IDU mode", выберите "On"
 1. Нажмите "OK" для перезагрузки
-1. Дождитесь в верхнем правом углу надписи "Provide unit with a valid network connection or insert idu update disc"
+1. Дождитесь в верхнем правом углу надписи "Provide unit with a valid network connection or insert IDU update disc"
 1. Зажмите (R1) + (R2) + (L1) + (L2) + (Option) + (ВВЕРХ) и удерживайте, пока не перейдёте в Staff Mode
 	* Убедитесь, что включили контроллер
 1. Перейдите в "Настройки" -> "Настройки соединения дистанционного воспроизведения" и выберите "Прямое подключение к системе PS Vita/PS TV" -> "Добавить устройство"
