@@ -98,7 +98,7 @@ DLC делятся на два типа - ключи разблокировки 
 
 * Свежая версия [psDLC](https://github.com/stooged/psDLC/releases/latest){:target="_blank"}
 
-1. Заспакуйте `.zip`-архив psDLC в ту же папку, где у вас находится `orbis-pub-cmd.exe` (**Fake PKG Generator**)
+1. Распакуйте `.zip`-архив psDLC в ту же папку, где у вас находится `orbis-pub-cmd.exe` (**Fake PKG Generator**)
 1. Запустите `psDLC.exe`
 1. Введите ID игры для которой ищите DLC в текстовое поле и нажмите "Get DLC List"
 1. Выберите нужное DLC (Add-On) и нажмите кнопку Create fPKG 
