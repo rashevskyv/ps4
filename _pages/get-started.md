@@ -1,6 +1,6 @@
 ---
 permalink: /get-started.html
-title: Начнем
+title: Начнём
 author_profile: true
 ---
 {% include toc title="Разделы" %}

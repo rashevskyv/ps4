@@ -1,6 +1,5 @@
 ---
 title: "Запуск пейлоадов (payloads)" #
-sitemap: false
 permalink: /payloads.html
 author_profile: true
 ---
@@ -27,7 +26,7 @@ author_profile: true
 
 {% include inc/launch-exploit.txt 
 
-	payload='*HEN**, затем вернитесь в Руководство пользователя и выберите **Original**, в окне программы ps4-exploit-host на вашем ПК нажмите число, соответствующее вашему пейлоаду' 
+	payload='*HEN**, затем вернитесь в Руководство пользователя и выберите **Bin Loader**, в окне программы ps4-exploit-host на вашем ПК нажмите число, соответствующее вашему пейлоаду' 
 
 %}
 
