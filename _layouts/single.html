@@ -33,6 +33,8 @@ layout: default
       {% endunless %}
 	  		
         {{ content }}
+		<img src="images/ads.png">
+
 				
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
@@ -54,13 +56,13 @@ layout: default
     </div>
 	
 <!-- Yandex.RTB R-A-290538-1 -->
-<div id="yandex_rtb_R-A-290538-1"></div>
+<!-- <div id="yandex_rtb_R-A-290538-1"></div> -->
 
     {% if site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
-  </article>
 
+  </article>
   
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
