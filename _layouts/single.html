@@ -33,8 +33,6 @@ layout: default
       {% endunless %}
 	  		
         {{ content }}
-		<img src="images/ads.png">
-
 				
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
@@ -55,9 +53,6 @@ layout: default
       {% include post_pagination.html %}
     </div>
 	
-<!-- Yandex.RTB R-A-290538-1 -->
-<!-- <div id="yandex_rtb_R-A-290538-1"></div> -->
-
     {% if site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
