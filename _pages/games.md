@@ -10,7 +10,7 @@ author_profile: true
 Дампы, сделанные для 4.05 и 4.55 так же будут работать!
 
 + [tapochek.net](https://tapochek.net/viewforum.php?f=910){:target="_blank"} (регистрация по инвайтам)
-+ [Таблица с magnet-ссылками](https://docs.google.com/spreadsheets/d/1vxlwU8bPnaZuWQ9u3RHPXhX-jSkges71uSg3ON3r9I8/edit?usp=sharing){:target="_blank"} на игры из ссылки выше
++ [Таблица с magnet-ссылками](http://pkg.customfw.xyz){:target="_blank"} на игры из ссылки выше
 + Вы можете самостоятельно [сделать дамп вашей купленной игры](game-dumps)
 	
 ## Установка игр в формате PKG
