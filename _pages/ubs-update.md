@@ -5,6 +5,9 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
+Пользователи, которые имею нерабочий привод на прошивке 4.74, не имеют возможности обновиться до прошивки 5.05. Таким пользователям рекомендуется сразу переходить к [запуску взлома](start-hen) 
+{: .notice--warning}
+
 # Что понадобится
 
 * [Файл системного обновления](https://psarchive.darksoftware.xyz/505Retail.PUP){:target="_blank"} ([зеркало](https://nzxtrules.stackstorage.com/s/UqZQbEL8OzulBej){:target="_blank"}) для Playstation 4 версии {% include /vars/sys_version.txt %} (MD5: f86d4f9d2c049547bd61f942151ffb55)
