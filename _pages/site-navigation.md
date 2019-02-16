@@ -29,6 +29,6 @@ author_profile: true
 
 * [Важно знать](info){:target="_blank"}
 * [Настройка FTP-соединения](ftp){:target="_blank"}
-* [Пожертвования](donations){:target="_blank"}
+* [Пожертвования](http://customfw.xyz/donations){:target="_blank"}
 * [Полезные инструкции](addons){:target="_blank"}
 * [Часто задаваемые вопросы](faq){:target="_blank"}
