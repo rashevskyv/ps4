@@ -37,7 +37,7 @@ author_profile: true
 
 {% include inc/launch-exploit.txt 
 
-	payload='"Disable Updates"'
+	payload='"PS4 -> Disable Updates"'
 
 %}
 
@@ -51,7 +51,7 @@ Disable Updates достаточно запустить единожды. Пос
 
 {% include inc/launch-exploit.txt 
 
-	payload='"HEN"'
+	payload='"PS4 -> HEN"'
 
 %}
 
