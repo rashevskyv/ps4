@@ -9,8 +9,10 @@ author_profile: true
 
 Дампы, сделанные для 4.05 и 4.55 так же будут работать!
 
++ [Таблица с magnet-ссылками](http://pkg.customfw.xyz){:target="_blank"} (некоторые игры могут быть устаревшими; если закачка не идёт, ищите в других источниках)
 + [tapochek.net](https://tapochek.net/viewforum.php?f=910){:target="_blank"} (регистрация по инвайтам)
-+ [Таблица с magnet-ссылками](https://docs.google.com/spreadsheets/d/1Atl8MdbUggomq5uMHT7jJj5NXLGoK0cV3pTuzS0DDMI/edit#gid=0){:target="_blank"} на игры из ссылки выше
++ [рутрекер](https://rutracker.org/forum/viewforum.php?f=973){:target="_blank"}
++ [https://torrent-games.eu](https://torrent-games.eu/news/igry_playstation_4/){:target="_blank"}
 + Вы можете самостоятельно [сделать дамп вашей купленной игры](game-dumps)
 		
 ## Часть I - Запуск эксплойта
