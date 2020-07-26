@@ -4,28 +4,54 @@ title: Описание пейлоадов, доступных через DNS
 author_profile: true
 ---
 
-* [App2USB](https://github.com/stooged/AppToUsb-50X/releases/latest){:target="_blank"} - позволяет копировать игры из внутреннего HDD на внешний USB-носитель для того, чтобы играть потом используя внешний HDD и экономить место на внетреннем. Как пользоваться рассказано [здесь](https://vk.com/@slashgoresplatter-apptousb){:target="_blank"}
+Описание актуально на 26.06.2020 года. 
+{: .notice--warning}
+
+{% spoiler 5.05 %}
+
+* [Mira](https://github.com/OpenOrbis/mira-project){:target="_blank"} - MiraCFW
+* [Infinix](https://github.com/LightningMods/infinix-Package-Installer-Payload){:target="_blank"} - позволяет передавать игры через [Store remote tool](https://github.com/LightningMods/Store-Remote-Tool){:target="_blank"}
+* [Linux](https://github.com/valentinbreiz/PS4-Linux-Loader){:target="_blank"} - необходим для запуска Linux
+
+{% endspoiler %}
+
+{% spoiler 6.72 %}
+
+* [App2USB](https://github.com/stooged/AppToUsb-50X/releases/latest){:target="_blank"} - позволяет копировать игры из внутреннего HDD на внешний USB-носитель для того, чтобы играть потом используя внешний HDD и экономить место на внутреннем. Как пользоваться рассказано [здесь](https://vk.com/@slashgoresplatter-apptousb){:target="_blank"}
 * [Backup](https://github.com/stooged/DB_SG_Backup-50X/releases/latest){:target="_blank"} - [делает резервные копии](backup){:target="_blank"} сохранений и базы данных. 
 * [Bin Loader](https://github.com/Cryptogenic/PS4-5.05-Kernel-Exploit){:target="_blank"} - слушает порт 9020 и ожидает загрузку пейлоада
-* [ReactPSPLUS](https://github.com/Zer0xFF/reactPSPLUS){:target="_blank"} - сбрасывает внутренние часы приставки, таким образом позволяя запустить лицензионные PSPlus игры, если таковые имеются
-* [DeactPSPLUS](https://github.com/Zer0xFF/reactPSPLUS){:target="_blank"} - отменяет действие ReactPSPLUS
-* Disable Updates - отключает возможность получать обновления. Удаляет существующее загруженное обновление и блокирует последующую загрузку
+* **Disable Updates** - отключает возможность получать обновления. Удаляет существующее загруженное обновление и блокирует последующую загрузку
 * [Dumper](https://github.com/xvortex/ps4-dumper-vtx/releases/latest){:target="_blank"} - [дампит игры](game-dumps){:target="_blank"}
-* Enable Updates - включает возможность получать обновления. Используйте только если хотите поставить прошивку выше, установленной. Помните, что в таком случае взлом будет невозможен!
+* **Enable Updates** - включает возможность получать обновления. Используйте только если хотите поставить прошивку выше, установленной. Помните, что в таком случае взлом будет невозможен!
 * [FTP](https://github.com/xvortex/ps4-ftp-vtx/releases/latest){:target="_blank"} - [FTP-сервер](ftp){:target="_blank"}
-* [HEN](https://github.com/xvortex/ps4-hen-vtx/releases/latest){:target="_blank"} - Homebrew Enabler. Проще говоря, запустите его, чтобы пиратить
-* [HEN 1.8](http://zecoxao.github.io/){:target="_blank"} - Homebrew Enabler версии 1.8
-* HEN 2.0 - Homebrew Enabler версии 2.0
-* HEN 2.1 - Homebrew Enabler версии 2.1
-* HEN+VR - Homebrew Enabler + активация VR-шлемов вне зависимости от их прошивки
-* [History Blocker](https://github.com/stooged/History-Blocker/releases/latest){:target="_blank"} - включает\отключает автозагрузку последней страницы в браузере
-* Infinix - пейлод, слушающий порт и ожидающий отправку PKG-файла для установки его в систему 
+* [History Blocker](https://github.com/stooged/History-Blocker){:target="_blank"} - Запрещает браузеру приставки запоминать последнюю открытую страницу. Браузер запускается со стартовой страницы. Для отключения, запустите ещё раз
 * [Kernel Dumper](https://github.com/VV1LD/PS4-KernelDumper){:target="_blank"} - дампит ядро прошивки на USB-накопитель
-* [Linux Loader](https://github.com/valentinbreiz/PS4-Linux-Loader/tree/5.05){:target="_blank"} - необходим для запуска Linux
-* [Linux Loader VRAM1](https://www.psxita.it/psxitarch-linux-v2/){:target="_blank"} - необходим для запуска Linux
-* [Linux Loader VRAM3](https://www.psxita.it/psxitarch-linux-v2/){:target="_blank"} - необходим для запуска Linux
-* [Mira](https://github.com/OpenOrbis/mira-project){:target="_blank"} - MiraCFW
-* [Mira+HEN](https://github.com/OpenOrbis/mira-project){:target="_blank"} - то же, что и хен + функционал MiraCFW
+* [Mira](https://github.com/OpenOrbis/mira-project){:target="_blank"} - MiraCFW, содержит HEN. Именно её нужно запускать для взлома
+* [Mira (no HB)](https://github.com/OpenOrbis/mira-project){:target="_blank"} - Альтернативная MiraCFW. Так же содержит HEN и только его. Запускайте его при ошибке **CE-34878-0**
+* [Restore](https://github.com/stooged/Db_Restore){:target="_blank"} - восстанавливает данные, сохранённые пейлоадом **Backup**. Подробнее [делает резервные копии](backup){:target="_blank"}
+
+{% endspoiler %}
+
+{% spoiler PS4 %}
+
+* [App2USB](https://github.com/stooged/AppToUsb-50X/releases/latest){:target="_blank"} - позволяет копировать игры из внутреннего HDD на внешний USB-носитель для того, чтобы играть потом используя внешний HDD и экономить место на внутреннем. Как пользоваться рассказано [здесь](https://vk.com/@slashgoresplatter-apptousb){:target="_blank"}
+* [Backup](https://github.com/stooged/DB_SG_Backup-50X/releases/latest){:target="_blank"} - [делает резервные копии](backup){:target="_blank"} сохранений и базы данных. 
+* [Bin Loader](https://github.com/Cryptogenic/PS4-5.05-Kernel-Exploit){:target="_blank"} - слушает порт 9020 и ожидает загрузку пейлоада
+* **Disable Updates** - отключает возможность получать обновления. Удаляет существующее загруженное обновление и блокирует последующую загрузку
+* [Dumper](https://github.com/xvortex/ps4-dumper-vtx/releases/latest){:target="_blank"} - [дампит игры](game-dumps){:target="_blank"}
+* [Enable Browser](){:target="_blank"} - 	
+* **Enable Updates** - включает возможность получать обновления. Используйте только если хотите поставить прошивку выше, установленной. Помните, что в таком случае взлом будет невозможен!
+* [FTP](https://github.com/xvortex/ps4-ftp-vtx/releases/latest){:target="_blank"} - [FTP-сервер](ftp){:target="_blank"}
+* **Fan Threshold** - пейлоад для управлением максимальной скорости вращения турбины в приставке
+* [HEN](https://github.com/xvortex/ps4-hen-vtx/releases/latest){:target="_blank"} - Homebrew Enabler. Именно его нужно запускать для взлома. Содержит в себе спуфер прошивки
+* [History Blocker](https://github.com/stooged/History-Blocker){:target="_blank"} - Запрещает браузеру приставки запоминать последнюю открытую страницу. Браузер запускается со стартовой страницы. Для отключения, запустите ещё раз
+* [Kernel Clock](https://github.com/Scene-Collective/ps4-kernel-clock){:target="_blank"} - не знаю что делает
+* [Kernel Dumper](https://github.com/VV1LD/PS4-KernelDumper){:target="_blank"} - дампит ядро прошивки на USB-накопитель
+* [REN](https://github.com/xvortex/ps4-hen-vtx/releases/latest){:target="_blank"} - Remote Play Enabler. Нужно запустить для активации возможности добавить Remote Play-устройство в консоль. Заменяет телодвижения через IDU-mode или Orbis
+* **RIF Renamer** - переименовывает 'фейковые' RIF-файлы в 'свободные' RIF-файлы для лучшей совместимости с HEN. Используйте если вы устанавливали PKG через Mira+HEN, а сейчас используете просто HEN
+* [Restore](https://github.com/stooged/Db_Restore){:target="_blank"} - восстанавливает данные, сохранённые пейлоадом **Backup**. Подробнее [делает резервные копии](backup){:target="_blank"}
+
+{% endspoiler %}
 	
 ___
 

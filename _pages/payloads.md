@@ -12,7 +12,7 @@ author_profile: true
 
 # Что понадобится
 
-* Свежая версия [ps4-exploit-host](https://github.com/Al-Azif/ps4-exploit-host/releases/latest){:target="_blank"} (**ps4-exploit-host-win** - для windows)
+* Свежая версия [**ps4-exploit-host**](files/ps4-exploit-host.zip){:target="_blank"}
 * Пейлоадеры, которые вы хотите запустить на приставке 
 * Приставка и ваш ПК должны находится в одной сети
 
@@ -20,13 +20,14 @@ author_profile: true
 
 ## Часть I - Подготовительные работы
 
-{% include /inc/custom_payload.txt %}
+{% include /inc/custom_payload.md %}
 
 ## Часть II - Запуск пейлоада
 
-{% include inc/launch-exploit.txt 
+{% include inc/launch-exploit.md 
 
-	payload='*HEN**, затем вернитесь в Руководство пользователя и выберите **Bin Loader**, в окне программы ps4-exploit-host на вашем ПК нажмите число, соответствующее вашему пейлоаду' 
+	fw='"**PS4**", если у вас 5.05 и "**6.72**", если 6.72'
+	payload='**HEN**, если у вас 5.05 и "**MIRA**", если 6.72, затем вернитесь в **Руководство пользователя** и выберите **Bin Loader**, в окне программы **ps4-exploit-host** на вашем ПК нажмите число, соответствующее вашему пейлоаду' 
 
 %}
 

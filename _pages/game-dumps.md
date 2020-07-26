@@ -9,7 +9,7 @@ author_profile: true
 
 # Что понадобится
 
-* Свежая версия [Fake PKG Generator 1.1.3](https://twitter.com/AluProductions){:target="**_blank**"} (обычно разработчки держит свежую версию в закреплённом твите)
+* Свежая версия [Fake PKG Generator](https://www.psxhax.com/threads/fake-pkg-generator-for-ps4-to-generate-fake-packages-for-homebrew.3444/){:target="**_blank**"} (сайт требует регистрации)
 * [ps4-dumper](https://github.com/xvortex/ps4-dumper-vtx/releases/latest){:target="**_blank**"} (`gengp4.exe` и `ps4-dumper.bin`)
 * USB-накопитель не менее 60Гб (это условная цифра, в ряде случаев игры весят много меньше и спокойно смогут поместится на флешку в 32Гб)
 * Свободное место на жестком диске ПК в количестве равном размеру игры, или двукратное количество свободного места на USB-накопителе
@@ -29,9 +29,10 @@ author_profile: true
 
 ## Часть II - Дампинг игры на носитель
 
-{% include inc/launch-exploit.txt 
+{% include inc/launch-exploit.md 
 
-	payload='Dumper'
+	fw='"**PS4**", если у вас 5.05 и "**6.72**", если 6.72'
+	payload='"**Dumper**"'
 	
 %}
 1. Сверните браузер кнопкой (PS)

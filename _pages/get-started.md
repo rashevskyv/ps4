@@ -39,7 +39,10 @@ __Категорически рекомендуется на данном эта
 
 ## Выберите прошивку
 
-Приставки с прошивкой 5.07 прошиваются так же, как и 5.05. Имейте ввиду, что через рекавери вы не сможете обновиться до 5.07, поскольку в интернете нет этой версии прошивки! Если из-за какого-то происшествия вам будет нужно обновить консоль с 5.07 через рекавери, вы сможете сделать это только на прошивку с версией выше! Так же пользователи 5.07 не смогут заменить HDD на приставке по тем же причинам. 
+**Приставки с прошивкой 5.07 прошиваются так же, как и 5.05**. Имейте ввиду, что через рекавери вы не сможете обновиться до 5.07, поскольку в интернете нет этой версии прошивки! Если из-за какого-то происшествия вам будет нужно обновить консоль с 5.07 через рекавери, вы сможете сделать это только на прошивку с версией выше! Так же пользователи 5.07 не смогут заменить HDD на приставке по тем же причинам. 
+{: .notice--warning}
+
+Если ваша прошивка ниже, чем **5.05**, то рекомендуется обновляться **до 5.05**, если **выше, чем 5.05, но ниже, чем 6.72**, то обновляемся **до 6.72**. **Взлом для 6.72 ещё очень сырой**, а часть игр, эксклюзивных для 6.72 прекрасно работают и на 5.05. 
 {: .notice--warning}
 
 <table>
@@ -59,16 +62,25 @@ __Категорически рекомендуется на данном эта
     <tr>
       <td style="text-align: center; font-weight: bold;">1.01</td>
       <td style="text-align: center; font-weight: bold;">5.03</td>
-      <td style="text-align: center; font-weight: bold;"><a href="usb-update">Обновление до {% include /vars/sys_version.txt %}</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="usb-update-505">Обновление до 5.05</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">{% include /vars/sys_version.txt %}</td>
+      <td style="text-align: center; font-weight: bold;">5.05</td>
       <td style="text-align: center; font-weight: bold;">5.07</td>
-      <td style="text-align: center; font-weight: bold;"><a href="start-hen">Запуск взлома</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="start-hen-5.05">Запуск взлома</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">5.50</td>
-      <td style="text-align: center; font-weight: bold;">5.55</td>
+      <td style="text-align: center; font-weight: bold;">6.71</td>
+      <td style="text-align: center; font-weight: bold;"><a href="usb-update-672">Обновление до {% include /vars/sys_version.txt %}</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">{% include /vars/sys_version.txt %}</td>
+      <td style="text-align: center; font-weight: bold;"><a href="start-hen-6.72">Запуск взлома</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">7.00</td>
+      <td style="text-align: center; font-weight: bold;">и выше</td>
       <td style="text-align: center; font-weight: bold;">Запуск эксплойта невозможен!</td>
     </tr>
   </tbody>
