@@ -10,6 +10,10 @@ main:
     url: /games
   - title: "Запуск эксплойта<br>через DNS"
     url: /start-hen
+  - title: Обновление до 5.05
+    url: /usb-update-505
+  - title: Обновление до 6.72
+    url: /usb-update-672
   - title: "Запуск эксплойта<br>через браузер"
     url: /start-hen-browser
   - title: "Запуск<br>эксплойта с ПК"
@@ -49,7 +53,9 @@ addons:
   - title: "Дампинг собственных игр"
     url: /game-dumps
   - title: Обновление до 5.05
-    url: /usb-update
+    url: /usb-update-505
+  - title: Обновление до 6.72
+    url: /usb-update-672
   - title: Запуск эксплойта
     url: /start-hen
   - title: Запуск пейлоадов
