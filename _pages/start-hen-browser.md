@@ -28,27 +28,12 @@ author_profile: true
 
 ### Часть 	II - Запуск эксплойта
 
-{% spoiler Для пользователей 5.05 %}
-
-{% include inc/launch-exploit.md 
-
-	fw='"**PS4**"'
-	payload='"**HEN**"'
-
-%}
-
-{% endspoiler %}
-
-{% spoiler Для пользователей 6.72 %}
-
 {% include inc/launch-exploit.md 
 
 	fw='"**6.72**"'
 	payload='"**MIRA**"'
 
 %}
-
-{% endspoiler %}
 
 Единожды закешировав пейлоады, вы сможете запускать их [привычным способом](#%D0%A7%D0%B0%D1%81%D1%82%D1%8C--ii---%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D0%BE%D0%B9%D1%82%D0%B0) даже без активного интернет-соединения!!
 {: .notice--success}

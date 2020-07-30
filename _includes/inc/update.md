@@ -54,5 +54,5 @@
 
 ___
 
-## Следующий шаг: [Запуск взлома](start-hen-{{ include.version}}) 
+## Следующий шаг: [Запуск взлома](start-hen) 
 {: .notice--success}

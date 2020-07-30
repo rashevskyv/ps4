@@ -14,8 +14,8 @@ author_profile: true
 
 {% include inc/launch-exploit.md 
 
-	fw='"**PS4**", если у вас 5.05 и "**6.72**", если 6.72'
-	payload='"**HEN**", если у вас 5.05 и "**MIRA**", если 6.72'
+	fw='"**6.72**"'
+	payload='"**MIRA**"'
 
 %}
 
@@ -27,8 +27,8 @@ author_profile: true
 
 {% include inc/launch-exploit.md 
 
-	fw='"**PS4**", если у вас 5.05 и "**6.72**", если 6.72'
-	payload='"**REN**", если у вас 5.05 и "**MIRA-REN**", если 6.72'
+	fw='"**6.72**"'
+	payload='"**MIRA-REN**"'
 
 %}
 {% spoiler Если не получается вариант выше %}

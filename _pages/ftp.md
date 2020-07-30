@@ -20,7 +20,7 @@ author_profile: true
 
 {% include inc/launch-exploit.md 
 
-	fw='"**PS4**", если у вас 5.05 и "**6.72**", если 6.72'
+	fw='"**6.72**"'
 	payload='"*FTP*"'
 
 %}

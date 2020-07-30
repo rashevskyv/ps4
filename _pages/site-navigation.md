@@ -11,12 +11,10 @@ author_profile: true
 * [PS4 Guide](/){:target="_blank"}
 * [Запуск пейлоадов (payloads)](payloads){:target="_blank"}
 * [Запуск эксплойта (DNS)](start-hen){:target="_blank"}
-* [Запуск эксплойта (DNS) на 5.05](start-hen-5.05){:target="_blank"}
-* [Запуск эксплойта (DNS) на 6.72](start-hen-6.72){:target="_blank"}
+* [Запуск эксплойта (DNS)](start-hen){:target="_blank"}
 * [Запуск эксплойта через браузер](start-hen-browser){:target="_blank"}
 * [Начнём](get-started){:target="_blank"}
-* [Обновление прошивки до 5.05](usb-update-505){:target="_blank"}
-* [Обновление прошивки до {% include /vars/sys_version.txt %}](usb-update-672){:target="_blank"}
+* [Обновление прошивки до {% include /vars/sys_version.txt %}](usb-update){:target="_blank"}
 * [Описание пейлоадов, доступных через DNS](dns-payloads){:target="_blank"}
 * [Удаление взлома](uninstall-hen){:target="_blank"}
 
