@@ -137,9 +137,6 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
             <li class="masthead__menu-item"><a href="https://ps4.customfw.xyz/start-hen">Запуск эксплойта<br>через DNS</a></li>
           
             
-            <li class="masthead__menu-item"><a href="https://ps4.customfw.xyz/usb-update-505">Обновление до 5.05</a></li>
-          
-            
             <li class="masthead__menu-item"><a href="https://ps4.customfw.xyz/usb-update-672">Обновление до 6.72</a></li>
           
             
@@ -364,14 +361,19 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 
 <ol>
   <li>Вытащите из привода консоли диск и отключите USB-устройства перед активацией эксплойта</li>
+  <li>Перезагрузите приставку (не нужно перезагружать, если только её включили) и подождите пару минут
+    <ul>
+      <li>Говорят, что после небольшого ожидания, а так же, если полазить немного по меню приставки, шанс срабатывания эксплойта сильно увеличивается</li>
+    </ul>
+  </li>
   <li>На приставке перейдите в Настройки в пункт “<strong>Руководство пользователя/полезная информация</strong>”, “<strong>Руководство пользователя</strong>”
     <ul>
       <li>При возникновении ошибки перезагрузите приставку</li>
     </ul>
   </li>
   <li>Вместо руководства откроется страница “<strong>Exploit Selection</strong>”</li>
-  <li>Выберите “<strong>PS4</strong>”, если у вас 5.05 и “<strong>6.72</strong>”, если 6.72</li>
-  <li>Выберите “<strong>HEN</strong>”, если у вас 5.05 и “<strong>MIRA</strong>”, если 6.72</li>
+  <li>Выберите “<strong>6.72</strong>”</li>
+  <li>Выберите “<strong>MIRA</strong>”</li>
   <li>Надпись “<strong>You are all set</strong>” (в некоторых пейлоадах “<strong>Done</strong>” или “<strong>Success</strong>”) говорит о том, что пейлоад успешно активирован
     <ul>
       <li>Если с первого раза не выходит (Недостаточно памяти), нажимайте кнопку (O) для закрытия сообщения об ошибке и пробуйте еще раз.</li>
@@ -394,7 +396,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 
 <h4 id="инструкция">Инструкция</h4>
 
-<p>Если у вас нет накопителя большого размера или по каким-то причинам вы не можете воспользоваться способом установки игр через него, воспользуйтесь <a href="https://4pda.ru/forum/index.php?showtopic=885825&amp;st=6220#entry78285544" target="_blank"><strong>PS4 Remote Package Installer WEB GUI</strong></a>. Это новый метод установки и он ещё недостаточно удобен для того, чтобы полноценно включать его в руководство. Поэтому пока он включён только в виде упоминания.</p>
+<p>Если у вас нет накопителя большого размера или по каким-то причинам вы не можете воспользоваться способом установки игр через него, воспользуйтесьУстановкой по локальной сети. О ней ниже.</p>
 
 <p class="notice--warning">Порядок установки игры, патчей и DLC может быть произвольным, если дополнительно не сказано обратного.</p>
 
@@ -414,9 +416,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 </ol>
 
 </div></details>
-<details class="spoiler"><summary class="spoiler-title">Способ II - Установка по локальной сети (только 5.05)</summary><div class="spoiler-body">
-<p class="notice--warning">Этот метод работает только на приставке с 5.05</p>
-
+<details class="spoiler"><summary class="spoiler-title">Способ II - Установка по локальной сети</summary><div class="spoiler-body">
 <h5 id="что-понадобится">Что понадобится</h5>
 
 <ul>
@@ -434,7 +434,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 <ol>
   <li>Запустите приставку
     <ul>
-      <li>На приставке должен быть <a href="start-hen#часть-i---настройка-dns" target="_blank">подключён интернет и настроены DNS</a></li>
+      <li>На приставке должен быть <a href="start-hen#часть-i---настройка-dns" target="_blank">подключён интернет и настроены DNS</a>, а так же активирован эксплойт Mira <strong>(no-hb)</strong></li>
     </ul>
   </li>
   <li>Перейдите в <strong>Настройки</strong> -&gt; <strong>Сеть</strong> -&gt; <strong>Узнать состояние соединения</strong> и запишите указанный там <strong>IP-адрес</strong>, если не знаете какой он у консоли</li>
