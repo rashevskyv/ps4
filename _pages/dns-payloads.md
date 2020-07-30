@@ -29,7 +29,7 @@ author_profile: true
 * [History Blocker](https://github.com/stooged/History-Blocker){:target="_blank"} - Запрещает браузеру приставки запоминать последнюю открытую страницу. Браузер запускается со стартовой страницы. Для отключения, запустите ещё раз
 * [Kernel Dumper](https://github.com/VV1LD/PS4-KernelDumper){:target="_blank"} - дампит ядро прошивки на USB-накопитель
 * [Mira](https://github.com/OpenOrbis/mira-project){:target="_blank"} - MiraCFW, содержит HEN. Именно её нужно запускать для взлома
-* [Mira (no HB)](https://github.com/OpenOrbis/mira-project){:target="_blank"} - Альтернативная MiraCFW. Так же содержит HEN и только его. Запускайте его при ошибке **CE-34878-0**
+* [Mira (Unofficial)](https://github.com/OpenOrbis/mira-project){:target="_blank"} - Альтернативная MiraCFW.
 * [Restore](https://github.com/stooged/Db_Restore){:target="_blank"} - восстанавливает данные, сохранённые пейлоадом **Backup**. Подробнее [делает резервные копии](backup){:target="_blank"}
 
 {% endspoiler %}

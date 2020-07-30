@@ -50,7 +50,7 @@ Disable Updates достаточно запустить единожды. Пос
 {% include inc/launch-exploit.md 
 
 	fw='"**6.72**"'
-	payload='"**6.72**" -> "**Mira (No HB)**"'
+	payload='"**6.72**" -> "**Mira**"'
 
 %}
 
