@@ -24,6 +24,8 @@ author_profile: true
 * Можно устанавливать игры на внешний HDD стандартным способом, [предусмотренным инженерами Sony](https://blog.ru.playstation.com/2017/03/11/external-hdd-faq/){:target="_blank"}
 * [Описание всех пейлоадов, доступных при взломе через DNS](dns-payloads){:target="_blank"}
 * В любой непонятной ситуации удаляйте данные браузера и перезапускайте приставку
+* [FAQ](faq){:target="_blank"}
+* [Проблемы и их решения](troubleshootings){:target="_blank"}
 
 ___
 

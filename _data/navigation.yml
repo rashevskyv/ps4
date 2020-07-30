@@ -4,13 +4,15 @@ main:
     url: http://customfw.xyz
   - title: "FAQ"
     url: /faq
+  - title: "Проблемы и их решения"
+    url: /troubleshootings
   - title: "Важно<br>знать"
     url: /info
   - title: "Установка<br>игр"
     url: /games
   - title: "Запуск эксплойта<br>через DNS"
     url: /start-hen
-  - title: Обновление до 6.72
+  - title: Обновление<br>до 6.72
     url: /usb-update-672
   - title: "Запуск эксплойта<br>через браузер"
     url: /start-hen-browser
