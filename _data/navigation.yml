@@ -4,7 +4,7 @@ main:
     url: http://customfw.xyz
   - title: "FAQ"
     url: /faq
-  - title: "Проблемы и их решения"
+  - title: "Проблемы и<br>их решения"
     url: /troubleshootings
   - title: "Важно<br>знать"
     url: /info
