@@ -31,7 +31,7 @@ author_profile: true
 {% include inc/launch-exploit.md 
 
 	fw='"**6.72**"'
-	payload='"**MIRA**"'
+	payload='"**MIRA (Unofficial)**"'
 
 %}
 
