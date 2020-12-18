@@ -11,7 +11,7 @@ author_profile: true
 		
 Если у вас уже настроены DNS-сервера для запуска эксплойта, повторно этого делать не нужно!
 		
-{% include /inc/set-up-dns.txt %}
+{% include /inc/set-up-dns.md %}
 
 Если не получается запустить эксплойт через установку DNS - пробуйте сделать это [через ваш ПК](payloads){:target="_blank"}
 {: .notice--info}
@@ -20,7 +20,6 @@ author_profile: true
 
 {% include inc/launch-exploit.md 
 
-	fw='"**6.72**"'
 	payload='"*FTP*"'
 
 %}
