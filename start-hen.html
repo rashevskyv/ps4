@@ -18,7 +18,7 @@
 
 
 
-<meta name="description" content="Полное руководство по использованию PS4HEN на Playstation 4 с прошивкой 4.05">
+<meta name="description" content="Полное руководство по использованию PS4HEN на Playstation 4 с прошивкой 7.02 или ниже">
 
 
 
@@ -359,35 +359,9 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 
 <h2 id="инструкция">Инструкция</h2>
 
-<details class="spoiler"><summary class="spoiler-title">Часть I - Настройка DNS</summary><div class="spoiler-body">
-<ol>
-  <li>Включите PS4</li>
-  <li>Перейдите в настройки, выберите “<strong>Сеть</strong>”</li>
-  <li>Поставьте галочку напротив “<strong>Подключить к Интернету</strong>”</li>
-  <li>Перейдите в “<strong>Установить соединение с Интернетом</strong>”</li>
-  <li>Выберите “<strong>Использовать Wi-Fi</strong>” или “<strong>Использовать LAN</strong>” в зависимости от типа вашего подключения - беспроводного и проводного соответственно</li>
-  <li>Выберите “<strong>Специальный</strong>”, выберите ваше подключение по WiFi, если выбрано подключение по Wi-Fi</li>
-  <li>В меню “<strong>Настройки IP-адреса</strong>” выберите “<strong>Автоматически</strong>”</li>
-  <li>В меню “<strong>Имя хоста DHCP</strong>” выберите “<strong>Не указывать</strong>”</li>
-  <li>В меню “<strong>Настройки DNS</strong>” выберите “<strong>Вручную</strong>”</li>
-  <li>В поле “<strong>Основной DNS</strong>” введите <code class="language-plaintext highlighter-rouge">192.241.221.79</code></li>
-  <li>В поле “<strong>Дополнительный DNS</strong>” введите <code class="language-plaintext highlighter-rouge">165.227.83.145</code></li>
-  <li>Нажмите “<strong>Далее</strong>”</li>
-  <li>В меню “<strong>Настройки MTU</strong>” выберите “<strong>Автоматически</strong>”</li>
-  <li>В меню “<strong>Прокси-сервер</strong>” выберите “<strong>Не использовать</strong>”</li>
-  <li>Нажмите “<strong>Проверить соединение с интернетом</strong>” для завершения настройки
-    <ul>
-      <li>Проверка может пройти успешно, но может и не пройти. Если после проверки у вас не выходит запустить плейграунд эксплойта, через Руководство, попробуйте поменять DNS местами!</li>
-    </ul>
-  </li>
-  <li>По окончанию проверок нажмите кнопку (PS), чтобы вернуться на начальный экран</li>
-</ol>
+<details class="spoiler"><summary class="spoiler-title">Запуск эксплойта</summary><div class="spoiler-body">
+<p class="notice--warning">Для запуска эксплойта, в консоли уже должны быть <a href="get-started#настройка-dns" target="_blank">прописаны DNS</a>!</p>
 
-<p class="notice--info">Если не получается запустить эксплойт через установку DNS - пробуйте сделать это <a href="start-hen-browser" target="_blank">из браузера</a></p>
-
-</div></details>
-
-<details class="spoiler"><summary class="spoiler-title">Часть II - Блокирование обновления</summary><div class="spoiler-body">
 <ol>
   <li>Вытащите из привода консоли диск и отключите USB-устройства перед активацией эксплойта</li>
   <li>Перезагрузите приставку (не нужно перезагружать, если только её включили) и подождите пару минут
@@ -402,39 +376,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
   </li>
   <li>Вместо руководства откроется страница “<strong>Exploit Selection</strong>”</li>
   <li>Выберите <strong>PS4 (6.72)</strong></li>
-  <li>Выберите “<strong>6.72</strong>” -&gt; “<strong>Disable Updates</strong>”</li>
-  <li>Надпись “<strong>You are all set</strong>” (в некоторых пейлоадах “<strong>Done</strong>” или “<strong>Success</strong>”) говорит о том, что пейлоад успешно активирован
-    <ul>
-      <li>Если с первого раза не выходит (Недостаточно памяти), нажимайте кнопку (O) для закрытия сообщения об ошибке и пробуйте еще раз.</li>
-      <li>Можно так же отчистить данные браузера и удалить cookies-файлы, после чего перезапустить приставку</li>
-    </ul>
-  </li>
-  <li>Нажмите (PS) для выхода на стартовый экран</li>
-  <li>Теперь можете подключить все отключённые ранее USB-устройства</li>
-</ol>
-
-<p class="notice--info">Если не получается запустить эксплойт через установку DNS - пробуйте сделать это <a href="payloads" target="_blank">через ваш ПК</a></p>
-
-<p class="notice--warning">Disable Updates достаточно запустить единожды. После перезагрузки приставки его запускать не нужно!</p>
-
-</div></details>
-
-<details class="spoiler"><summary class="spoiler-title">Часть III - Запуск эксплойта</summary><div class="spoiler-body">
-<ol>
-  <li>Вытащите из привода консоли диск и отключите USB-устройства перед активацией эксплойта</li>
-  <li>Перезагрузите приставку (не нужно перезагружать, если только её включили) и подождите пару минут
-    <ul>
-      <li>Говорят, что после небольшого ожидания, а так же, если полазить немного по меню приставки, шанс срабатывания эксплойта сильно увеличивается</li>
-    </ul>
-  </li>
-  <li>На приставке перейдите в Настройки в пункт “<strong>Руководство пользователя/полезная информация</strong>”, “<strong>Руководство пользователя</strong>”
-    <ul>
-      <li>При возникновении ошибки перезагрузите приставку</li>
-    </ul>
-  </li>
-  <li>Вместо руководства откроется страница “<strong>Exploit Selection</strong>”</li>
-  <li>Выберите <strong>PS4 (6.72)</strong></li>
-  <li>Выберите “<strong>6.72</strong>” -&gt; “<strong>Mira</strong>”</li>
+  <li>Выберите “<strong>6.72</strong>” -&gt; “<strong>Mira (Unofficial)</strong>”</li>
   <li>Надпись “<strong>You are all set</strong>” (в некоторых пейлоадах “<strong>Done</strong>” или “<strong>Success</strong>”) говорит о том, что пейлоад успешно активирован
     <ul>
       <li>Если с первого раза не выходит (Недостаточно памяти), нажимайте кнопку (O) для закрытия сообщения об ошибке и пробуйте еще раз.</li>
@@ -447,7 +389,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 
 </div></details>
 
-<details class="spoiler"><summary class="spoiler-title">Часть IV - Кеширование эксплойта</summary><div class="spoiler-body">
+<details class="spoiler"><summary class="spoiler-title">Кеширование эксплойта</summary><div class="spoiler-body">
 <ol>
   <li>Перейдите в Настройки в пункт “<strong>Руководство пользователя/полезная информация</strong>”, “<strong>Руководство пользователя</strong>”
     <ul>
@@ -477,7 +419,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 
 <p class="notice--success">Единожды закешировав пейлоады, вы сможете запускать их <a href="#%D1%87%D0%B0%D1%81%D1%82%D1%8C-iii---%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D0%BE%D0%B9%D1%82%D0%B0">привычным способом</a> даже без активного интернет-соединения!!</p>
 
-<p>Если вы хотите удалить закешированные файлы (например, чтобы закешировать новые), зайдите в браузер и удалите данные (в браузере нажмите (OPTIONS) -&gt; Настройки -&gt; Удалить данные веб-сайтов)</p>
+<p>Если вы хотите удалить закешированные файлы (например, чтобы закешировать новые), зайдите в браузер и удалите данные (в браузере нажмите (OPTIONS) -&gt; <strong>Настройки</strong> -&gt; <strong>Удалить данные веб-сайтов</strong>)</p>
 
 <p class="notice--info">Если не получается запустить эксплойт через DNS - пробуйте сделать это <a href="start-hen-browser" target="_blank">из браузера</a></p>
 
