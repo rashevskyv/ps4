@@ -1,5 +1,5 @@
 ---
-permalink: /start-hen-browser.html
+permalink: /start-hen-702.html
 title: Запуск эксплойта через браузер
 author_profile: true
 ---
