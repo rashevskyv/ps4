@@ -113,5 +113,5 @@ author_profile: true
 {% endspoiler %}
 
 {% spoiler Можно ли хостить эксплойт на мобильном телефоне? %}
-Да, для [Android](https://4pda.ru/forum/index.php?showtopic=885825&view=findpost&p=70298081){:target="_blank"} и [iOS](https://vk.com/@jailbreakps4-instrukciya-dlya-zapuska-eksploita-s-pomoschu-ios){:target="_blank"} есть соответствующее ПО
+Да, для [Android](https://4pda.ru/forum/index.php?showtopic=885825&view=findpost&p=70298081){:target="_blank"} и [iOS](https://vk.com/@jbplaystation-instrukciya-dlya-zapuska-eksploita-s-pomoschu-ios){:target="_blank"} есть соответствующее ПО
 {% endspoiler %}

@@ -7,7 +7,7 @@ author_profile: true
 
 Запускать эксплойт можно следующими методами: 
 * [С помощью браузера](start-hen-browser){:target="_blank"}
-* С помощью мобильного телефона на базе [Android](https://4pda.ru/forum/index.php?showtopic=885825&view=findpost&p=70298081){:target="_blank"} и [iOS](https://vk.com/@jailbreakps4-instrukciya-dlya-zapuska-eksploita-s-pomoschu-ios){:target="_blank"}
+* С помощью мобильного телефона на базе [Android](https://4pda.ru/forum/index.php?showtopic=885825&view=findpost&p=70298081){:target="_blank"} и [iOS](https://vk.com/@jbplaystation-instrukciya-dlya-zapuska-eksploita-s-pomoschu-ios){:target="_blank"}
 * Запуск эксплойта через DNS будет рассмотрен ниже 
 	
 Запуск эксплойта через DNS я считаю наиболее простым и удобным и рекомендую пользоваться именно им последующим причинам:

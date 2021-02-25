@@ -25,7 +25,7 @@ author_profile: true
 {% endspoiler %}
 
 {% spoiler Почему я не могу запустить игры, скачанные с серверов SONY %}
-Ответ [здесь](https://vk.com/@jailbreakps4-chto-zhe-vse-taki-luchshe-hen-vs-mira-vs-henmira){:target="_blank"}
+Ответ [здесь](https://vk.com/@jbplaystation-chto-zhe-vse-taki-luchshe-hen-vs-mira-vs-henmira){:target="_blank"}
 {% endspoiler %}
 
 {% spoiler При установке PKG с игрой возникает ошибка %}
