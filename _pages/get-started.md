@@ -77,7 +77,11 @@ Disable Updates достаточно запустить единожды. Пос
       <td style="text-align: center; font-weight: bold;"><a href="start-hen-702">Запуск взлома</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;">7.50</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">7.00-7.55</td>
+      <td style="text-align: center; font-weight: bold;">Dpokjv есть, ожидайте стабильного эксплойта и обновления руководства!</td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">8.00</td>
       <td style="text-align: center; font-weight: bold;">и выше</td>
       <td style="text-align: center; font-weight: bold;">Запуск эксплойта невозможен!</td>
     </tr>
