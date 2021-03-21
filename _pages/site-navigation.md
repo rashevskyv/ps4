@@ -14,7 +14,7 @@ author_profile: true
 * [Запуск эксплойта (DNS)](start-hen){:target="_blank"}
 * [Запуск эксплойта через браузер](start-hen-browser){:target="_blank"}
 * [Начнём](get-started){:target="_blank"}
-* [Обновление прошивки до {% include /vars/sys_version.txt %}](usb-update){:target="_blank"}
+* [Обновление прошивки до {% include /vars/sys_version.txt %}](usb-update-672){:target="_blank"}
 * [Описание пейлоадов, доступных через DNS](dns-payloads){:target="_blank"}
 * [Удаление взлома](uninstall-hen){:target="_blank"}
 

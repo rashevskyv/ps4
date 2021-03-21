@@ -13,7 +13,7 @@ main:
   - title: "Запуск эксплойта<br>через DNS"
     url: /start-hen
   - title: Обновление<br>прошивки
-    url: /usb-update
+    url: /usb-update-672
   - title: "Запуск эксплойта<br>через браузер"
     url: /start-hen-browser
   - title: "Запуск<br>эксплойта с ПК"

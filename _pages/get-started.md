@@ -66,7 +66,7 @@ Disable Updates достаточно запустить единожды. Пос
     <tr>
       <td style="text-align: center; font-weight: bold;">1.01</td>
       <td style="text-align: center; font-weight: bold;">6.71</td>
-      <td style="text-align: center; font-weight: bold;"><a href="usb-update">Обновление до  6.72</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="usb-update-672">Обновление до 6.72</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">6.72</td>
@@ -77,8 +77,8 @@ Disable Updates достаточно запустить единожды. Пос
       <td style="text-align: center; font-weight: bold;"><a href="start-hen-702">Запуск взлома</a></td>
     </tr>
     <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">7.00-7.55</td>
-      <td style="text-align: center; font-weight: bold;">Dpokjv есть, ожидайте стабильного эксплойта и обновления руководства!</td>
+      <td style="text-align: center; font-weight: bold;" colspan="2">7.50-7.55</td>
+      <td style="text-align: center; font-weight: bold;"><a href="usb-update-755">Обновление до 7.55</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">8.00</td>
