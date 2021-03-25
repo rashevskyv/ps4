@@ -1,5 +1,5 @@
 ---
-permalink: /usb-update-672.html
+permalink: /usb-update.html
 title: Обновление прошивки до 7.55
 author_profile: true
 ---
