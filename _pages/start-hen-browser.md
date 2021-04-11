@@ -13,6 +13,7 @@ author_profile: true
   + `https://darkmoddervc.github.io/PS4JB/`
   + `https://karo218.ir/`
   + `https://consoleinfo.site/`
+  + `https://santa-atmo.ru/`
 1. По окончанию процесса выскочит уведомление, перезапустите ваш браузер
 1. Нажмите ОК.
 1. Нажмите (PS) для выхода на стартовый экран
