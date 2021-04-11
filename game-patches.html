@@ -18,7 +18,7 @@
 
 
 
-<meta name="description" content="Полное руководство по использованию PS4HEN на Playstation 4 с прошивкой 7.02 или ниже">
+<meta name="description" content="Полное руководство по использованию PS4HEN на Playstation 4 с прошивкой 7.55 или ниже">
 
 
 
@@ -361,8 +361,8 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 <p>Часто Title ID пишут прямо в названии pkg-файла игры, например <em>EP9000-<strong>CUSA02344</strong>_00-UNCHARTEDTRILOGY-A0100-V0100.pkg</em> - CUSA02344 и есть искомое значение. Так же обращайте внимание на страницу сайта с которого качаете игру. <code class="language-plaintext highlighter-rouge">Код диска: CUSA02344</code> на тапочках несёт в себе именно значение искомого Title ID. Если у вас дисковая версия игры, то код можно обнаружить <a href="images/screenshots/disk_titleid.jpg" target="_blank">на самом диске</a>. Если же простым способом узнать его не получилось, следуйте инструкциям из этой части</p>
 
 <ol>
-  <li>Извлеките содержимое архива с <strong>Fake PKG Generator</strong> в папку, путь к которой не содержит кириллицы</li>
-  <li>Запустите <code class="language-plaintext highlighter-rouge">orbis-pub-chk.exe</code> из папки с <strong>Fake PKG Generator</strong></li>
+  <li>Извлеките содержимое архива с <strong><a href="files/Fake_PKG_Generator.rar" target="_blank">Fake PKG Generator</a></strong> в папку, путь к которой не содержит кириллицы</li>
+  <li>Запустите <code class="language-plaintext highlighter-rouge">orbis-pub-chk.exe</code> из папки с <strong><a href="files/Fake_PKG_Generator.rar" target="_blank">Fake PKG Generator</a></strong></li>
   <li>Перетащите <code class="language-plaintext highlighter-rouge">.pkg</code> файл с игрой на окно программы</li>
   <li>В окне программы появится информация об игре:
     <ul>
@@ -385,17 +385,17 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 
 <ol>
   <li>Перейдите на сайт <a href="https://www.orbismodding.com/" target="_blank">Playstation 4 Package Finder</a></li>
-  <li>Введите Title ID игры для которой вы хотите скачать патч в текстовое поле и нажмите кнопку “Search”
+  <li>Введите Title ID игры для которой вы хотите скачать патч в текстовое поле и нажмите кнопку “<strong>Search</strong>”
     <ul>
-      <li>Обратите внимание на строку “Minimum System Firmware”. Если её значение выше, чем 7.55, то игра не запустится на вашей приставке после установки патча!</li>
-      <li>Если на сайте нет патча для вашей игры, подходящей для прошивки 7.55 или ниже, поищите его в <a href="https://extreme-modding.de/PS4/database/games.html">этом архиве</a>. Обязательно проверьте совместим ли скачанный патч с прошивкой 7.55 или ниже. Сделать это можно методом из части I через <code class="language-plaintext highlighter-rouge">orbis-pub-chk.exe</code>.</li>
+      <li>Обратите внимание на строку “<strong>Minimum System Firmware</strong>”. Если её значение выше, чем 7.55, то игра не запустится на вашей приставке после установки патча!</li>
+      <li>Если на сайте нет патча для вашей игры, подходящей для прошивки 7.55 или ниже, поищите его в <a href="https://extreme-modding.de/PS4/database/games.html">этом архиве</a>. Обязательно проверьте совместим ли скачанный патч с прошивкой 7.55 или ниже. Сделать это можно методом из <strong>части I</strong> через <code class="language-plaintext highlighter-rouge">orbis-pub-chk.exe</code>.</li>
     </ul>
   </li>
-  <li>Скачайте файл формата <code class="language-plaintext highlighter-rouge">.pkg</code>, находящиеся в разделе Piece 0</li>
-  <li>Если кроме Piece 0 есть еще и Piece 1 и так далее, то вам нужно будет скачать и их, а затем объединить все скачанные патчи в один
+  <li>Скачайте файл формата <code class="language-plaintext highlighter-rouge">.pkg</code>, находящиеся в разделе <strong>Piece 0</strong></li>
+  <li>Если кроме <strong>Piece 0</strong> есть еще и <strong>Piece 1</strong> и так далее, то вам нужно будет скачать и их, а затем объединить все скачанные патчи в один
     <ol>
-      <li>Разархивируйте утилиту pkg-merge к скачанным частям патча</li>
-      <li>Создайте папку “pkg” и перенесите в неё все патчи</li>
+      <li>Разархивируйте утилиту <a href="files/pkg-merge.rar" target="_blank">pkg-merge</a> к скачанным частям патча</li>
+      <li>Создайте папку “<code class="language-plaintext highlighter-rouge">pkg</code>” и перенесите в неё все патчи</li>
       <li>Запустите <code class="language-plaintext highlighter-rouge">pkg-merge.bat</code></li>
       <li>Дождитесь завершения процесса. На выходе вы получите большой файл патча, который и нужно будет установить</li>
     </ol>
