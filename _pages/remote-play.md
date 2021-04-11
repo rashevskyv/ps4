@@ -14,7 +14,7 @@ author_profile: true
 
 {% include inc/launch-exploit.md 
 
-	fw='"**6.72**"'
+	fw='"**версия_вашей_прошивки**"'
 	payload='"**MIRA (Unofficial)**"'
 
 %}
@@ -27,7 +27,7 @@ author_profile: true
 
 {% include inc/launch-exploit.md 
 
-	fw='"**6.72**"'
+	fw='"**версия_вашей_прошивки**"'
 	payload='"**MIRA-REN**"'
 
 %}

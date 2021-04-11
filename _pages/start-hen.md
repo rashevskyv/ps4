@@ -26,8 +26,8 @@ author_profile: true
 
 {% include inc/launch-exploit.md 
 
-	fw='"**6.72**"'
-	payload='"**6.72**" -> "**Mira (Unofficial)**"'
+	fw='"**версия_вашей_прошивки**"'
+	payload='"**версия_вашей_прошивки**" -> "**Mira (Unofficial)**" или "**GoldenHEN**"'
 
 %}
 

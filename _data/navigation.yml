@@ -54,6 +54,8 @@ addons:
     url: /game-dumps
   - title: Обновление до 6.72
     url: /usb-update-672
+  - title: Обновление до 7.55
+    url: /usb-update-755
   - title: Запуск эксплойта
     url: /start-hen
   - title: Запуск пейлоадов

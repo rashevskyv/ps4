@@ -13,16 +13,16 @@ author_profile: true
 + [tapochek.net](https://tapochek.net/viewforum.php?f=910){:target="_blank"} (регистрация по инвайтам)
 + [рутрекер](https://rutracker.org/forum/viewforum.php?f=973){:target="_blank"}
 + [https://torrent-games.eu](https://torrent-games.eu/news/igry_playstation_4/){:target="_blank"}
-+ [Игры для 6.72, а так же новые игры с бекпортами для 5.05](https://vk.com/invite/uAeSJe4){:target="_blank"}
-    * Бекпорт - специальный патч, который позволдит запустить игру от 6.72 на приставке с 5.05 
++ [Игры для 7.55, а так же новые игры с бекпортами для 5.05](https://vk.com/invite/uAeSJe4){:target="_blank"}
+    * Бекпорт - специальный патч, который позволдит запустить игру от {{ include.version }} на приставке с 5.05 
 + Вы можете самостоятельно [сделать дамп вашей купленной игры](game-dumps)
 		
 ## Часть I - Запуск эксплойта
 
 {% include inc/launch-exploit.md 
 
-	fw='"**6.72**"'
-	payload='"**MIRA (Unofficial)**"'
+	fw='"**версия_вашей_прошивки**"'
+	payload='"**MIRA (Unofficial)**" / "**GoldenHEN"'
 
 %}
 

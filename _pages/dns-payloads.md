@@ -15,9 +15,9 @@ author_profile: true
 
 {% endspoiler %}
 
-{% spoiler 6.72 %}
+{% spoiler 6.72 / 7.05 / 7.55 %}
 
-Содержит в себе пойлоады для 6.72
+Содержит в себе пойлоады для 6.72 / 7.05 / 7.55
 
 * [App2USB](https://github.com/stooged/AppToUsb-50X/releases/latest){:target="_blank"} - позволяет копировать игры из внутреннего HDD на внешний USB-носитель для того, чтобы играть потом используя внешний HDD и экономить место на внутреннем. Как пользоваться рассказано [здесь](https://vk.com/@slashgoresplatter-apptousb){:target="_blank"}
 * [Backup](https://github.com/stooged/DB_SG_Backup-50X/releases/latest){:target="_blank"} - [делает резервные копии](backup){:target="_blank"} сохранений и базы данных. 
