@@ -330,7 +330,9 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
   <li><a href="#инструкция" id="markdown-toc-инструкция">Инструкция</a>    <ul>
       <li><a href="#часть-i---подготовительные-работы" id="markdown-toc-часть-i---подготовительные-работы">Часть I - Подготовительные работы</a></li>
       <li><a href="#часть-ii---дампинг-игры-на-носитель" id="markdown-toc-часть-ii---дампинг-игры-на-носитель">Часть II - Дампинг игры на носитель</a></li>
-      <li><a href="#часть-iii---создание-pkg" id="markdown-toc-часть-iii---создание-pkg">Часть III - Создание PKG</a></li>
+      <li><a href="#часть-iii---проверка-трофеев" id="markdown-toc-часть-iii---проверка-трофеев">Часть III - Проверка трофеев</a></li>
+      <li><a href="#часть-iv---создание-файла-gp4" id="markdown-toc-часть-iv---создание-файла-gp4">Часть IV - Создание файла GP4</a></li>
+      <li><a href="#часть-v---собираем-игру-в-pkg" id="markdown-toc-часть-v---собираем-игру-в-pkg">Часть V - Собираем игру в PKG</a></li>
       <li><a href="#часть-iv---cобираем-патч-в-pkg" id="markdown-toc-часть-iv---cобираем-патч-в-pkg">Часть IV - Cобираем патч в PKG</a></li>
       <li><a href="#часть-vi---дампим-dlc" id="markdown-toc-часть-vi---дампим-dlc">Часть VI - Дампим DLC</a>        <ul>
           <li><a href="#дампинг-dlc-первого-типа-без-дополнительных-данных" id="markdown-toc-дампинг-dlc-первого-типа-без-дополнительных-данных">Дампинг DLC первого типа (без дополнительных данных)</a>            <ul>
@@ -361,9 +363,8 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 <h1 id="что-понадобится">Что понадобится</h1>
 
 <ul>
-  <li>Свежая версия <a href="https://www.psxhax.com/threads/fake-pkg-generator-for-ps4-to-generate-fake-packages-for-homebrew.3444/" target="**_blank**">Fake PKG Generator</a> (сайт требует регистрации)</li>
-  <li><a href="https://github.com/xvortex/ps4-dumper-vtx/releases/latest" target="**_blank**">ps4-dumper</a> (<code class="language-plaintext highlighter-rouge">gengp4.exe</code> и <code class="language-plaintext highlighter-rouge">ps4-dumper.bin</code>)</li>
-  <li>USB-накопитель не менее 60Гб (это условная цифра, в ряде случаев игры весят много меньше и спокойно смогут поместится на флешку в 32Гб)</li>
+  <li><a href="files/fpkgtools.zip/" target="**_blank**">Fake PKG tools</a></li>
+  <li>USB-накопитель не менее 100Гб (это условная цифра, в ряде случаев игры весят много меньше и спокойно смогут поместится на флешку в 32Гб)</li>
   <li>Свободное место на жестком диске ПК в количестве равном размеру игры, или двукратное количество свободного места на USB-накопителе</li>
 </ul>
 
@@ -372,9 +373,6 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 <h2 id="часть-i---подготовительные-работы">Часть I - Подготовительные работы</h2>
 
 <ol>
-  <li>Создайте папку <code class="language-plaintext highlighter-rouge">PS4</code> в корне любого диска на вашем ПК</li>
-  <li>Извлеките содержимое архива с <strong>Fake PKG Generator</strong> в папку <code class="language-plaintext highlighter-rouge">PS4</code> на вашем ПК</li>
-  <li>Поместите <code class="language-plaintext highlighter-rouge">gengp4.exe</code> (находится в архиве <code class="language-plaintext highlighter-rouge">ps4-dumper-vtx</code> в папке <code class="language-plaintext highlighter-rouge">gengp4</code>) в папку <code class="language-plaintext highlighter-rouge">PS4</code> на вашем ПК</li>
   <li><strong>Если игра на диске</strong>:
     <ol>
       <li>Запустите игру на консоли и дойдите до главного меню. Дождитесь окончания установки игры на диск, как правило этот момент соответствует моменту остановки диска в приводе (ориентируйтесь на слух)
@@ -391,6 +389,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 <h2 id="часть-ii---дампинг-игры-на-носитель">Часть II - Дампинг игры на носитель</h2>
 
 <ol>
+  <li>Отключите на приставке режим сна, если он был включен (<strong>Настройки</strong> -&gt; <strong>Настройки энергесбережения</strong> -&gt; <strong>Задать время до выключения системы PS4</strong> -&gt; <strong>Общая настройка (Приложения)</strong> -&gt; <strong>Не выключать</strong>)</li>
   <li>На приставке перейдите в Настройки в пункт “<strong>Руководство пользователя/полезная информация</strong>”, “<strong>Руководство пользователя</strong>” или в браузер, если запускаете эксплойт из него
     <ul>
       <li>При возникновении ошибки перезагрузите приставку</li>
@@ -407,8 +406,8 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
       <li>Не заходите ни в какие меню, иначе браузер будет выгружен из памяти и дамп прервётся!</li>
     </ul>
   </li>
-  <li>Подключите к приставке внешний USB-носитель. Именно на него будет делаться дамп. Убедитесь, что в нём достаточно свободного места</li>
-  <li>Запустите игру
+  <li>Подключите к приставке внешний USB-носитель. Именно на него будет делаться дамп. Убедитесь, что там достаточно свободного места</li>
+  <li>Запустите игру и не выходите из неё
 &lt;!– 1. Сверните игру
     <ul>
       <li>Игру необходимо именно свернуть, а не закрывать! –&gt;</li>
@@ -416,31 +415,60 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
   </li>
   <li>Дождитесь сообщения, говорящего о том, что дамп начат
     <ul>
+      <li>Если вы видите сообщение “<strong>Waiting for copying game</strong>”, но диск в приставке не крутится, значит в игре существует множество языковых пакетов, которые копируются только в том случае, если на приставке стоит соответствующий язык в настройках. Чтобы сдампить такую игру, вам потребется перейти в “<strong>Настройки</strong> -&gt; <strong>Язык</strong> -&gt; <strong>Язык системы</strong>“б поочередно включать каждый из языков и после каждого переключения запускать игру. Если языковой пакет есть на диске, он будет установлен. После того, как пройдёте все языки, перезапустите дампер.</li>
       <li>По мере дампинга будут всплывать сообщения, говорящие о том, что именно делает дампер</li>
       <li>Убедиться в том, что дамп идёт и ничего не зависло можно по мерцанию светодиода на вашем USB-носителе</li>
       <li>Дамп будет сниматься довольно продолжительное время, следите за тем, чтобы приставка не ушла в спящий режим, если он включен</li>
     </ul>
   </li>
   <li>По завершению дампинга приставка выключится</li>
+  <li>Вставьте носитель, на который делался дамп, в ПК. Если дамп сделан успешно, в корне диска появятся две папки вида <code class="language-plaintext highlighter-rouge">CUSAxxxxx-app</code> и <code class="language-plaintext highlighter-rouge">CUSAxxxxx-patch</code>, а так же файл <code class="language-plaintext highlighter-rouge">CUSAxxxxx.complete</code>. Именно наличие последнего говорит о том, что дамп сделан успешно. Если этого файла нет, дамп нужно снимать по новой.</li>
 </ol>
 
-<h2 id="часть-iii---создание-pkg">Часть III - Создание PKG</h2>
+<h2 id="часть-iii---проверка-трофеев">Часть III - Проверка трофеев</h2>
+
+<ol>
+  <li>Распакуйте <a href="files/fpkgtools.zip/" target="**_blank**">Fake PKG tools</a> в папку в корень любого диска на вашем ПК</li>
+  <li>Перетяните поочередно <code class="language-plaintext highlighter-rouge">CUSAxxxxx-app</code> и <code class="language-plaintext highlighter-rouge">CUSAxxxxx-patch</code> на файл <code class="language-plaintext highlighter-rouge">Fake PKG Tools/helper.exe</code>
+    <ul>
+      <li>Если вы видите надпись “<strong>Trophies are encrypted</strong>”, то трофеи в дампе зашифрованы. Вам нужно:
+        <ol>
+          <li>Запустите <a href="ftp" target="_blank">FTP-сервер</a> на вашей приставке</li>
+          <li>Подключитесь любым удобным FTP-клиентом (рекомендуется Filezilla)</li>
+          <li>Скопируйте файл <code class="language-plaintext highlighter-rouge">TROPHY.TRP</code>, находящийся по пути <code class="language-plaintext highlighter-rouge">/user/trophy/conf/NPWRxxxxx_00</code> (значение <strong>NPWRxxxxx_00</strong> будет указан в окне программы <code class="language-plaintext highlighter-rouge">helper.exe</code> в первой строке) в любую удобную для вас папку</li>
+          <li>Переименуйте <code class="language-plaintext highlighter-rouge">TROPHY.TRP</code> в <code class="language-plaintext highlighter-rouge">trophy00.trp</code> и поместите в папку с дампом игры или патча по пути <code class="language-plaintext highlighter-rouge">CUSAxxxxx-app\sce_sys\trophy</code> или <code class="language-plaintext highlighter-rouge">CUSAxxxxx-patch\sce_sys\trophy</code> с заменой, в зависимости от того, где трофеи зашифрованы. Если зашифрованы и там и там, поместите в обе папки.</li>
+        </ol>
+      </li>
+      <li>Если вы видите надпись “<strong>Trophies are already unencrypted.</strong>”, то ваши трофеи расшифрованы и ничего предпринемать не нужно</li>
+      <li>Если в одной из двух папок (патча и приложения, относящихся к одной и той же игре) трофеи расшифрованы, а в другой нет - вы можете просто переместить расшифрованный трофей вместо зашифрованного.</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="часть-iv---создание-файла-gp4">Часть IV - Создание файла GP4</h2>
 
 <ol>
   <li>Подключите USB-накопитель с дампом игры к ПК</li>
-  <li>Запустите <code class="language-plaintext highlighter-rouge">gengp4.exe</code> из папки <code class="language-plaintext highlighter-rouge">PS4</code> на вашем ПК</li>
+  <li>Запустите <code class="language-plaintext highlighter-rouge">Fake PKG Tools/gengp4.exe</code> из папки <code class="language-plaintext highlighter-rouge">PS4</code> на вашем ПК</li>
   <li>Нажмите ‘<strong>File -&gt; Open</strong>’ и выберите папку на USB-носителе, названную “<strong>CUSAxxxxx-app</strong>” вашей игры</li>
   <li>Нажмите ‘<strong>Generate GP4</strong>’</li>
   <li>Дождитесь окончания создания списка</li>
   <li>Нажмите ‘<strong>Save GP4</strong>’</li>
   <li>Выберите место для сохранения <code class="language-plaintext highlighter-rouge">.gp4-файла</code> с проектом для вашей игры</li>
-  <li>Запустите <code class="language-plaintext highlighter-rouge">orbis-pub-gen.exe</code> из папки с <strong>Fake PKG Generator</strong></li>
+  <li>Повторите для патча</li>
+</ol>
+
+<h2 id="часть-v---собираем-игру-в-pkg">Часть V - Собираем игру в PKG</h2>
+
+<ol>
+  <li>Запустите <code class="language-plaintext highlighter-rouge">Fake PKG Tools/orbis-pub-gen.exe</code> из папки с <strong>Fake PKG Generator</strong></li>
   <li>Нажмите ‘<strong>File -&gt; Open</strong>’ и выберите <code class="language-plaintext highlighter-rouge">.gp4-файл</code> с проектом для вашей игры</li>
   <li>Нажмите ‘<strong>Command -&gt; Build Image</strong>’</li>
-  <li>В открывшемся окне нажмите ‘<strong>Select</strong>’, выберите куда сохранить <code class="language-plaintext highlighter-rouge">.PKG-файл</code> с вашей игрой и затем нажмите “<strong>Build</strong>”
+  <li>Отметьте пункт ‘<strong>Modifiable package file</strong>’</li>
+  <li>Нажмите ‘<strong>Select</strong>’, выберите куда сохранить <code class="language-plaintext highlighter-rouge">.PKG-файл</code> с вашей игрой и затем нажмите “<strong>Build</strong>”
     <ul>
       <li>Помните, что игра весит много! Выберите место для сохранения с учетом этого!</li>
-      <li>Для хранения временных файлов использует диск <code class="language-plaintext highlighter-rouge">С:\\</code> Если у вас на диске недостаточно свободного места, то изменить расположение папки для временных файлов можно зайдя в Мой компьютер -&gt; Свойства -&gt; Дополнительно -&gt; Переменные среды, после чего изменить расположение переменных сред TEMP и TMP для пользователя и для системы.</li>
+      <li>Для хранения временных файлов использует диск <code class="language-plaintext highlighter-rouge">С:\</code> Если у вас на диске недостаточно свободного места, то изменить расположение папки для временных файлов можно зайдя в <code class="language-plaintext highlighter-rouge">Мой компьютер -&gt; Свойства -&gt; Дополнительно -&gt; Переменные среды</code>, после чего изменить расположение переменных сред <code class="language-plaintext highlighter-rouge">TEMP</code> и <code class="language-plaintext highlighter-rouge">TMP</code> для пользователя и для системы.</li>
     </ul>
   </li>
   <li>По окончанию процесса в выбранной папке будет создан дамп игры в формате fakePKG</li>
@@ -448,26 +476,23 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 
 <h2 id="часть-iv---cобираем-патч-в-pkg">Часть IV - Cобираем патч в PKG</h2>
 
-<p class="notice--warning">Если ваша игра содержит патчи, то помимо папки “<strong>CUSAxxxxx-app” у вас так же будет папка с названием “CUSAxxxxx-patch</strong>” - это скопированный патч для вашей игры, его необходимо собрать отдельно в самостоятельный .PKG файл.</p>
-
 <ol>
   <li>Подключите USB-накопитель с дампом игры к ПК</li>
   <li>Запустите <code class="language-plaintext highlighter-rouge">gengp4.exe</code> из папки <code class="language-plaintext highlighter-rouge">PS4</code> на вашем ПК</li>
-  <li>Нажмите ‘<strong>File -&gt; Open</strong>’ и выберите папку на USB-носителе, названную “<strong>CUSAxxxxx-patch</strong>”</li>
+  <li>Нажмите ‘<strong>File</strong> -&gt; <strong>Open</strong>’ и выберите папку на USB-носителе, названную “<strong>CUSAxxxxx-patch</strong>”</li>
   <li>Нажмите ‘<strong>Generate GP4</strong>’</li>
   <li>Дождитесь окончания создания списка</li>
   <li>Нажмите ‘<strong>Save GP4</strong>’</li>
   <li>Выберите место для сохранения <code class="language-plaintext highlighter-rouge">.gp4-файла</code> с проектом для вашей игры</li>
   <li>Запустите <code class="language-plaintext highlighter-rouge">orbis-pub-gen.exe</code> из папки с <strong>Fake PKG Generator</strong></li>
-  <li>Нажмите ‘<strong>File -&gt; Open</strong>’ и выберите <code class="language-plaintext highlighter-rouge">.gp4-файл</code> с проектом для вашей игры</li>
-  <li>Нажмите ‘<strong>Command -&gt; Project Settings -&gt; Patch</strong>’</li>
-  <li>В строке ‘<strong>Application package’ нажмите кнопку ‘Select</strong>’ и выберите <code class="language-plaintext highlighter-rouge">.PKG</code> файл <strong>игры</strong> который мы создали в предыдущих пунктах.</li>
-  <li>Поставьте галочку напротив ‘<strong>This is a Day 1 Patch’ (строку ‘The latest QA passed package</strong>’ не трогаем)</li>
-  <li>Нажмите ‘<strong>OK’, затем ‘File -&gt; Save</strong>’.</li>
-  <li>В окне программы нажмите ‘<strong>Command -&gt; Build Image</strong>’</li>
+  <li>Нажмите ‘<strong>File</strong> -&gt; <strong>Open</strong>’ и выберите <code class="language-plaintext highlighter-rouge">.gp4-файл</code> с проектом для вашей игры</li>
+  <li>Нажмите ‘<strong>Command</strong> -&gt; <strong>Project Settings</strong> -&gt; <strong>Patch</strong>’</li>
+  <li>В строке ‘<strong>Application package</strong>’ нажмите кнопку ‘<strong>Select</strong>’ и выберите <code class="language-plaintext highlighter-rouge">.PKG</code> файл <strong>игры</strong> который мы создали в предыдущих пунктах.</li>
+  <li>Нажмите ‘<strong>OK</strong>’, затем ‘<strong>File</strong> -&gt; <strong>Save</strong>’.</li>
+  <li>В окне программы нажмите ‘<strong>Command</strong> -&gt; <strong>Build Image</strong>’</li>
   <li>В открывшемся окне нажмите ‘<strong>Select</strong>’, выберите куда сохранить <code class="language-plaintext highlighter-rouge">.PKG-файл</code> с вашей игрой и затем нажмите “<strong>Build</strong>”
     <ul>
-      <li>Для хранения временных файлов использует диск <code class="language-plaintext highlighter-rouge">С:\\</code> Если у вас на диске недостаточно свободного места, то изменить расположение папки для временных файлов можно зайдя в Мой компьютер -&gt; Свойства -&gt; Дополнительно -&gt; Переменные среды, после чего изменить расположение переменных сред TEMP и TMP для пользователя и для системы.</li>
+      <li>Для хранения временных файлов использует диск <code class="language-plaintext highlighter-rouge">С:\\</code> Если у вас на диске недостаточно свободного места, то изменить расположение папки для временных файлов можно зайдя в <code class="language-plaintext highlighter-rouge">Мой компьютер -&gt; Свойства -&gt; Дополнительно -&gt; Переменные среды</code>, после чего изменить расположение переменных сред TEMP и TMP для пользователя и для системы.</li>
     </ul>
   </li>
   <li>По окончанию процесса в выбранной папке будет создан патч для игры в формате fakePKG</li>
