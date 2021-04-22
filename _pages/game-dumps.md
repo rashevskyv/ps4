@@ -9,7 +9,7 @@ author_profile: true
 
 # Что понадобится
 
-* [Fake PKG tools](files/fpkgtools.zip/){:target="**_blank**"}
+* [Fake PKG tools](files/fpkgtools.zip){:target="**_blank**"}
 * USB-накопитель не менее 100Гб (это условная цифра, в ряде случаев игры весят много меньше и спокойно смогут поместится на флешку в 32Гб)
 * Свободное место на жестком диске ПК в количестве равном размеру игры, или двукратное количество свободного места на USB-накопителе
 
@@ -47,7 +47,7 @@ author_profile: true
 
 ## Часть III - Проверка трофеев 
 
-1. Распакуйте [Fake PKG tools](files/fpkgtools.zip/){:target="**_blank**"} в папку в корень любого диска на вашем ПК 
+1. Распакуйте [Fake PKG tools](files/fpkgtools.zip){:target="**_blank**"} в папку в корень любого диска на вашем ПК 
 1. Перетяните поочередно `CUSAxxxxx-app` и `CUSAxxxxx-patch` на файл `Fake PKG Tools/helper.exe`
 	* Если вы видите надпись "**Trophies are encrypted**", то трофеи в дампе зашифрованы. Вам нужно:
 		1. Запустите [FTP-сервер](ftp){:target="_blank"} на вашей приставке
