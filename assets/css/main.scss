@@ -16,6 +16,12 @@ html {
  /*margin-bottom: 0!important;*/
 }
 
+#main {
+  @include breakpoint($x-large) {
+    max-width: 1920px;
+  }
+}
+
 body {
     background-color: #FFFFFF !important;
   
