@@ -109,9 +109,9 @@ author_profile: true
 {% endspoiler %}
 
 {% spoiler У меня нет возможности предоставить активное интернет-соединение для консоли. Что мне делать? %}
-Вы можете передать пейлоадер через мобильный телефон (см. ниже), либо воспользоваться [USB WiFi-модулем ESP](https://4pda.ru/forum/index.php?showtopic=885825&view=findpost&p=73705006){:target="_blank"}
+Вы можете передать пейлоадер через мобильный телефон (см. ниже), либо воспользоваться [USB WiFi-модулем ESP](https://4pda.to/forum/index.php?showtopic=885825&view=findpost&p=73705006){:target="_blank"}
 {% endspoiler %}
 
 {% spoiler Можно ли хостить эксплойт на мобильном телефоне? %}
-Да, для [Android](https://4pda.ru/forum/index.php?showtopic=885825&view=findpost&p=70298081){:target="_blank"} и [iOS](https://vk.com/@jbplaystation-instrukciya-dlya-zapuska-eksploita-s-pomoschu-ios){:target="_blank"} есть соответствующее ПО
+Да, для [Android](https://4pda.to/forum/index.php?showtopic=885825&view=findpost&p=70298081){:target="_blank"} и [iOS](https://vk.com/@jbplaystation-instrukciya-dlya-zapuska-eksploita-s-pomoschu-ios){:target="_blank"} есть соответствующее ПО
 {% endspoiler %}

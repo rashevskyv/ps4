@@ -21,7 +21,7 @@ author_profile: true
 {% endspoiler %}
 
 {% spoiler После восстановления базы данных у меня пропали все игры, хотя место они занимают %}
-[Воспользуйтесь этой инструкцией](https://4pda.ru/forum/index.php?s=&showtopic=885825&view=findpost&p=76994684){:target="_blank"} для восстановления 
+[Воспользуйтесь этой инструкцией](https://4pda.to/forum/index.php?s=&showtopic=885825&view=findpost&p=76994684){:target="_blank"} для восстановления 
 {% endspoiler %}
 
 {% spoiler Почему я не могу запустить игры, скачанные с серверов SONY %}
