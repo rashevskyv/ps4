@@ -7,12 +7,17 @@ author_profile: true
 
 {% include inc/update.md 
 
-	link="https://nzxtrules.stackstorage.com/s/vNEVTDdyYYy27Gj" 
+	link="https://archive.org/download/PS4-System-Firmwares/Firmware%206.72/PS4UPDATE.PUP" 
 	link_mirror="https://mega.nz/#!Jkd1xSSB!FN_T6256zTzdcGpd2PeRyUKxZQZBhEdRlxEGI_NHQDk" 
 
-	link_recovery="https://nzxtrules.stackstorage.com/s/0cMQTxc6NoGusHT" 
+	link_recovery="https://archive.org/download/PS4-Recovery-Firmwares/Firmware%206.71/PS4UPDATE.PUP" 
 	link_recovery_mirror="https://mega.nz/#!A1cFBCgB!_RTmXmpCT9sufIDChIZ93kBRPT9NXYEKpTMHPmJ4dq8" 
 
 	version="6.72"
 
 %}
+
+___
+
+## Следующий шаг: [Запуск взлома](start-hen) 
+{: .notice--success}

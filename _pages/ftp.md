@@ -10,6 +10,7 @@ author_profile: true
 ### Часть I - Настройка DNS
 		
 Если у вас уже настроены DNS-сервера для запуска эксплойта, повторно этого делать не нужно!
+{: .notice--warning}
 		
 {% include /inc/set-up-dns.md %}
 
@@ -20,7 +21,7 @@ author_profile: true
 
 {% include inc/launch-exploit.md 
 
-	payload='"*FTP*"'
+	payload='"**FTP**"'
 
 %}
 

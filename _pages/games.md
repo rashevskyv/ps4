@@ -7,27 +7,23 @@ author_profile: true
 
 ## Где брать игры
 
-Дампы, сделанные для 4.05 и 4.55 так же будут работать!
+Дампы, сделанные для старых прошивок будут работать и на новых, за исключением игр с бекпортами. Игры с бекпортами не работатют на прошивке {% include /vars/sys_version.txt %}
+{: .notice--warning} 
 
-+ [Таблица с magnet-ссылками](http://pkg.customfw.xyz){:target="_blank"} (некоторые игры могут быть устаревшими; если закачка не идёт, ищите в других источниках)
-+ [tapochek.net](https://tapochek.net/viewforum.php?f=910){:target="_blank"} (регистрация по инвайтам)
-+ [рутрекер](https://rutracker.org/forum/viewforum.php?f=973){:target="_blank"}
-+ [https://torrent-games.eu](https://torrent-games.eu/news/igry_playstation_4/){:target="_blank"}
-+ [Игры для 7.55, а так же новые игры с бекпортами для 5.05](https://vk.com/invite/uAeSJe4){:target="_blank"}
-    * Бекпорт - специальный патч, который позволдит запустить игру от {{ include.version }} на приставке с 5.05 
-+ Вы можете самостоятельно [сделать дамп вашей купленной игры](game-dumps)
+* [Таблица с magnet-ссылками](http://pkg.customfw.xyz){:target="_blank"} (старые дампы, для прошивок 4.55 и 5.05. Таблица давно не обновлялась)
+* [tapochek.net](https://tapochek.net/viewforum.php?f=910){:target="_blank"} (регистрация по [инвайтам](https://plati.ru/search/%D1%82%D0%B0%D0%BF%D0%BE%D1%87%D0%B5%D0%BA){:target="_blank"})
+* [рутрекер](https://rutracker.org/forum/viewforum.php?f=973){:target="_blank"}
+* [https://torrent-games.eu](https://torrent-games.eu/news/igry_playstation_4/){:target="_blank"}
+* [Группа с играми в ВК](https://vk.com/invite/uAeSJe4){:target="_blank"}
+* [DarkSoftware Forum](https://darksoftware.net/forums/ps4-fake-pkg-games-updates.4/){:target="_blank"} - требуется регистрация
+* [Группа с играми в telegram](https://t.me/PSMaksydenko){:target="_blank"}
+* [dlpsgame.org](https://downloadgameps3.com/category/ps4/){:target="_blank"}
+* Вы можете самостоятельно [сделать дамп вашей купленной игры](game-dumps)
 		
 ## Часть I - Запуск эксплойта
 
-{% include inc/launch-exploit.md 
+Запустите эксплойт, согласно [инструкции](start-hen){:target="_blank"}
 
-	fw='"**версия_вашей_прошивки**"'
-	payload='"**MIRA (Unofficial)**" / "**GoldenHEN"'
-
-%}
-
-Если не получается запустить эксплойт через установку DNS - пробуйте сделать это [через ваш ПК](payloads){:target="_blank"}
-{: .notice--info}
 	
 ## Часть II - Установка игр
 {% spoiler Способ I - Установка по с помощью USB-носителя  %}
@@ -43,8 +39,8 @@ author_profile: true
 Порядок установки игры, патчей и DLC может быть произвольным, если дополнительно не сказано обратного. 
 {: .notice--warning}
 
-1. Скиньте в **корень** накопителя игру в формате PKG и подключите его к консоли в любой USB-порт
-1. Запустите настройки
+1. Скиньте в **корень** накопителя игру или игры в формате PKG и подключите его к консоли в любой USB-порт
+1. Запустите **Настройки** консоли
 1. Листайте в самый низ и запустите пункт "**Debug Settings**"
 1. Перейдите в меню "**Game**"
 1. Перейдите в меню "**Package Installer**"
@@ -55,6 +51,9 @@ author_profile: true
 
 {% endspoiler %}
 {% spoiler Способ II - Установка по локальной сети %}
+
+В данный момент этот метод не работает на прошивке {% include /vars/sys_version.txt %}
+{: .notice--warning}
 
 ##### Что понадобится
 
@@ -88,6 +87,6 @@ author_profile: true
 {% endspoiler %}
 
 ## Важно помнить 
-* Вам следует [активировать взлом](/start-hen#%D0%A7%D0%B0%D1%81%D1%82%D1%8C-iii---%D0%97%D0%B0%D0%BF%D1%83%D1%81%D0%BA-%D1%8D%D0%BA%D1%81%D0%BF%D0%BB%D0%BE%D0%B9%D1%82%D0%B0){:target="_blank"} каждый раз после включения приставки! Если вы активировали эксплойт и ввели приставку в режим покоя, то после пробуждения эксплойт уже будет активирован. 
+* Вам следует [активировать взлом](/start-hen){:target="_blank"} каждый раз после включения приставки! Если вы активировали эксплойт и ввели приставку в режим покоя, то после пробуждения эксплойт уже будет активирован. 
 * Не делайте реконструкцию базы данных без резервной копии этой самой базы! Это удалит все игры из меню, но на диске они по прежнему будут занимать место! Исправить можно будет только повторной установкой, или восстановлением бекапа базы! Подробнее об этом в разделе [Важно знать](info){:target="_blank"}
 * Ознакомьтесь с [FAQ](faq) и [списком полезных инструкций](addons)
