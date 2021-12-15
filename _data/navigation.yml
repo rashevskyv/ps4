@@ -40,8 +40,6 @@ bottom:
 addons:
   - title: "FAQ"
     url: /faq
-  - title: "Важно знать"
-    url: /info
   - title: "Установка игр"
     url: /games
   - title: "Описание пейлоадов"
@@ -54,7 +52,7 @@ addons:
     url: /usb-update
   - title: Запуск эксплойта
     url: /start-hen
-  - title: Запуск пейлоадов
+  - title: Запуск своих пейлоадов
     url: /payloads
   - title: Запуск эксплойта через браузер
     url: /start-hen-browser

@@ -78,3 +78,8 @@ author_profile: true
 1. Перезагрузите PS4 
 
 {% endspoiler %}
+
+___
+
+[Закрыть страницу](javascript:window.close();)
+{: .notice--success}

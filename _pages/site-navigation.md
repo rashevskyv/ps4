@@ -8,6 +8,7 @@ author_profile: true
 
 ### Эксплойт
 
+* [GoldHEN](goldhen){:target="_blank"}
 * [Запуск пейлоадов (payloads)](payloads){:target="_blank"}
 * [Запуск эксплойта (DNS)](start-hen){:target="_blank"}
 * [Запуск эксплойта через браузер](start-hen-browser){:target="_blank"}

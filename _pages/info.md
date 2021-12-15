@@ -30,5 +30,5 @@ author_profile: true
 
 ___
 
-# Следующий шаг: [Установка игр](games) 
+# Следующий шаг: [Полезные инструкции](addons) 
 {: .notice--success}
