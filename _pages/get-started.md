@@ -45,7 +45,7 @@ author_profile: true
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">7.00-8.50</td>
-      <td style="text-align: center; font-weight: bold;"><a href="usb-update-755">Обновление до 9.00</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="usb-update-900">Обновление до 9.00</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">{% include /vars/sys_version.txt %}</td>

@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 {% spoiler Не могу установить новую игру на мою приставку с 5.05 %}
-[Обновите прошивку](usb-aupdate){:target="_blank"} до актуальной версии
+[Обновите прошивку](usb-update){:target="_blank"} до актуальной версии
 {% endspoiler %}
 
 {% spoiler Не получается перекинуть игру через Package Installer %}
@@ -22,10 +22,6 @@ author_profile: true
 
 {% spoiler После восстановления базы данных у меня пропали все игры, хотя место они занимают %}
 [Воспользуйтесь этой инструкцией](https://4pda.to/forum/index.php?s=&showtopic=885825&view=findpost&p=76994684){:target="_blank"} для восстановления 
-{% endspoiler %}
-
-{% spoiler Почему я не могу запустить игры, скачанные с серверов SONY %}
-Ответ [здесь](https://vk.com/@jbplaystation-chto-zhe-vse-taki-luchshe-hen-vs-mira-vs-henmira){:target="_blank"}
 {% endspoiler %}
 
 {% spoiler При установке PKG с игрой возникает ошибка %}

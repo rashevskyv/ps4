@@ -41,8 +41,3 @@ author_profile: true
 %}
 
 {% include inc/payload_notice.md %}
-
-___
-
-# Следующий шаг: [Важно знать](info) 
-{: .notice--success}
