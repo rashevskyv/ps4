@@ -365,13 +365,13 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 
 <h2 id="часть-ii---установка-игр">Часть II - Установка игр</h2>
 <details class="spoiler"><summary class="spoiler-title">Способ I - Установка по с помощью USB-носителя</summary><div class="spoiler-body">
-<h4 id="что-понадобится">Что понадобится</h4>
+<h2 id="что-понадобится">Что понадобится</h2>
 
 <ul>
   <li>USB-накопитель (флешка\жёсткий диск) размером не менее устанавливаемой игры в формате exFAT</li>
 </ul>
 
-<h4 id="инструкция">Инструкция</h4>
+<h2 id="инструкция">Инструкция</h2>
 
 <p>Если у вас нет накопителя большого размера или по каким-то причинам вы не можете воспользоваться способом установки игр через него, воспользуйтесьУстановкой по локальной сети. О ней ниже.</p>
 
@@ -395,56 +395,33 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 </ol>
 
 </div></details>
+
 <details class="spoiler"><summary class="spoiler-title">Способ II - Установка по локальной сети</summary><div class="spoiler-body">
 <p class="notice--warning">В данный момент этот метод не работает на прошивке 9.00</p>
 
-<h5 id="что-понадобится">Что понадобится</h5>
+<h2 id="что-понадобится">Что понадобится</h2>
 
 <ul>
-  <li>USB-накопитель (флешка\жёсткий диск) размером не менее устанавливаемой игры в формате exFAT</li>
-  <li><a href="https://mega.nz/#!2dN1XajB!Z5fXyFoKOXFI_ujgGoCZfFFy5nyn7OWo6vF6h_HmWhQ" target="_blank">Remote Package Installer</a></li>
-  <li><a href="https://github.com/iref-use/ps4-remote-pkg-sender/releases/latest" target="_blank"><strong>PS4 Remote PKG Sender</strong></a></li>
+  <li><a href="files/sender_patched.exe" target="_blank">sender_patched</a></li>
 </ul>
 
-<h5 id="инструкция">Инструкция</h5>
+<h2 id="инструкция">Инструкция</h2>
 
 <p class="notice--warning">Порядок установки игры, патчей и DLC может быть произвольным, если дополнительно не сказано обратного.</p>
 
 <p class="notice--warning">Наибольшая скорость передачи будет только в том случае, если ПК с которого будет идти передача и консоль, будут подключены кабелем, а не по WiFi</p>
 
 <ol>
-  <li>Запустите приставку
-    <ul>
-      <li>На приставке должен быть <a href="start-hen#часть-i---настройка-dns" target="_blank">подключён интернет и настроены DNS</a>, а так же активирован эксплойт Mira <strong>(no-hb)</strong></li>
-    </ul>
+  <li>Запустите <a href="start-hen" target="_blank">эксплойт</a></li>
+  <li>Запустите “<strong>Настройки</strong>”</li>
+  <li>Перейдите в “<strong>GoldHEN</strong>” -&gt; “<strong>Enable BinLoader Server</strong>”</li>
+  <li>Перетащите PKG игры, которую хотите установить на <a href="files/sender_patched.exe" target="_blank">sender_patched</a></li>
+  <li>
+    <p>Появится окно ввода IP-адреса. Введите IP вашей консоли</p>
+
+    <p class="notice--info">IP-адрес приставки можно посмотреть в меню “<strong>Настройки</strong>” -&gt; “<strong>Сеть</strong>” -&gt; “<strong>Узнать состояние соединения</strong>” в строке “<strong>IP-адресс</strong>”. Запомните его.</p>
   </li>
-  <li>Перейдите в <strong>Настройки</strong> -&gt; <strong>Сеть</strong> -&gt; <strong>Узнать состояние соединения</strong> и запишите указанный там <strong>IP-адрес</strong>, если не знаете какой он у консоли</li>
-  <li>Установите <a href="https://mega.nz/#!2dN1XajB!Z5fXyFoKOXFI_ujgGoCZfFFy5nyn7OWo6vF6h_HmWhQ" target="_blank">Remote Package Installer</a> на вашу PS4 с помощью USB-носителя
-    <ul>
-      <li>Убедитесь, что в поле <strong>LOCAL IP</strong> указан IP именно вашего ПК
-        <ul>
-          <li>Как узнать IP вашего ПК можно справиться у гугла</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>Запустите <strong>Remote Package Installer</strong> на консоли
-    <ul>
-      <li>Не будет работать, если HEN ниже, чем 1.8</li>
-    </ul>
-  </li>
-  <li>На ПК запустите <a href="https://github.com/iref-use/ps4-remote-pkg-sender/releases/latest" target="_blank"><strong>PS4 Remote PKG Sender</strong></a> и в поле <strong>PS4 IP</strong> впишите <strong>IP-адрес</strong>, который вы записали выше
-    <ul>
-      <li>Приставка и ПК должны находиться в одной подсети и “видеть” друг-друга</li>
-    </ul>
-  </li>
-  <li>Нажмите на кнопку <strong>Выбрать файлы</strong> и выберите PKG-файл, который хотите установить</li>
-  <li>Нажмите кнопку <strong>SEND</strong>, чтобы отправить PKG на приставку</li>
-  <li>Вы получите сообщение о том, что загрузка игры на приставку началась
-    <ul>
-      <li>Вы можете свернуть приложение и даже играть в игры, пока ожидаете окончания установки</li>
-    </ul>
-  </li>
+  <li>После ввода адреса и нажатия Enter начнется установка.</li>
 </ol>
 
 </div></details>
