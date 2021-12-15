@@ -368,7 +368,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 <h3 id="настройка-dns">Настройка DNS</h3>
 
 <p class="notice--info">Настройку DNS обязательно следует сделать для того, чтобы ваша приставка не видела обновлений на свежую прошивку!</p>
-
+<details class="spoiler"><summary class="spoiler-title">Установка DNS в консоль</summary><div class="spoiler-body">
 <ol>
   <li>Включите PS4</li>
   <li>Перейдите в настройки, выберите “<strong>Сеть</strong>”</li>
@@ -391,6 +391,8 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
   </li>
   <li>По окончанию проверок нажмите кнопку (PS), чтобы вернуться на начальный экран</li>
 </ol>
+
+</div></details>
 
 <details class="spoiler"><summary class="spoiler-title">Кеширование эксплойта</summary><div class="spoiler-body">
 <p class="notice--info">Закешированный эксплойт можно запускать на приставке без доступа к интернету</p>
@@ -478,33 +480,22 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 <p class="notice--warning">Для запуска эксплойта, вам понадобится подготовленная по инструкции ниже USB-флешка. В консоли уже должны быть <a href="#настройка-dns" target="_blank">прописаны DNS</a>!</p>
 
 <details class="spoiler"><summary class="spoiler-title">Подготовка USB-флешки</summary><div class="spoiler-body">
-<p class="notice--warning">Вам понадобится любая флешка не менее 512Мб. Все данные на флешке будут уничтожены. Использовать флешку без форматирования не получится. Без флешки взлом запустить нелльзя!</p>
+<p class="notice--warning">Вам понадобится любая флешка больше 10Мб. Все данные на флешке будут уничтожены. Использовать флешку без форматирования не получится. Без флешки взлом запустить нелльзя!</p>
 
 <ul>
-  <li><a href="https://ps4.customfw.xyz/files/exfathax.zip">exfathax.img</a></li>
+  <li><a href="https://ps4.customfw.xyz/files/exfathax.img">exfathax.img</a></li>
   <li>Свежая версия <a href="https://sourceforge.net/projects/win32diskimager/">Win32DiskImager</a></li>
 </ul>
 
 <ol>
   <li>Установите <a href="https://sourceforge.net/projects/win32diskimager/">Win32DiskImager</a> на ваш ПК</li>
-  <li>Вставьте microSD, которую вы планируете использовать с sd2vita, в компьютер</li>
+  <li>Вставьте USB-носитель, который вы планируете использовать, в компьютер</li>
   <li>Запустите <strong>Win32DiskImager</strong></li>
-  <li>Выберите <a href="https://ps4.customfw.xyz/files/exfathax.zip">exfathax.img</a> в качестве “<strong>Image File</strong>”</li>
+  <li>Выберите <a href="https://ps4.customfw.xyz/files/exfathax.img">exfathax.img</a> в качестве “<strong>Image File</strong>”</li>
   <li>Выберите букву вашего накопителя в качестве “<strong>Device</strong>”</li>
   <li>Нажмите “<strong>Write</strong>”</li>
   <li>Нажмите “<strong>Yes</strong>” чтобы продолжить при появлении запроса</li>
   <li>Нажмите “<strong>OK</strong>” чтобы закрыть окно диалога, когда запись завершится</li>
-  <li>Закройте <strong>Win32DiskImager</strong></li>
-  <li>Щелкните правой кнопкой мыши диск в Проводнике Windows, затем выберите “<strong>Форматировать</strong>”</li>
-  <li>Измените “<strong>Файловая система</strong>” на “<strong>exFAT</strong>”
-    <ul>
-      <li>Если накопитель имеет ёмкость 256 ГБ или больше, то измените размер кластера 64 КБ, в ином случае оставьте значение по-умолчанию</li>
-    </ul>
-  </li>
-  <li>Нажмите “<strong>Начать</strong>”</li>
-  <li>Нажмите “<strong>OK</strong>” чтобы продолжить при появлении запроса</li>
-  <li>Нажмите “<strong>OK</strong>” чтобы закрыть окно диалога, когда форматирование завершится</li>
-  <li>Закройте окно форматирования</li>
 </ol>
 
 </div></details>
@@ -538,10 +529,14 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
     </ul>
   </li>
   <li>Выберите “<strong>9.00</strong>” -&gt; “<strong>GoldHEN</strong>” (может быть разных версий, старайтесь использовать самую свежую)</li>
-  <li>Дождитесь надписи, говорящей о том, что нужно вставить в приставку флешку и вставьте её
-    <ul>
-      <li>Вытащите флешку после активации эксплойта</li>
-    </ul>
+  <li>Нажмите “ОК”
+    <ol>
+      <li>Дождитесь надписи, говорящей о том, что нужно вставить в приставку флешку и вставьте её
+        <ul>
+          <li>Вытащите флешку после активации эксплойта</li>
+        </ul>
+      </li>
+    </ol>
   </li>
   <li>Дождитесь сообщения, говорящего о том, что эксплойт активирован
     <ul>
@@ -557,8 +552,6 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 </div></details>
 
 <h2 id="дополнительно-блокировка-обновлений">Дополнительно: Блокировка обновлений</h2>
-
-<p class="notice--warning">Эксплойт должен быть уже запущен!</p>
 
 <div class="notice--info">
 <p>Для успешного запуска эксплойта рекомендуется:</p>
@@ -599,11 +592,11 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
   <li>Нажмите (PS) для выхода на стартовый экран</li>
 </ol>
 
-<p class="notice--success"><strong>Disable Updates</strong> необходимо запустить всего раз. Этот пейлоад не нужно запускать повтороно для блокировки обновлений! Для снятия блокировки запустите пейлоад <strong>Enable updates</strong></p>
-
-<p class="notice--success">Единожды закешировав пейлоады, вы сможете запускать их <a href="#часть--ii---запуск-эксплойта">привычным способом</a> даже без активного интернет-соединения!!</p>
+<p class="notice--success"><strong>Disable Updates</strong> необходимо запустить всего раз. Этот пейлоад не нужно запускать повторно для блокировки обновлений! Для снятия блокировки запустите пейлоад <strong>Enable updates</strong></p>
 
 <p class="notice--info">Если не получается запустить эксплойт через DNS - пробуйте сделать это <a href="start-hen-browser" target="_blank">из браузера</a></p>
+
+<p class="notice--success">Единожды закешировав пейлоады, вы сможете запускать их <a href="#часть--ii---запуск-эксплойта">привычным способом</a> даже без активного интернет-соединения!!</p>
 
 <hr />
 
