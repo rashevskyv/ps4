@@ -51,9 +51,6 @@ author_profile: true
 
 {% spoiler Способ II - Установка по локальной сети %}
 
-В данный момент этот метод не работает на прошивке {% include /vars/sys_version.txt %}
-{: .notice--warning}
-
 ## Что понадобится
 
 * [sender_patched](files/sender_patched.exe){:target="_blank"}
