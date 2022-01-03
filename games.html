@@ -397,6 +397,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 </div></details>
 
 <details class="spoiler"><summary class="spoiler-title">Способ II - Установка по локальной сети</summary><div class="spoiler-body">
+<details class="spoiler"><summary class="spoiler-title">Для одиночных небольших файлов</summary><div class="spoiler-body">
 <h2 id="что-понадобится">Что понадобится</h2>
 
 <ul>
@@ -421,6 +422,58 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
   </li>
   <li>После ввода адреса и нажатия Enter начнется установка.</li>
 </ol>
+
+</div></details>
+<details class="spoiler"><summary class="spoiler-title">Для больших или нескольких файлов</summary><div class="spoiler-body">
+<h5 id="что-понадобится">Что понадобится</h5>
+
+<ul>
+  <li><a href="https://mega.nz/#!2dN1XajB!Z5fXyFoKOXFI_ujgGoCZfFFy5nyn7OWo6vF6h_HmWhQ" target="_blank">Remote Package Installer</a></li>
+  <li><a href="https://github.com/iref-use/ps4-remote-pkg-sender/releases/latest" target="_blank"><strong>PS4 Remote PKG Sender</strong></a></li>
+</ul>
+
+<h5 id="инструкция">Инструкция</h5>
+
+<p class="notice--warning">Порядок установки игры, патчей и DLC может быть произвольным, если дополнительно не сказано обратного.</p>
+
+<p class="notice--warning">Наибольшая скорость передачи будет только в том случае, если ПК с которого будет идти передача и консоль, будут подключены кабелем, а не по WiFi</p>
+
+<ol>
+  <li>Запустите приставку
+    <ul>
+      <li>На приставке должен быть <a href="start-hen#часть-i---настройка-dns" target="_blank">подключён интернет и настроены DNS</a>, а так же активирован эксплойт Mira <strong>(no-hb)</strong></li>
+    </ul>
+  </li>
+  <li>Перейдите в <strong>Настройки</strong> -&gt; <strong>Сеть</strong> -&gt; <strong>Узнать состояние соединения</strong> и запишите указанный там <strong>IP-адрес</strong>, если не знаете какой он у консоли</li>
+  <li>Установите <a href="https://mega.nz/#!2dN1XajB!Z5fXyFoKOXFI_ujgGoCZfFFy5nyn7OWo6vF6h_HmWhQ" target="_blank">Remote Package Installer</a> на вашу PS4 с помощью USB-носителя
+    <ul>
+      <li>Убедитесь, что в поле <strong>LOCAL IP</strong> указан IP именно вашего ПК
+        <ul>
+          <li>Как узнать IP вашего ПК можно справиться у гугла</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Запустите <strong>Remote Package Installer</strong> на консоли
+    <ul>
+      <li>Не будет работать, если HEN ниже, чем 1.8</li>
+    </ul>
+  </li>
+  <li>На ПК запустите <a href="https://github.com/iref-use/ps4-remote-pkg-sender/releases/latest" target="_blank"><strong>PS4 Remote PKG Sender</strong></a> и в поле <strong>PS4 IP</strong> впишите <strong>IP-адрес</strong>, который вы записали выше
+    <ul>
+      <li>Приставка и ПК должны находиться в одной подсети и “видеть” друг-друга</li>
+    </ul>
+  </li>
+  <li>Нажмите на кнопку <strong>Выбрать файлы</strong> и выберите PKG-файл, который хотите установить</li>
+  <li>Нажмите кнопку <strong>SEND</strong>, чтобы отправить PKG на приставку</li>
+  <li>Вы получите сообщение о том, что загрузка игры на приставку началась
+    <ul>
+      <li>Вы можете свернуть приложение и даже играть в игры, пока ожидаете окончания установки</li>
+    </ul>
+  </li>
+</ol>
+
+</div></details>
 
 </div></details>
 
@@ -533,7 +586,7 @@ if (ref=='preparation-fuse') {document.getElementById('selector').classList.add(
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2021 MeatWad, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2022 MeatWad, xHR. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
