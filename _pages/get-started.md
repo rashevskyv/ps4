@@ -36,15 +36,7 @@ author_profile: true
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.01</td>
-      <td style="text-align: center; font-weight: bold;">6.71</td>
-      <td style="text-align: center; font-weight: bold;"><a href="usb-update-672">Обновление до 6.72</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">6.72</td>
-      <td style="text-align: center; font-weight: bold;"><a href="start-hen">Запуск взлома</a></td>
-    </tr>
-    <tr>
-      <td style="text-align: center; font-weight: bold;" colspan="2">7.00-8.50</td>
+      <td style="text-align: center; font-weight: bold;">8.50</td>
       <td style="text-align: center; font-weight: bold;"><a href="usb-update-900">Обновление до 9.00</a></td>
     </tr>
     <tr>
