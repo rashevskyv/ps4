@@ -5,6 +5,10 @@ author_profile: true
 ---
 {% include toc title="Разделы" %}
 
+<script>
+location.href = 'https://ps4.customfw.xyz/usb-update-900';
+</script>
+
 {% include inc/update.md 
 
 	link="https://archive.org/download/PS4-System-Firmwares/Firmware%206.72/PS4UPDATE.PUP" 
