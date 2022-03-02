@@ -328,8 +328,11 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 <ul class="toc__menu" id="markdown-toc">
   <li><a href="#запуск-эксплойта-через-dns" id="markdown-toc-запуск-эксплойта-через-dns">Запуск эксплойта через DNS</a>    <ul>
       <li><a href="#настройка-dns" id="markdown-toc-настройка-dns">Настройка DNS</a></li>
-      <li><a href="#версия-прошивки-672" id="markdown-toc-версия-прошивки-672">Версия прошивки 6.72</a></li>
-      <li><a href="#версия-прошивки-900" id="markdown-toc-версия-прошивки-900">Версия прошивки 9.00</a></li>
+      <li><a href="#запуск-эксплойта" id="markdown-toc-запуск-эксплойта">Запуск эксплойта</a>        <ul>
+          <li><a href="#подготовка-usb-флешки" id="markdown-toc-подготовка-usb-флешки">Подготовка USB-флешки</a></li>
+          <li><a href="#запуск-эксплойта-1" id="markdown-toc-запуск-эксплойта-1">Запуск эксплойта</a></li>
+        </ul>
+      </li>
     </ul>
   </li>
   <li><a href="#следующий-шаг-важно-знать" id="markdown-toc-следующий-шаг-важно-знать">Следующий шаг: Важно знать</a></li>
@@ -426,55 +429,8 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 
 </div></details>
 
-<h3 id="версия-прошивки-672">Версия прошивки 6.72</h3>
+<h3 id="запуск-эксплойта">Запуск эксплойта</h3>
 
-<details class="spoiler"><summary class="spoiler-title">Запуск эксплойта</summary><div class="spoiler-body">
-<p class="notice--warning">Для запуска эксплойта, в консоли уже должны быть <a href="#настройка-dns" target="_blank">прописаны DNS</a>!</p>
-
-<div class="notice--info">
-<p>Для успешного запуска эксплойта рекомендуется:</p>
-<ul>
-  <li>Перезагрузить приставку (не нужно перезагружать, если только её включили) и подождать пару минут
-    <ul>
-      <li>Говорят, что после небольшого ожидания, а так же, если полазить немного по меню приставки, шанс срабатывания эксплойта сильно увеличивается</li>
-    </ul>
-  </li>
-  <li>Если вы можете использовать пульт от телевизора для навигации по меню приставки, используйте его
-    <ul>
-      <li>Дрифтящие стики контроллера сильно снижают успех запуска эксплойта</li>
-    </ul>
-  </li>
-</ul>
-</div>
-
-<ol>
-  <li>На приставке перейдите в <strong>Настройки</strong> в пункт “<strong>Руководство пользователя/полезная информация</strong>” -&gt; “<strong>Руководство пользователя</strong>”
-    <ul>
-      <li>При возникновении ошибки перезагрузите приставку</li>
-    </ul>
-  </li>
-  <li>Откроется страница “<strong>Мультихост Santa PS4</strong>”
-    <ul>
-      <li>Если вместо “<strong>Мультихост Santa PS4</strong>” загружается “<strong>Руководство пользователя</strong>”, то вероятнее всего ваш роутер игнорирует прописанный DNS (конкретно у меня мой ZyXEL именно этим и занимается). В таком случае пропишите в роутере указанные выше DNS</li>
-    </ul>
-  </li>
-  <li>
-    <p>Выберите “<strong><a href="goldhen" target="_blank">GoldHEN</a></strong>”</p>
-  </li>
-  <li>Дождитесь сообщения, говорящего о том, что эксплойт активирован
-    <ul>
-      <li>Если с первого раза не выходит (“<em>Недостаточно памяти</em>”), нажимайте кнопку (O) для закрытия сообщения об ошибке и пробуйте еще раз. Для приставок на прошивке  ошибки связанные с недостатком памяти нормальное явление</li>
-      <li>Можно так же отчистить данные браузера и удалить cookies-файлы, после чего перезапустить приставку</li>
-    </ul>
-  </li>
-  <li>Нажмите (PS) для выхода на стартовый экран</li>
-</ol>
-
-</div></details>
-
-<h3 id="версия-прошивки-900">Версия прошивки 9.00</h3>
-
-<details class="spoiler"><summary class="spoiler-title">Запуск эксплойта</summary><div class="spoiler-body">
 <details class="spoiler"><summary class="spoiler-title">Видео</summary><div class="spoiler-body">
 <div style="margin:0 auto;" class="text-center notice--info">
   <div class="ytcontainer">
@@ -484,32 +440,29 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 
 </div></details>
 
-<p class="notice--warning">Для запуска эксплойта, вам понадобится подготовленная по инструкции ниже USB-флешка. В консоли уже должны быть <a href="#настройка-dns" target="_blank">прописаны DNS</a>!</p>
+<h4 id="подготовка-usb-флешки">Подготовка USB-флешки</h4>
 
-<p class="notice--info">Флешка понадобится только для запуска эксплойта. Не нужно постоянно держать её в порту. После успешного запуска эксплойта флешку можно вытащить из приставки</p>
+<p class="notice--info">Флешка понадобится только для запуска эксплойта. Не нужно постоянно держать её в порту. После успешного запуска эксплойта флешку можно вытащить из приставки. Вы не сможете использовать эту флешку для хранения данных и одновременно для запуска эксплойта! Чтобы подготовить флешку для хранения данных, отформатируйте её. <strong>Подготовка флешки делается единожды!</strong></p>
 
-<details class="spoiler"><summary class="spoiler-title">Подготовка USB-флешки</summary><div class="spoiler-body">
 <p class="notice--warning">Вам понадобится любая флешка больше 10Мб. Все данные на флешке будут уничтожены. Использовать флешку без форматирования не получится. Без флешки взлом запустить нельзя!</p>
-
-<ul>
-  <li><a href="https://ps4.customfw.xyz/files/exfathax.img">exfathax.img</a></li>
-  <li>Свежая версия <a href="https://sourceforge.net/projects/win32diskimager/">Win32DiskImager</a></li>
-</ul>
 
 <ol>
   <li>Установите <a href="https://sourceforge.net/projects/win32diskimager/">Win32DiskImager</a> на ваш ПК</li>
   <li>Вставьте USB-носитель, который вы планируете использовать, в компьютер</li>
   <li>Запустите <strong>Win32DiskImager</strong></li>
+  <li>Скачайте <a href="https://ps4.customfw.xyz/files/exfathax.img">exfathax.img</a> на ваш ПК</li>
   <li>Выберите <a href="https://ps4.customfw.xyz/files/exfathax.img">exfathax.img</a> в качестве “<strong>Image File</strong>”</li>
   <li>Выберите букву вашего накопителя в качестве “<strong>Device</strong>”</li>
   <li>Нажмите “<strong>Write</strong>”</li>
   <li>Нажмите “<strong>Yes</strong>” чтобы продолжить при появлении запроса</li>
   <li>Нажмите “<strong>OK</strong>” чтобы закрыть окно диалога, когда запись завершится</li>
+  <li>Можете извлечь флешку, подготовка флешки закончена</li>
 </ol>
 
-</div></details>
+<h4 id="запуск-эксплойта-1">Запуск эксплойта</h4>
 
-<details class="spoiler"><summary class="spoiler-title">Запуск эксплойта</summary><div class="spoiler-body">
+<p class="notice--info">Делается после каждого полного выключения, или перезагрузки приставки. Не нужно повторять при использовании режима сна.</p>
+
 <div class="notice--info">
 <p>Для успешного запуска эксплойта рекомендуется:</p>
 <ul>
@@ -559,10 +512,6 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 <p class="notice--danger">Не забудьте вытащить флешку после активации эксплойта!</p>
 
 <p class="notice--info">При возникновении ошибок при взломе, попробуйте сделать полной низкоуровневое форматирование вашего USB-носителя с помощью <a href="https://hddguru.com/software/HDD-LLF-Low-Level-Format-Tool/HDDLLF.4.40.exe" target="_blank">HDDLLF</a></p>
-
-</div></details>
-
-</div></details>
 
 <p class="notice--info">Если не получается запустить эксплойт через DNS - пробуйте сделать это <a href="start-hen-browser" target="_blank">из браузера</a></p>
 
