@@ -7,7 +7,7 @@ header:
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
-excerpt: 'Полное руководство по взлому PS4 / PS4 PRO на стоковой прошивке версии 9.00 и ниже<br />
+excerpt: 'Полное руководство по взлому PS4 / PS4 PRO на стоковой прошивке версии 9.00 и ниже'
 ---
 
 {% include toc title="Разделы" %}
