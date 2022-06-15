@@ -331,6 +331,7 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
       <li><a href="#запуск-эксплойта" id="markdown-toc-запуск-эксплойта">Запуск эксплойта</a>        <ul>
           <li><a href="#подготовка-usb-флешки" id="markdown-toc-подготовка-usb-флешки">Подготовка USB-флешки</a></li>
           <li><a href="#запуск-эксплойта-1" id="markdown-toc-запуск-эксплойта-1">Запуск эксплойта</a></li>
+          <li><a href="#дополнительная-настройка-подготовленной-флешки-опционально" id="markdown-toc-дополнительная-настройка-подготовленной-флешки-опционально">Дополнительная настройка подготовленной флешки (опционально)</a></li>
         </ul>
       </li>
     </ul>
@@ -441,8 +442,9 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 </div></details>
 
 <h4 id="подготовка-usb-флешки">Подготовка USB-флешки</h4>
+<p class="notice--warning"><strong>Подготовка флешки делается единожды!</strong></p>
 
-<p class="notice--info">Флешка понадобится только для запуска эксплойта. Не нужно постоянно держать её в порту. После успешного запуска эксплойта флешку можно вытащить из приставки. Вы не сможете использовать эту флешку для хранения данных и одновременно для запуска эксплойта! Чтобы подготовить флешку для хранения данных, отформатируйте её. <strong>Подготовка флешки делается единожды!</strong></p>
+<p class="notice--info">Флешка понадобится только для запуска эксплойта.</p>
 
 <p class="notice--warning">Вам понадобится любая флешка больше 10Мб. Все данные на флешке будут уничтожены. Использовать флешку без форматирования не получится. Без флешки взлом запустить нельзя!</p>
 
@@ -450,8 +452,8 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
   <li>Установите <a href="https://sourceforge.net/projects/win32diskimager/">Win32DiskImager</a> на ваш ПК</li>
   <li>Вставьте USB-носитель, который вы планируете использовать, в компьютер</li>
   <li>Запустите <strong>Win32DiskImager</strong></li>
-  <li>Скачайте <a href="https://ps4.customfw.xyz/files/exfathax.img">exfathax.img</a> на ваш ПК</li>
-  <li>Выберите <a href="https://ps4.customfw.xyz/files/exfathax.img">exfathax.img</a> в качестве “<strong>Image File</strong>”</li>
+  <li>Скачайте <a href="https://ps4.customfw.xyz/files/exfathax_pico.img">exfathax_pico.img</a> на ваш ПК</li>
+  <li>Выберите <a href="https://ps4.customfw.xyz/files/exfathax_pico.img">exfathax_pico.img</a> в качестве “<strong>Image File</strong>”</li>
   <li>Выберите букву вашего накопителя в качестве “<strong>Device</strong>”</li>
   <li>Нажмите “<strong>Write</strong>”</li>
   <li>Нажмите “<strong>Yes</strong>” чтобы продолжить при появлении запроса</li>
@@ -510,6 +512,26 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 </ol>
 
 <p class="notice--danger">Не забудьте вытащить флешку после активации эксплойта!</p>
+
+<h4 id="дополнительная-настройка-подготовленной-флешки-опционально">Дополнительная настройка подготовленной флешки (опционально)</h4>
+
+<p class="notice--warning"><strong>Дополнительные настройки делаются единожды</strong></p>
+
+<p class="notice--info">Без дополнительной настройки, после успешного запуска эксплойта флешку <strong>нужно обзательно</strong> вытащить из приставки, иначе приставка перезагрузится. Вы не сможете использовать эту флешку для хранения данных и одновременно для запуска эксплойта! Чтобы подготовить флешку для хранения данных, отформатируйте её, однако тогда её нельзя будет использовать для взлома. Чтобы обойти все эти недостатки, действуйте по этой инструкции.</p>
+
+<p class="notice--warning">После дополнительной настройки флешку не обязательно вынимать после запуска эксплойта и можно постоянно держать в консоли. Так же её можно использовать как обычный USB-носитель, в том числе для установки с него игр и просмотра медиа. Если для установки игр вы используете HDD, можно использовать его.</p>
+
+<ol>
+  <li>Вставьте флешку в ПК, если вам предложат отформатировать флешку, откажитесь</li>
+  <li>Нажмите правой кнопкой мыши на <strong>Пуск</strong> -&gt; <strong>Управление дисками</strong> (disk management), найдите вашу флешку, диск будет отображаться как неразмеченный, нажмите правой кнопкой мыши на него -&gt; <strong>Удалить</strong> (если удалить нет, то создайте новый)</li>
+  <li>Отформатируйте созданный раздел в exFAT или FAT32 обычными средствами</li>
+  <li>Переместите папку <code class="language-plaintext highlighter-rouge">System Volume Information</code> из архива <a href="/files/Magic_USB.rar" target="_blank">Magic USB</a> в корень флешки с заменой</li>
+  <li>Запустите взлом по инструкции выше</li>
+  <li>С помощью <a href="ftp" target="_blank">FTP</a>, перейдите на <code class="language-plaintext highlighter-rouge">usb0</code>, и удалите папку <code class="language-plaintext highlighter-rouge">System Volume Information</code></li>
+  <li>Подключите диск к ПК и отформатируйте его в exFAT или FAT32 обычными средствами</li>
+</ol>
+
+<p class="notice--danger">Всегда вытаскивайте флешку из консоли после активации эксплойта, если не делали дополнительных настроек!</p>
 
 <p class="notice--info">При возникновении ошибок при взломе, попробуйте сделать полной низкоуровневое форматирование вашего USB-носителя с помощью <a href="https://hddguru.com/software/HDD-LLF-Low-Level-Format-Tool/HDDLLF.4.40.exe" target="_blank">HDDLLF</a></p>
 
