@@ -521,13 +521,15 @@ integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4
 
 <p class="notice--warning">После дополнительной настройки флешку не обязательно вынимать после запуска эксплойта и можно постоянно держать в консоли. Так же её можно использовать как обычный USB-носитель, в том числе для установки с него игр и просмотра медиа. Если для установки игр вы используете HDD, можно использовать его.</p>
 
+<p class="notice--warning">Перед запуском эксплойта нужно всё равно вытащить флешку и вставить по запросу</p>
+
 <ol>
   <li>Вставьте USB-носитель в ПК, если вам предложат отформатировать USB-носитель, откажитесь</li>
   <li>Нажмите правой кнопкой мыши на <strong>Пуск</strong> -&gt; <strong>Управление дисками</strong> (disk management), найдите ваш USB-носитель, он будет отображаться как неразмеченный, нажмите правой кнопкой мыши на него -&gt; <strong>Удалить</strong> (если удалить нет, то создайте новый)</li>
   <li>Отформатируйте созданный раздел в exFAT или FAT32 обычными средствами</li>
   <li>Переместите папку <code class="language-plaintext highlighter-rouge">System Volume Information</code> из архива <a href="/files/Magic_USB.rar" target="_blank">Magic USB</a> в корень USB-носителя с заменой</li>
   <li>Запустите взлом по инструкции выше</li>
-  <li>С помощью <a href="ftp" target="_blank">FTP</a>, перейдите на <code class="language-plaintext highlighter-rouge">usb0</code>, и удалите папку <code class="language-plaintext highlighter-rouge">System Volume Information</code></li>
+  <li>С помощью <a href="ftp" target="_blank">FTP</a>, перейдите на <code class="language-plaintext highlighter-rouge">mnt/usb0</code>, и удалите папку <code class="language-plaintext highlighter-rouge">System Volume Information</code></li>
   <li>Подключите USB-носитель к ПК и отформатируйте его в exFAT или FAT32 обычными средствами</li>
 </ol>
 
