@@ -4,6 +4,10 @@ permalink: /remote-play.html
 author_profile: true
 ---
 
+<script>
+location.href = 'https://www.youtube.com/watch?v=LX1pe3girek';
+</script>
+<!-- 
 Если приставка никогда не входила в PSN, то Remote Play невозможен, однако теперь есть способ активации его без подключения к сети и активации приставки
 {: .notice--info}
 
@@ -53,4 +57,4 @@ author_profile: true
 {: .notice--warning}
 
 Приставка соединяется по Remote Play напрямую с клиентом и не использует при этом интернет!
-{: .notice--info}
+{: .notice--info} -->
