@@ -47,7 +47,6 @@ h2, h3 {
 .page__footer-container{
   border-top: 1px solid #bdc1c4;
   background-color: #f2f3f3;
-  z-index: -2;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -57,7 +56,6 @@ h2, h3 {
 }
 
 .page__footer {
-  z-index: -1;
   max-width: 1280px;
   border: 0;
   padding: 2em 4em;
