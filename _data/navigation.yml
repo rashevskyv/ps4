@@ -4,60 +4,60 @@ main:
     url: http://customfw.xyz
   - title: "FAQ"
     url: /faq
-  - title: "Проблемы и<br>их решения"
+  - title: "Проблеми та<br>їх вирішення"
     url: /troubleshootings
-  - title: "Важно<br>знать"
+  - title: "Важливо<br>знати"
     url: /info
-  - title: "Установка<br>игр"
+  - title: "Встановлення<br>ігор"
     url: /games
-  - title: "Запуск эксплойта<br>через DNS"
+  - title: "Запуск експлойту<br>через DNS"
     url: /start-hen
-  - title: Обновление<br>прошивки
+  - title: Оновлення<br>прошивки
     url: /usb-update-672
-  - title: "Запуск эксплойта<br>через браузер"
+  - title: "Запуск експлойту<br>через браузер"
     url: /start-hen-browser
-  - title: "Запуск<br>эксплойта с ПК"
+  - title: "Запуск<br>експлойту з ПК"
     url: /payloads
-  - title: "Дампинг<br>игр"
+  - title: "Дампінг<br>ігор"
     url: /game-dumps
-  - title: "Полезные<br>инструкции"
+  - title: "Корисні<br>інструкції"
     url: /addons
-  - title: "Описание<br>пейлоадов"
+  - title: "Опис<br>пейлоадів"
     url: /dns-payloads
-  - title: "Удаление<br>HEN"
+  - title: "Видалення<br>HEN"
     url: /uninstall-hen
-  - title: "Навигация<br>по сайту"
+  - title: "Навігація<br>по сайту"
     url: /site-navigation
-  - title: "Пожертвования"
+  - title: "Пожертвування"
     url: http://customfw.xyz/donations
-  - title: "Связаться с нами"
+  - title: "Зв'язатися з нами"
     url: http://customfw.xyz/contacts
                 
 bottom:
-  - title: <div class="notice--danger"><h2>НЕ ИДИТЕ ВОЕВАТЬ В УКРАИНУ! ВЫ ТАМ УМРЁТЕ!</h2><ul><li><a href="https://www.youtube.com/watch?v=X39ZkynPjpQ" target="_blank">Как избежать мобилизации</a></li><li><a href="https://t.me/hochu_zhyt/4" target="_blank">Как сдаться в плен</a></li><li><a href="https://www.youtube.com/watch?v=teB8NVagI7c" target="_blank">Условия проживания пленных в Украине</a> и <a href="https://www.youtube.com/c/VolodymyrZolkin/videos" target="_blank">интервью с ними</a></li></ul></div>
-  - title: <div class="notice">Если вам помогло или просто понравилось это руководство, то мы принимаем <a href="http://customfw.xyz/donations" target="_blank">пожертвования</a>.</div>
-  - title: <div class="notice">По вопросам, касающимся взлома и руководства, обращайтесь <a href="http://customfw.xyz/contacts" target="_blank">сюда</a>.</div>
+  - title: <div class="notice--danger"><h2>НЕ ЙДІТЬ ВОЮВАТИ В УКРАЇНУ! ВИ ТАМ ПОМРЕТЕ!</h2><ul><li><a href="https://www.youtube.com/watch?v=X39ZkynPjpQ" target="_blank">Як уникнути мобілізації</a></li><li><a href="https://t.me/hochu_zhyt/4" target="_blank">Як здатися в полон</a></li><li><a href="https://www.youtube.com/watch?v=teB8NVagI7c" target="_blank">Умови проживання полонених в Україні</a> та <a href="https://www.youtube.com/c/VolodymyrZolkin/videos" target="_blank">інтерв'ю з ними</a></li></ul></div>
+  - title: <div class="notice">Якщо вам допомогло або просто сподобалося це керівництво, то ми приймаємо <a href="http://customfw.xyz/donations" target="_blank">пожертвування</a>.</div>
+  - title: <div class="notice">З питань, що стосуються злому та керівництва, звертайтеся <a href="http://customfw.xyz/contacts" target="_blank">сюди</a>.</div>
   
 addons:
   - title: "FAQ"
     url: /faq
-  - title: "Установка игр"
+  - title: "Встановлення ігор"
     url: /games
-  - title: "Описание пейлоадов"
+  - title: "Опис пейлоадів"
     url: /dns-payloads
-  - title: Резервное копирование и восстановление данных
+  - title: Резервне копіювання та відновлення даних
     url: /backup
-  - title: "Дампинг собственных игр"
+  - title: "Дампінг власних ігор"
     url: /game-dumps
-  - title: Обновление прошивки
+  - title: Оновлення прошивки
     url: /usb-update
-  - title: Запуск эксплойта
+  - title: Запуск експлойту
     url: /start-hen
-  - title: Запуск своих пейлоадов
+  - title: Запуск своїх пейлоадів
     url: /payloads
-  - title: Запуск эксплойта через браузер
+  - title: Запуск експлойту через браузер
     url: /start-hen-browser
-  - title: Настройка FTP-соединения 
+  - title: Налаштування FTP-з'єднання 
     url: /ftp
-  - title: Использование Remote Play без активации системы и входа в PSN
+  - title: Використання Remote Play без активації системи та входу в PSN
     url: /remote-play

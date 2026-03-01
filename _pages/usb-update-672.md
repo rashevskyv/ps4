@@ -1,9 +1,9 @@
 ---
 permalink: /usb-update-672.html
-title: Обновление прошивки до 6.72
+title: Оновлення прошивки до 6.72
 author_profile: true
 ---
-{% include toc title="Разделы" %}
+{% include toc title="Розділи" %}
 
 <script>
 location.href = 'https://ps4.customfw.xyz/usb-update-900';
@@ -23,5 +23,5 @@ location.href = 'https://ps4.customfw.xyz/usb-update-900';
 
 ___
 
-## Следующий шаг: [Запуск взлома](start-hen) 
+## Наступний крок: [Запуск зламу](start-hen) 
 {: .notice--success}
