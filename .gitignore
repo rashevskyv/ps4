@@ -13,4 +13,9 @@ example/_site
 Gemfile.lock
 node_modules
 npm-debug.log*
-.sass-cache 
+witch.code-workspace
+/.jekyll-cache
+/_site
+/.vscode
+/*.code-workspace
+/witch.code-workspace

@@ -59,5 +59,7 @@ addons:
     url: /start-hen-browser
   - title: Налаштування FTP-з'єднання 
     url: /ftp
+  - title: Apollo Save Tool — менеджер збережень
+    url: /apollo
   - title: Використання Remote Play без активації системи та входу в PSN
     url: /remote-play

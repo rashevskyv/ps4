@@ -1,0 +1,8 @@
+<span class="tooltip_container">
+	[kefir](https://github.com/rashevskyv/kefir/releases/latest){:target="_blank"}
+	<span class="tooltip">▼
+		<span class="bottom">
+			Збірник, що складається з обраного кастому, необхідних програм та скриптів, які все це встановлять правильним чином. Склад кефіру та інструкцію зі встановлення можна подивитися в його репозиторії
+		</span>
+	</span>
+</span>

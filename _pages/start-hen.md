@@ -42,7 +42,7 @@ author_profile: true
 	* Може зайняти кілька хвилин
 	* Ви можете закешувати не весь плейграунд, а саме конкретний пейлоад, для цього виберіть **Cache** саме з меню в правій частині кнопки цього пейлоада 
 	
-		![]({{ base_path }}/images/screenshots/cache.png) 
+		![]({{ base_path }}/assets/images/screenshots/cache.png) 
 		{: .text-center}
 		{: .notice--info}
 

@@ -22,7 +22,7 @@
 1. В поле "**Основной DNS**" введите адрес, который отображается в программе
 1. В поле "**Дополнительный DNS**" введите `165.227.83.145`
 
-	![]({{ "/images/screenshots/dns.png" | absolute_url }}){:target="_blank"}
+	![]({{ "/assets/images/screenshots/dns.png" | absolute_url }}){:target="_blank"}
 	{: .text-center}
 	{: .notice--info}
 

@@ -22,6 +22,7 @@ author_profile: true
 * [Активація Remote Play](remote-play){:target="_blank"}
 * [Застосування ігрових патчів на ліцензійні копії ігор](game-patches){:target="_blank"}
 * [Резервне копіювання та відновлення даних](backup){:target="_blank"}
+* [Apollo Save Tool — менеджер збережень](apollo){:target="_blank"}
 * [Створення дампів власних ігор](game-dumps){:target="_blank"}
 * [Встановлення ігор](games){:target="_blank"}
 
