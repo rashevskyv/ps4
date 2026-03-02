@@ -1,9 +1,33 @@
 /*
  * Smooth Spoiler Animation
  * Handles smooth expansion and collapse of <details> elements with class "spoiler"
+ * Also stamps .toc-spoiler-inner class onto TOC links that correspond to
+ * headings inside spoilers (identified by the same class on the heading element).
  */
 
 document.addEventListener('DOMContentLoaded', function () {
+
+    // -----------------------------------------------------------------------
+    // Stamp .toc-spoiler-inner onto matching TOC <a> links
+    // The plugin (spoiler.rb) already adds class="toc-spoiler-inner" to <h*>
+    // elements inside spoilers. Here we find those headings, grab their IDs,
+    // and add the same class to the corresponding <a href="#id"> in the TOC.
+    // -----------------------------------------------------------------------
+    (function stampTocClasses() {
+        const innerHeadings = document.querySelectorAll('.toc-spoiler-inner[id]');
+        innerHeadings.forEach(function (heading) {
+            const id = heading.id;
+            if (!id) return;
+            const tocLink = document.querySelector('#markdown-toc a[href="#' + CSS.escape(id) + '"]');
+            if (tocLink) {
+                tocLink.classList.add('toc-spoiler-inner');
+            }
+        });
+    })();
+
+    // -----------------------------------------------------------------------
+    // Spoiler open / close animation
+    // -----------------------------------------------------------------------
     const spoilers = document.querySelectorAll('details.spoiler');
 
     spoilers.forEach(function (spoiler) {
@@ -11,14 +35,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const content = spoiler.querySelector('.spoiler-content');
         // Find the footer that is a direct child of this spoiler
         const footer = Array.from(spoiler.children).find(child => child.classList.contains('spoiler-close-footer'));
-
-        // Helper to calculate full height including content and footer
-        function getFullHeight() {
-            let height = summary.offsetHeight;
-            if (content) height += content.offsetHeight;
-            if (footer) height += footer.offsetHeight;
-            return height;
-        }
 
         // Click handler for summary
         summary.addEventListener('click', function (e) {
@@ -114,7 +130,9 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // --- Logic for opening spoilers via hash links ---
+    // -----------------------------------------------------------------------
+    // Deep-link: open spoiler when navigating to a hash inside it
+    // -----------------------------------------------------------------------
     function checkHashAndOpen(explicitHash) {
         const hash = explicitHash || window.location.hash;
         if (!hash) return;
@@ -151,4 +169,5 @@ document.addEventListener('DOMContentLoaded', function () {
             checkHashAndOpen(link.hash);
         }
     });
+
 });
