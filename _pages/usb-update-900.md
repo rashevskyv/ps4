@@ -1,9 +1,9 @@
 ---
 permalink: /usb-update-900.html
-title: Оновлення прошивки до 9.00
+title: Обновление прошивки до 9.00
 author_profile: true
 ---
-{% include toc title="Розділи" %}
+{% include toc title="Разделы" %}
 
 {% include inc/update.md 
 
@@ -19,5 +19,5 @@ author_profile: true
 
 ___
 
-## Наступний крок: [Запуск зламу](start-hen) 
+## Следующий шаг: [Запуск взлома](start-hen) 
 {: .notice--success}
