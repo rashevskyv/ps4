@@ -26,8 +26,7 @@ author_profile: true
 {% endspoiler %}
 
 {% spoiler Як видалити патч або DLC, залишивши саму гру? %}
-Запускаєте злам, переходьте до налаштувань, там **Debug Settings** -> **Game** -> **Add Content Manager** -> **Entitlement Control**
-Будьте обережні, не видаліть зайвого!
+В налаштуваннях **GoldHEN** > **Debug Settings** > **Enable Debug Settings Game**, поставте галочку, після цього при натисканні на грі кнопки **Option** з'являться пункти меню з видаленням патча, DLC, гри
 {% endspoiler %}
 
 {% spoiler Як зайти в PSN? %}
@@ -43,7 +42,7 @@ author_profile: true
 {% endspoiler %}
 
 {% spoiler Чи можна використовувати Remote Play? %}
-[Так](remote-play){:target="_blank"} 
+[Так](chiaki){:target="_blank"} 
 {% endspoiler %}
 
 {% spoiler Як запустити гру від PS2 на PS4? %}
@@ -67,7 +66,7 @@ author_profile: true
 {% endspoiler %}
 
 {% spoiler Чи потрібно перекачувати куплені ліцензійні ігри? %}
-Не обов'язково. Використовуйте пейлоадер [**reactPSPlus**](https://github.com/Zer0xFF/reactPSPLUS/releases/latest){:target="_blank"} для активації цих ігор
+Не обов'язково. Використовуйте [пейлоад](payloads){:target="_blank"} [**reactPSPlus**](https://github.com/Zer0xFF/reactPSPLUS/releases/latest){:target="_blank"} для активації цих ігор
 {% endspoiler %}
 
 {% spoiler Де брати патчі на ігри? %}
@@ -109,3 +108,8 @@ author_profile: true
 {% spoiler У мене немає можливості надати активне інтернет-з'єднання для консолі. Що мені робити? %}
 Активуйте взлома за допомогою [vue](start-hen-vue){:target="_blank"}, там інтернет не потрібен
 {% endspoiler %}
+
+___
+
+[Закрити сторінку](javascript:window.close();)
+{: .notice--success}

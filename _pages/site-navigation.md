@@ -19,7 +19,7 @@ author_profile: true
 
 ### Ігри 
 
-* [Активація Remote Play](remote-play){:target="_blank"}
+* [Активація Remote Play (Chiaki)](chiaki){:target="_blank"}
 * [Застосування ігрових патчів на ліцензійні копії ігор](game-patches){:target="_blank"}
 * [Резервне копіювання та відновлення даних](backup){:target="_blank"}
 * [Apollo Save Tool — менеджер збережень](apollo){:target="_blank"}
@@ -33,3 +33,4 @@ author_profile: true
 * [Пожертви](http://customfw.xyz/donations){:target="_blank"}
 * [Корисні інструкції](addons){:target="_blank"}
 * [Поширені запитання](faq){:target="_blank"}
+* [Глосарій](glossary){:target="_blank"}

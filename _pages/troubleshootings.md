@@ -8,20 +8,16 @@ author_profile: true
 [Оновіть прошивку](usb-update){:target="_blank"} до актуальної версії
 {% endspoiler %}
 
-{% spoiler Не виходить перекинути гру через Package Installer %}
-Перезавантажте приставку та активуйте експлойт Mira (Unofficial)
-{% endspoiler %}
-
-{% spoiler При запуску ігор, встановлених ще на 5.05, виникає помилка CE-34878-0 %}
-Перезавантажте приставку та активуйте експлойт Mira (Unofficial)
-{% endspoiler %}
-
 {% spoiler Як боротися з помилкою "Користувач User1 буде виведений із системи PS4 через помилку (NP 36006-5)"? %}
 Зайдіть у трофеї, вийдіть і спробуйте залогінитися знову
 {% endspoiler %}
 
 {% spoiler Після відновлення бази даних у мене зникли всі ігри, хоча місце вони займають %}
-[Скористайтеся цією інструкцією](https://4pda.to/forum/index.php?s=&showtopic=885825&view=findpost&p=76994684){:target="_blank"} для відновлення 
+Скористайтеся утилітою Apollo Save Tool:
+1. Завантажте та встановіть [Apollo Save Tool](https://github.com/bucanero/apollo-ps4/releases){:target="_blank"}
+2. Оберіть **User tools** -> **Database management**
+3. Виберіть пункт **Rebuild database (Restore missing items)**
+4. Після повідомлення про завершення перезавантажте приставку або перезайдіть у систему
 {% endspoiler %}
 
 {% spoiler При встановленні PKG з грою виникає помилка %}
@@ -35,3 +31,4 @@ author_profile: true
 {% spoiler Приставка завантажила оновлення і просить оновитися. Як видалити? %}
 [Підключіться за FTP](ftp){:target="_blank"} до приставки і видаліть файл `PS4UPDATE.PUP` з папки `/update` у корені вашої приставки. Або встановіть цю ж версію прошивки через рекавері. Після цього можете [заблокувати оновлення](start-hen#%D1%87%D0%B0%D1%81%D1%82%D1%8C-ii---%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F){:target="_blank"} надійнішим способом.
 {% endspoiler %}
+

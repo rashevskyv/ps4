@@ -4,6 +4,8 @@ main:
     url: http://customfw.xyz
   - title: "FAQ"
     url: /faq
+  - title: "Глосарій"
+    url: /glossary
   - title: "Проблеми та<br>їх вирішення"
     url: /troubleshootings
   - title: "Важливо<br>знати"
@@ -41,8 +43,6 @@ addons:
     url: /faq
   - title: "Встановлення ігор"
     url: /games
-  - title: "Опис пейлоадів"
-    url: /dns-payloads
   - title: Резервне копіювання та відновлення даних
     url: /backup
   - title: "Дампінг власних ігор"
@@ -53,11 +53,9 @@ addons:
     url: /start-hen
   - title: Запуск своїх пейлоадів
     url: /payloads
-  - title: Запуск експлойту через браузер
-    url: /start-hen-browser
   - title: Налаштування FTP-з'єднання 
     url: /ftp
   - title: Apollo Save Tool — менеджер збережень
     url: /apollo
   - title: Використання Remote Play без активації системи та входу в PSN
-    url: /remote-play
+    url: /chiaki

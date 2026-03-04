@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /* ==========================================================================
    MIXINS
    ========================================================================== */
@@ -15,7 +17,7 @@
    ========================================================================== */
 
 @function em($target, $context: $doc-font-size) {
-  @return ($target / $context) * 1em;
+  @return math.div($target, $context) * 1em;
 }
 
 
@@ -57,36 +59,32 @@
    https://github.com/easy-designs/yiq-color-contrast
    ========================================================================== */
 
-@function yiq-is-light(
-  $color,
-  $threshold: $yiq-contrasted-threshold
-) {
+@function yiq-is-light($color,
+  $threshold: $yiq-contrasted-threshold) {
   $red: red($color);
   $green: green($color);
   $blue: blue($color);
 
-  $yiq: (($red*299)+($green*587)+($blue*114))/1000;
+  $yiq: math.div((($red * 299) + ($green * 587) + ($blue * 114)), 1000);
 
-  @if $yiq-debug { @debug $yiq, $threshold; }
+  @if $yiq-debug {
+    @debug $yiq, $threshold;
+  }
 
-  @return if($yiq >= $threshold, true, false);
+  @return if($yiq >=$threshold, true, false);
 }
 
-@function yiq-contrast-color(
-  $color,
+@function yiq-contrast-color($color,
   $dark: $yiq-contrasted-dark-default,
   $light: $yiq-contrasted-light-default,
-  $threshold: $yiq-contrasted-threshold
-) {
+  $threshold: $yiq-contrasted-threshold) {
   @return if(yiq-is-light($color, $threshold), $yiq-contrasted-dark-default, $yiq-contrasted-light-default);
 }
 
-@mixin yiq-contrasted(
-  $background-color,
+@mixin yiq-contrasted($background-color,
   $dark: $yiq-contrasted-dark-default,
   $light: $yiq-contrasted-light-default,
-  $threshold: $yiq-contrasted-threshold
-) {
+  $threshold: $yiq-contrasted-threshold) {
   background-color: $background-color;
   color: yiq-contrast-color($background-color, $dark, $light, $threshold);
 }

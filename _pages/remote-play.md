@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 <script>
-location.href = 'https://www.youtube.com/watch?v=LX1pe3girek';
+location.href = '/chiaki.html';
 </script>
 <!-- 
 Якщо приставка ніколи не входила в PSN, то Remote Play неможливий, проте тепер є спосіб активації його без підключення до мережі та активації приставки

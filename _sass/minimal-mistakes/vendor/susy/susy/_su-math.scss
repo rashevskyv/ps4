@@ -1,3 +1,5 @@
+@use "sass:math";
+
 /// Grid Math Engine
 /// ================
 /// The `su` functions give you direct access to the math layer,
@@ -59,20 +61,18 @@
 ///
 /// @return {length} -
 ///   Relative or static length of a span on the grid
-@function su-span(
-  $span,
+@function su-span($span,
   $columns,
   $gutters,
   $spread,
   $container-spread: $spread,
-  $location: 1
-) {
+  $location: 1) {
   $span: su-valid-span($span);
   $columns: su-valid-columns($columns);
   $gutters: su-valid-gutters($gutters);
   $spread: su-valid-spread($spread);
 
-  @if (type-of($span) == 'number') {
+  @if (type-of($span)=='number') {
     @if (not unitless($span)) {
       @return $span;
     }
@@ -90,7 +90,7 @@
   @if unitless($span-width) {
     $container-spread: su-valid-spread($container-spread);
     $container: _su-sum($columns, $gutters, $container-spread, $validate: false);
-    @return percentage($span-width / $container);
+    @return percentage(math.div($span-width, $container));
   }
 
   @return $span-width;
@@ -125,13 +125,11 @@
 ///
 /// @return {length} -
 ///   Relative or static length of one gutter in a grid
-@function su-gutter(
-  $columns,
+@function su-gutter($columns,
   $gutters,
-  $container-spread
-) {
-  @if (type-of($gutters) == 'number') {
-    @if ($gutters == 0) or (not unitless($gutters)) {
+  $container-spread) {
+  @if (type-of($gutters)=='number') {
+    @if ($gutters ==0) or (not unitless($gutters)) {
       @return $gutters;
     }
   }
@@ -141,7 +139,7 @@
   }
 
   $container: _su-sum($columns, $gutters, $container-spread);
-  @return percentage($gutters / $container);
+  @return percentage(math.div($gutters, $container));
 }
 
 
@@ -167,31 +165,30 @@
 ///
 /// @return {list} -
 ///   Subset list of grid columns, based on span and location
-@function su-slice(
-  $span,
+@function su-slice($span,
   $columns,
   $location: 1,
-  $validate: true
-) {
+  $validate: true) {
   @if $validate {
     $columns: su-valid-columns($columns);
     $location: su-valid-location($span, $location, $columns);
   }
 
   $floor: floor($span);
-  $sub-columns: ();
+  $sub-columns: (
+  );
 
-  @for $i from $location to ($location + $floor) {
-    $sub-columns: append($sub-columns, nth($columns, $i));
-  }
+@for $i from $location to ($location + $floor) {
+  $sub-columns: append($sub-columns, nth($columns, $i));
+}
 
-  @if $floor != $span {
-    $remainder: $span - $floor;
-    $column: $location + $floor;
-    $sub-columns: append($sub-columns, nth($columns, $column) * $remainder);
-  }
+@if $floor !=$span {
+  $remainder: $span - $floor;
+  $column: $location + $floor;
+  $sub-columns: append($sub-columns, nth($columns, $column) * $remainder);
+}
 
-  @return $sub-columns;
+@return $sub-columns;
 }
 
 
@@ -215,12 +212,10 @@
 ///
 /// @return {number} -
 ///   Total sum of column-units in a grid
-@function _su-sum(
-  $columns,
+@function _su-sum($columns,
   $gutters,
   $spread,
-  $validate: true
-) {
+  $validate: true) {
   @if $validate {
     $columns: su-valid-span($columns);
     $gutters: su-valid-gutters($gutters);
@@ -229,14 +224,17 @@
 
   // Calculate column-sum
   $column-sum: 0;
+
   @each $column in $columns {
     $column-sum: $column-sum + $column;
   }
 
-  $gutter-sum: (ceil(length($columns)) + $spread) * $gutters;
-  $total: if(($gutter-sum > 0), $column-sum + $gutter-sum, $column-sum);
+  $gutter-sum: (
+    ceil(length($columns)) + $spread) * $gutters;
+  $total: if(($gutter-sum > 0), $column-sum + $gutter-sum, $column-sum
+  );
 
-  @return $total;
+@return $total;
 }
 
 
@@ -266,14 +264,12 @@
 ///
 /// @return {length} -
 ///   Relative or static length of a span on the grid
-@function _su-calc-span(
-  $span,
+@function _su-calc-span($span,
   $columns,
   $gutters,
   $spread,
   $container-spread: $spread,
-  $validate: true
-) {
+  $validate: true) {
   @if $validate {
     $span: su-valid-span($span);
     $columns: su-valid-columns($columns);
@@ -298,14 +294,16 @@
   // Fluid-values
   @if (not $fluid-span) {
     $fluid-calc: null;
-  } @else if ($fluid-span != $fluid-context) {
+  }
+
+  @else if ($fluid-span !=$fluid-context) {
     $fluid-span: '* #{$fluid-span}';
     $fluid-context: if($fluid-context, '/ #{$fluid-context}', '');
     $fluid-calc: '(#{$fluid-calc $fluid-context $fluid-span})';
   }
 
   @if $fluid-calc {
-    $calc: if(($calc != ''), '#{$calc} + ', '');
+    $calc: if(($calc !=''), '#{$calc} + ', '');
     $calc: '#{$calc + $fluid-calc}';
   }
 
@@ -335,12 +333,10 @@
 /// @return {map} -
 ///   Map with `fixed` and `fluid` keys
 ///   containing the proper math as strings
-@function _su-calc-sum(
-  $columns,
+@function _su-calc-sum($columns,
   $gutters,
   $spread,
-  $validate: true
-) {
+  $validate: true) {
   @if $validate {
     $columns: su-valid-span($columns);
     $gutters: su-valid-gutters($gutters);
@@ -348,44 +344,47 @@
   }
 
   $fluid: 0;
-  $fixed: ();
-  $calc: null;
-
-  // Gutters
-  $gutters:  $gutters * (length($columns) + $spread);
-
-  // Columns
-  @each $col in append($columns, $gutters) {
-    @if unitless($col) {
-      $fluid: $fluid + $col;
-    } @else {
-      $fixed: _su-map-add-units($fixed, $col);
-    }
-  }
-
-  // Compile Fixed Units
-  @each $unit, $total in $fixed {
-    @if ($total != (0 * $total)) {
-      $calc: if($calc, '#{$calc} + #{$total}', '#{$total}');
-    }
-  }
-
-  // Calc null or string
-  @if $calc {
-    $calc: if(str-index($calc, '+'), '(#{$calc})', '#{$calc}');
-  }
-
-  // Fluid 0 => null
-  $fluid: if(($fluid == 0), null, $fluid);
-
-
-  // Return map
-  $return: (
-    'fixed': $calc,
-    'fluid': $fluid,
+  $fixed: (
   );
+$calc: null;
 
-  @return $return;
+// Gutters
+$gutters: $gutters * (length($columns) + $spread);
+
+// Columns
+@each $col in append($columns, $gutters) {
+  @if unitless($col) {
+    $fluid: $fluid + $col;
+  }
+
+  @else {
+    $fixed: _su-map-add-units($fixed, $col);
+  }
+}
+
+// Compile Fixed Units
+@each $unit, $total in $fixed {
+  @if ($total !=(0 * $total)) {
+    $calc: if($calc, '#{$calc} + #{$total}', '#{$total}');
+  }
+}
+
+// Calc null or string
+@if $calc {
+  $calc: if(str-index($calc, '+'), '(#{$calc})', '#{$calc}');
+}
+
+// Fluid 0 => null
+$fluid: if(($fluid ==0), null, $fluid);
+
+
+// Return map
+$return: (
+  'fixed': $calc,
+  'fluid': $fluid,
+);
+
+@return $return;
 }
 
 
@@ -412,26 +411,26 @@
 ///
 /// @return {bool} -
 ///   `True` when units do not match, and `calc()` will be required
-@function _su-needs-calc-output(
-  $span,
+@function _su-needs-calc-output($span,
   $columns,
   $gutters,
   $spread,
-  $validate: true
-) {
+  $validate: true) {
   @if $validate {
     $span: su-valid-span($span);
     $columns: su-valid-columns($columns);
     $gutters: su-valid-gutters($gutters);
   }
 
-  $has-gutter: if((length($span) > 1) or ($spread >= 0), true, false);
+  $has-gutter: if((length($span) > 1) or ($spread >=0), true, false);
   $check: if($has-gutter, append($span, $gutters), $span);
   $safe-span: _su-is-comparable($check...);
 
-  @if ($safe-span == 'static') {
+  @if ($safe-span =='static') {
     @return false;
-  } @else if (not $safe-span) {
+  }
+
+  @else if (not $safe-span) {
     @return true;
   }
 
