@@ -3,7 +3,6 @@ permalink: /get-started.html
 title: Почнемо
 author_profile: true
 ---
-{% include toc title="Розділи" %}
 
 Виберіть у таблиці версію прошивки, що відповідає вашій. 
 
