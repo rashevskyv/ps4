@@ -10,14 +10,13 @@ author_profile: true
 Дампи, зроблені для старих прошивок, будуть працювати і на нових
 {: .notice--warning} 
 
-* [Таблиця з magnet-посиланнями](http://pkg.customfw.xyz){:target="_blank"} (старі дампи, для прошивок 4.55 та 5.05. Таблиця давно не оновлювалася)
 * [tapochek.net](https://tapochek.net/viewforum.php?f=910){:target="_blank"} (реєстрація за [інвайтами](https://plati.ru/search/%D1%82%D0%B0%D0%BF%D0%BE%D1%87%D0%B5%D0%BA){:target="_blank"})
 * [рутрекер](https://rutracker.org/forum/viewforum.php?f=973){:target="_blank"}
 * [https://torrent-games.eu](https://torrent-games.eu/news/igry_playstation_4/){:target="_blank"}
-* [Група з іграми у ВК](https://vk.com/invite/uAeSJe4){:target="_blank"}
 * [DarkSoftware Forum](https://darksoftware.net/forums/ps4-fake-pkg-games-updates.4/){:target="_blank"} — потрібна реєстрація
 * [Група з іграми у telegram](https://t.me/PSMaksydenko){:target="_blank"}
 * [dlpsgame.org](https://downloadgameps3.com/category/ps4/){:target="_blank"}
+* [love-games1.net](https://love-games1.net/){:target="_blank"}
 * Ви можете самостійно [зробити дамп вашої купленої ігри](game-dumps)
 		
 ## Частина I — Запуск експлойта
@@ -41,7 +40,6 @@ author_profile: true
 1. Скиньте в **корінь** накопичувача гру або ігри у форматі PKG і підключіть його до консолі в будь-який USB-порт
 1. Запустіть **Налаштування** консолі
 1. Перейдіть до **GoldHEN** -> "**Package Installer**"
-    * Це меню дублює меню, що знаходиться в "**Debug Settings**" -> "**Game**" -> "**Package Installer**", для швидшого доступу до установника пакетів
 1. Виберіть гру для встановлення. 
 1. Після закінчення встановлення натисніть (PS), щоб повернутися до домашнього екрана
 1. Гра з'явиться на стартовому екрані
@@ -79,7 +77,7 @@ author_profile: true
 
 ##### Що знадобиться
 
-* [Remote Package Installer](https://mega.nz/#!2dN1XajB!Z5fXyFoKOXFI_ujgGoCZfFFy5nyn7OWo6vF6h_HmWhQ){:target="_blank"}
+* [ ](https://mega.nz/#!2dN1XajB!Z5fXyFoKOXFI_ujgGoCZfFFy5nyn7OWo6vF6h_HmWhQ){:target="_blank"}
 * [**PS4 Remote PKG Sender**](https://github.com/iref-use/ps4-remote-pkg-sender/releases/latest){:target="_blank"}
 
 ##### Інструкція

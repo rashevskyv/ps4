@@ -1,14 +1,32 @@
 /* --- Спойлер --- */
+// Клас для самої назви спойлера у боковому меню (TOC)
+#markdown-toc a.toc-spoiler-title {
+	padding-left: 15px !important;
+	display: block;
+}
+
+// Клас для вкладених заголовків всередині спойлера у боковому меню (TOC)
+#markdown-toc a.toc-spoiler-inner {
+	padding-left: 30px !important;
+	font-size: 0.9em;
+	opacity: 0.85;
+	display: block;
+
+	&:hover {
+		opacity: 1;
+	}
+}
+
 .sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
 }
 
 details.spoiler {
@@ -84,7 +102,7 @@ details.spoiler .spoiler-content {
 	flex: 1;
 }
 
-.spoiler-content > p {
+.spoiler-content>p {
 	margin-top: 0.5rem;
 }
 

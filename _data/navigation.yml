@@ -14,8 +14,6 @@ main:
     url: /start-hen
   - title: Оновлення<br>прошивки
     url: /usb-update-672
-  - title: "Запуск експлойту<br>через браузер"
-    url: /start-hen-browser
   - title: "Запуск<br>експлойту з ПК"
     url: /payloads
   - title: "Дампінг<br>ігор"

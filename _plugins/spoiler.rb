@@ -4,8 +4,17 @@ module Jekyll
   class SpoilerTag < Liquid::Block
     def initialize(tag_name, title, tokens)
       super
-      @title = title.strip
-      @title = "Спойлер" if @title.empty?
+      title = title.strip
+
+      # Шукаємо рівень заголовка (символи # на початку)
+      match = title.match(/^(#+)\s*(.*)$/)
+      if match
+        @heading_level = match[1]
+        @title = match[2].empty? ? "Спойлер" : match[2]
+      else
+        @heading_level = "###" # Рівень за замовчуванням
+        @title = title.empty? ? "Спойлер" : title
+      end
     end
 
     def render(context)
@@ -16,10 +25,10 @@ module Jekyll
       # щоб заголовок-якір самого спойлера (.sr-only .toc-extra) НЕ отримав цей клас.
       marked_content = content.gsub(/^([ \t]*#+.*)$/, "\\1\n{: .toc-spoiler-inner}")
 
-      # Заголовок самого спойлера для TOC (без класу вкладеності)
+      # Заголовок самого спойлера для TOC
       toc_header = ""
       if @title != "Спойлер" && @title != "Відео-інструкція" && @title != "Відео"
-        toc_header = "### #{@title}\n{: .sr-only .toc-extra}\n\n"
+        toc_header = "#{@heading_level} #{@title}\n{: .sr-only .toc-extra .toc-spoiler-title}\n\n"
       end
 
       spoiler_id = "spoiler-#{SecureRandom.hex(4)}"

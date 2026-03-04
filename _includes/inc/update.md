@@ -3,8 +3,8 @@
 1. Відформатуйте USB-флешку в **exFAT**
 1. У корені USB-флешки створіть папку `PS4`, а в ній папку `UPDATE`
 1. Завантажте звичайний файл оновлення для простого підняття версії прошивки, або файл оновлення для рекавері, якщо ви хочете змінити жорсткий диск на приставці, або у вас вже завантажилося оновлення на останню версію ПЗ, що не піддається зламу
-	* [Звичайний файл системного оновлення]({{ include.link }}){:target="_blank"} ([дзеркало]({{ include.link_mirror }}){:target="_blank"}) для Playstation 4 версії **{{ include.version }}**
-	* [Версія для рекавері]({{ include.link_recovery }}){:target="_blank"} ([дзеркало]({{ include.link_recovery_mirror }}){:target="_blank"}) для Playstation 4 версії **{{ include.version }}**
+	* [Звичайний файл системного оновлення]{{ include.link }} для Playstation 4 версії **{{ include.version }}**
+	* [Версія для рекавері]{{ include.link_recovery }} для Playstation 4 версії **{{ include.version }}**
 1. Перенесіть файл оновлення в папку `PS4/UPDATE` і перейменуйте його в `PS4UPDATE.PUP`
 
 ## Оновлення прошивки PS4

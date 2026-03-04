@@ -7,7 +7,7 @@ author_profile: true
 
 Виберіть у таблиці версію прошивки, що відповідає вашій. 
 
-Для використання Vue портрібно буде відновлювати бекап системи з встановленим експлойтом. Ця діє призведе до втрати акаунтів та даних. Однак, якщо ви вже маєте приставку з прошивкою 9.60, або нижче, то ми можемо встановити Vue без встрати даних. У випадку, коли дані на приставці не важливі, то метод, через який дані втрачаються, є оптимальним, як простіший та швидший.
+Вважається, що стабільніше за все експлойт працює на прошивках 9.00, 9.60 та 12.02 і саме в такому порядку. За можливістю гайд буде притримуватися цих прошивок. Якщо бути об'єктивним, все це доволі індивідуально і змінюється швидше, ніж я планую доповнювати цей гайд. Джерело інформації - https://consolemods.org/wiki/PS4:Exploit_Chart
 {: .notice--info}
 
 Версію прошивки можна подивитися в меню "**Налаштування**" > "**Система**" > "**Інформація про систему**". 
@@ -42,38 +42,47 @@ author_profile: true
   <colgroup>
     <col span="1" style="width: 10%;">
     <col span="1" style="width: 10%;">
-    <col span="1" style="width: 40%;">
-    <col span="1" style="width: 40%;">
+    <col span="1" style="width: 80%;">
   </colgroup>
   <thead>
     <tr>
       <th style="text-align: center">Від</th>
       <th style="text-align: center">До</th>
-      <th style="text-align: center">Зберігаємо акаунти та дані</th>
-      <th style="text-align: center">Акаунти та дані буде втрачено</th>
+      <th style="text-align: center">Спосіб</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align: center; font-weight: bold;">1.01</td>
+      <td style="text-align: center; font-weight: bold;">8.52</td>
+      <td style="text-align: center; font-weight: bold;"><a href="usb-update-900">Оновлення до 9.00</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;" colspan="2">9.00</td>
+      <td style="text-align: center; font-weight: bold;"><a href="start-hen-browser">Запуск зламу через браузер</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">9.03</td>
       <td style="text-align: center; font-weight: bold;">9.51</td>
-      <td style="text-align: center; font-weight: bold;"><a href="usb-update-900">Оновлення до 9.60</a></td>
-      <td style="text-align: center; font-weight: bold;" rowspan="3"><a href="start-hen-vue">Запуск зламу через Vue</a></td>
+      <td style="text-align: center; font-weight: bold;"><a href="usb-update-960">Оновлення до 9.60</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">9.60</td>
       <td style="text-align: center; font-weight: bold;"><a href="start-hen-browser">Запуск зламу через браузер</a></td>
-      <!-- <td style="text-align: center; font-weight: bold;"><a href="start-hen-vue">Запуск зламу через Vue</a></td> -->
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;">10.00</td>
+      <td style="text-align: center; font-weight: bold;">12.00</td>
+      <td style="text-align: center; font-weight: bold;"><a href="usb-update-1202">Оновлення до 12.02</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center; font-weight: bold;">12.02</td>
       <td style="text-align: center; font-weight: bold;">{% include /vars/sys_version.txt %}</td>
-      <td style="text-align: center; font-weight: bold;" class="table-empty"></td>
-      <!-- <td style="text-align: center; font-weight: bold;"><a href="start-hen-vue">Запуск зламу через Vue</a></td> -->
+      <td style="text-align: center; font-weight: bold;"><a href="start-hen-vue">Запуск зламу через VUE After Free</a></td>
     </tr>
     <tr>
       <td style="text-align: center; font-weight: bold;" colspan="2">Вище за {% include /vars/sys_version.txt %}</td>
-      <td style="text-align: center; font-weight: bold; color: #cc0000;" colspan="2">Запуск експлойта неможливий!</td>
+      <td style="text-align: center; font-weight: bold; color: #cc0000;">Запуск експлойта неможливий!</td>
     </tr>
   </tbody>
 </table>

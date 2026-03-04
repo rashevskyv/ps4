@@ -23,6 +23,16 @@ document.addEventListener('DOMContentLoaded', function () {
                 tocLink.classList.add('toc-spoiler-inner');
             }
         });
+
+        const titleHeadings = document.querySelectorAll('.toc-spoiler-title[id]');
+        titleHeadings.forEach(function (heading) {
+            const id = heading.id;
+            if (!id) return;
+            const tocLink = document.querySelector('#markdown-toc a[href="#' + CSS.escape(id) + '"]');
+            if (tocLink) {
+                tocLink.classList.add('toc-spoiler-title');
+            }
+        });
     })();
 
     // -----------------------------------------------------------------------
