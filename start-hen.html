@@ -121,6 +121,8 @@
           </li><li class="masthead__menu-item">
             <a href="/faq" >FAQ</a>
           </li><li class="masthead__menu-item">
+            <a href="/glossary" >Глосарій</a>
+          </li><li class="masthead__menu-item">
             <a href="/troubleshootings" >Проблеми та<br>їх вирішення</a>
           </li><li class="masthead__menu-item">
             <a href="/info" >Важливо<br>знати</a>
@@ -330,19 +332,63 @@
 <nav class="toc">
     <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Розділи</h4></header>
 <ul class="toc__menu" id="markdown-toc">
+  <li><a href="#dns--" id="markdown-toc-dns--">Встановлення DNS в консоль</a></li>
   <li><a href="#способи-запуску-експлойту" id="markdown-toc-способи-запуску-експлойту">Способи запуску експлойту</a></li>
 </ul>
 
   </nav>
 </aside>
 
-<h3 id="способи-запуску-експлойту">Способи запуску експлойту</h3>
+<p class="notice--warning">Перед початком встановлення переконайтеся, що ви встановили DNS в налаштуваннях мережі</p>
+
+<details class="spoiler" id="spoiler-086791b4">
+  <summary>Встановлення DNS в консоль</summary>
+  <div class="spoiler-content">
+
+    <h2 class="sr-only toc-extra toc-spoiler-title" id="dns--">Встановлення DNS в консоль</h2>
+
+    <ol>
+      <li>Увімкніть PS4</li>
+      <li>Перейдіть до налаштувань, виберіть “<strong>Мережа</strong>”</li>
+      <li>Поставте галочку навпроти “<strong>Підключити до Інтернету</strong>”</li>
+      <li>Перейдіть до “<strong>Встановити з’єднання з Інтернетом</strong>”</li>
+      <li>Виберіть “<strong>Використовувати Wi-Fi</strong>” або “<strong>Використовувати LAN</strong>” залежно від типу вашого підключення — бездротового чи дротового відповідно</li>
+      <li>Виберіть “<strong>Спеціальний</strong>”, виберіть ваше підключення Wi-Fi, якщо вибрано підключення через Wi-Fi</li>
+      <li>У меню “<strong>Налаштування IP-адреси</strong>” виберіть “<strong>Автоматично</strong>”</li>
+      <li>У меню “<strong>Ім’я хоста DHCP</strong>” виберіть “<strong>Не вказувати</strong>”</li>
+      <li>У меню “<strong>Налаштування DNS</strong>” виберіть “<strong>Вручну</strong>”</li>
+      <li>У полі “<strong>Основний DNS</strong>” введіть <code class="language-plaintext highlighter-rouge">62.210.38.117</code></li>
+      <li>У полі “<strong>Додатковий DNS</strong>” залиште <code class="language-plaintext highlighter-rouge">0.0.0.0</code></li>
+      <li>Натисніть “<strong>Далі</strong>”</li>
+      <li>У меню “<strong>Налаштування MTU</strong>” виберіть “<strong>Автоматично</strong>”</li>
+      <li>У меню “<strong>Проксі-сервер</strong>” виберіть “<strong>Не використовувати</strong>”</li>
+      <li>Натисніть “<strong>Перевірити з’єднання з інтернетом</strong>” для завершення налаштування
+        <ul>
+          <li>Якщо приставка пише, що вдалося отримати IP-адресу, але не вдалося підключитися до інтернету — це нормально, це значить що з’єднання з інтернетом є, а ось з серверами соні — ні</li>
+        </ul>
+      </li>
+      <li>Після завершення перевірок натисніть кнопку (PS), щоб повернутися на початковий екран</li>
+    </ol>
+
+  </div>
+  <div class="spoiler-close-footer" role="button" aria-label="Згорнути спойлер" tabindex="0">Встановлення DNS в консоль <span class="close-icon" aria-hidden="true"></span></div>
+</details>
+
+<h2 id="способи-запуску-експлойту">Способи запуску експлойту</h2>
 
 <p>Експлойт можна запускати двома основними методами, залежно від ваших потреб та конфігурації консолі:</p>
 
 <ol>
-  <li><strong><a href="start-hen-browser.html">Через веб-браузер</a></strong>: стандартний спосіб, що передбачає введення адреси хосту безпосередньо в браузері консолі. Підходить для приставок с прошивкою до 9.60 включно.</li>
-  <li><strong><a href="start-hen-vue.html">Через VUE After Free</a></strong>: єдиний доступний метод, якщо версія вашої прошивки вища за 9.60. Запуск відбувається через встановлену програму Vue After Free.</li>
+  <li><strong><a href="start-hen-browser.html">Через веб-браузер</a></strong>: стандартний спосіб, що передбачає введення адреси хосту безпосередньо в браузері консолі. Підходить для приставок с прошивкою до 9.60 включно.
+    <ul>
+      <li>Якщо все зроблено по інструкції, вам достатьно просто відкрити браузер, або перейти в <strong>Налаштування</strong> в пункт “<strong>Посібник користувача/корисна інформація</strong>” -&gt; “<strong>Посібник користувача</strong>” і натиснути на велику круглу кнопку в середині сторінки</li>
+    </ul>
+  </li>
+  <li><strong><a href="start-hen-vue.html">Через VUE After Free</a></strong>: єдиний доступний метод, якщо версія вашої прошивки вища за 9.60. Запуск відбувається через встановлену програму Vue After Free.
+    <ul>
+      <li>Для запуска взлому через Vue просто запустіть додаток Vue та</li>
+    </ul>
+  </li>
 </ol>
 
 <script>

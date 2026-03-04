@@ -121,6 +121,8 @@
           </li><li class="masthead__menu-item">
             <a href="/faq" >FAQ</a>
           </li><li class="masthead__menu-item">
+            <a href="/glossary" >Глосарій</a>
+          </li><li class="masthead__menu-item">
             <a href="/troubleshootings" >Проблеми та<br>їх вирішення</a>
           </li><li class="masthead__menu-item">
             <a href="/info" >Важливо<br>знати</a>
@@ -330,17 +332,19 @@
 <nav class="toc">
     <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Розділи</h4></header>
 <ul class="toc__menu" id="markdown-toc">
-  <li><a href="#повна-інформація-про-методи" id="markdown-toc-повна-інформація-про-методи">Повна інформація про методи</a></li>
+  <li><a href="#повна-інформація-про-методи" id="markdown-toc-повна-інформація-про-методи">Повна інформація про методи</a>    <ul>
+      <li><a href="#section" id="markdown-toc-section">Видео</a></li>
+    </ul>
+  </li>
   <li><a href="#dns--" id="markdown-toc-dns--">Встановлення DNS в консоль</a></li>
   <li><a href="#варіанти-встановлення" id="markdown-toc-варіанти-встановлення">Варіанти встановлення</a>    <ul>
       <li><a href="#приставка-вже-взламана" id="markdown-toc-приставка-вже-взламана">Приставка вже взламана</a>        <ul>
           <li><a href="#vue-initial-files" id="markdown-toc-vue-initial-files">Спрощене встановлення Vue Initial Files</a></li>
-          <li><a href="#download0--ftp" id="markdown-toc-download0--ftp">Впровадження download0 через FTP</a></li>
+          <li><a href="#download0--ftp-----vue" id="markdown-toc-download0--ftp-----vue">Впровадження download0 через FTP (можна використовувати як оновлення Vue)</a></li>
         </ul>
       </li>
       <li><a href="#приставка-не-взламана" id="markdown-toc-приставка-не-взламана">Приставка не взламана</a>        <ul>
-          <li><a href="#usb---" id="markdown-toc-usb---">Встановлення за допомогою USB (Без втрати даних)</a></li>
-          <li><a href="#section" id="markdown-toc-section">Відновлення бекапу (Із втратою даних)</a></li>
+          <li><a href="#section-1" id="markdown-toc-section-1">Відновлення бекапу (Із втратою даних)</a></li>
         </ul>
       </li>
     </ul>
@@ -357,7 +361,7 @@
   <li><strong>Для використання цього методу приставка має бути на прошивці 7.00-13.00</strong></li>
   <li>У разі невдалого злому <strong>завжди</strong> перезапускайте PS4. Повторний запуск Kernel експлойта без перезавантаження погіршить роботу експлойта, або спровокує Kernel Panic (“KP”).</li>
   <li>Без серйозної необхідності встановлення апдейтів бекапу не рекомендується! Якщо все ж вирішили зробити апдейт через відновлення бекапу, рекомендується витягнути свої ігрові збереження, щоб після відновлення імпортувати їх назад.</li>
-  <li>Вкрай рекомендується періодично робити власний бекап системи за допомогою самої PS4, включаючи в нього Vue After Free Jailbreak та ваші ігрові збереження. Детальніше про <a href="backup">бекап і збереження</a>.</li>
+  <li>Вкрай рекомендується періодично робити власний бекап системи за допомогою самої PS4, включаючи в нього Vue After Free Jailbreak та ваші ігрові збереження. Детальніше про <a href="backup" target="_blank">бекап і збереження</a>.</li>
 </ul>
 
 <h2 id="повна-інформація-про-методи">Повна інформація про методи</h2>
@@ -369,9 +373,25 @@
 
 <hr />
 
-<p>Перед початком встановлення переконайтеся, що ви встановили DNS в налаштуваннях мережі</p>
+<details class="spoiler" id="spoiler-923c7b37">
+  <summary>Видео</summary>
+  <div class="spoiler-content">
 
-<details class="spoiler" id="spoiler-3faceca2">
+    <h3 class="sr-only toc-extra toc-spoiler-title" id="section">Видео</h3>
+
+    <div style="margin:0 auto;" class="text-center notice--info">
+  <div class="ytcontainer">
+    <iframe width="1667" height="946" class="yt" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/y4w7jGPgBDc?start="></iframe>
+  </div>
+</div>
+
+  </div>
+  <div class="spoiler-close-footer" role="button" aria-label="Згорнути спойлер" tabindex="0">Видео <span class="close-icon" aria-hidden="true"></span></div>
+</details>
+
+<p class="notice--warning">Перед початком встановлення переконайтеся, що ви встановили DNS в налаштуваннях мережі</p>
+
+<details class="spoiler" id="spoiler-30800de0">
   <summary>Встановлення DNS в консоль</summary>
   <div class="spoiler-content">
 
@@ -408,11 +428,11 @@
 
 <h3 id="приставка-вже-взламана">Приставка вже взламана</h3>
 
-<p>Ви можете встановити цей додаток на вже взломану приставку щоб мати простіший спосіб запуску експлойта, або щоб мати можливість запускати його без інтернету/</p>
+<p class="notice--info">Ви можете встановити цей додаток на вже взломану приставку щоб мати простіший спосіб запуску експлойта, або щоб мати можливість запускати його без інтернету</p>
 
-<p>**Оберіть один з наступних методів: **</p>
+<p><strong>Оберіть один з наступних методів:</strong></p>
 
-<details class="spoiler" id="spoiler-298ef211">
+<details class="spoiler" id="spoiler-18ed1993">
   <summary>Спрощене встановлення Vue Initial Files</summary>
   <div class="spoiler-content">
 
@@ -423,10 +443,14 @@
     <ol>
       <li>Переконайтеся, що ви налаштували DNS в налаштуваннях мережі (див. спойлер вище).</li>
       <li>Відформатуйте USB-накопичувач на ПК у файловій системі <strong>exFAT</strong>.</li>
-      <li>Завантажте і розпакуйте на ПК архів: <a href="https://drive.google.com/file/d/1YNc1pnsoExlP8Trzbu4bRl7PTD3ckw6O/view?usp=sharing">Vue_base_files.zip</a>.</li>
+      <li>Завантажте і розпакуйте в корінь флешки: <a href="https://drive.google.com/file/d/1YNc1pnsoExlP8Trzbu4bRl7PTD3ckw6O/view?usp=sharing" target="_blank">Vue_base_files.zip</a>.
+        <ul>
+          <li>На флешці має стати <code class="language-plaintext highlighter-rouge">01_Vue_base_v1.01.pkg</code>, <code class="language-plaintext highlighter-rouge">02_Vue_update_v1.24.pkg</code>, <code class="language-plaintext highlighter-rouge">03_Vue_Initial_Files_2.0.pkg</code> та папка <code class="language-plaintext highlighter-rouge">PS4</code></li>
+        </ul>
+      </li>
       <li>Завантажте останню версію <a href="https://github.com/bucanero/apollo-ps4/releases/latest" target="_blank">Apollo Save Tool</a> (файл <code class="language-plaintext highlighter-rouge">IV0000-APOL00004_00-APOLLO0000000PS4.pkg</code>).</li>
-      <li>Скопіюйте всі чотири отримані <code class="language-plaintext highlighter-rouge">.pkg</code> файли в корінь USB-накопичувача та підключіть його до PS4.</li>
-      <li>Встановіть через <strong>GoldHEN</strong> -&gt; <strong>Package Installer</strong> всі <code class="language-plaintext highlighter-rouge">.pkg</code> файли <strong>суворо по черзі</strong>:
+      <li>Завантажте останню версію <a href="https://github.com/GoldHEN/GoldHEN/releases" target="_blank">GoldHEN</a> (файл <code class="language-plaintext highlighter-rouge">GoldHEN_v2.x.7z</code> під спойлером <code class="language-plaintext highlighter-rouge">Assets</code>), покладіть <code class="language-plaintext highlighter-rouge">goldhen.bin</code> в корінь вашої картки пам’яті з іменем <code class="language-plaintext highlighter-rouge">payload.bin</code></li>
+      <li>Встановіть через <strong>GoldHEN</strong> -&gt; <strong>Debug Settings</strong> -&gt; <strong>Package Installer</strong> (меню знаходиться над списком ігор або на самому початку <strong>Налаштувань</strong>) всі <code class="language-plaintext highlighter-rouge">.pkg</code> файли <strong>суворо по черзі</strong>:
         <ol>
           <li><code class="language-plaintext highlighter-rouge">01_Vue_base_v1.01.pkg</code></li>
           <li><code class="language-plaintext highlighter-rouge">02_Vue_update_v1.24.pkg</code></li>
@@ -434,10 +458,20 @@
           <li><code class="language-plaintext highlighter-rouge">IV0000-APOL00004_00-APOLLO0000000PS4.pkg</code></li>
         </ol>
       </li>
-      <li>Запустіть встановлений застосунок <strong>Vue Initial Files</strong>, допоміжні файли будуть скопійовані автоматично.</li>
+      <li>Запустіть встановлений застосунок <strong>Vue Initial Files</strong>, допоміжні файли будуть скопійовані автоматично.
+        <ul>
+          <li>Можете видалити цей застосунок після того як він закінчіть копіювання</li>
+        </ul>
+      </li>
+      <li>Переконайтеся, що ваш PS4 акаунт активований (у PSN або фейково через <strong>Apollo Save Tool</strong> &gt; <strong>User Tools</strong> &gt; <strong>Activate PS4 Accounts</strong>, не активований акаунт матиме id ‘0000000000000000’).</li>
       <li>Запустіть застосунок <strong>Apollo Save Tool</strong>, перейдіть до розділу <strong>USB Saves</strong>.</li>
       <li>Виберіть у списку збереження <strong>PS Vue (CUSA00960)</strong> і скористайтеся опцією <strong>Copy to HDD</strong> (або <strong>Copy save game to HDD</strong>), щоб перенести його на консоль. <em>(Це збереження не потребує перепідпису, оскільки воно генерується безпосередньо на вашій консолі)</em>.</li>
-      <li>Перезавантажте консоль і запустіть застосунок Vue. (Застосунок має запускатися на консолі до активації іншого злому).</li>
+      <li>Перезавантажте консоль і запустіть застосунок Vue не запускаючи попередньо взлом іншим способом</li>
+      <li>Під час запуску виберіть режим:
+        <ul>
+          <li><strong>Lite install</strong> (Спрощений режим без зайвих налаштувань).</li>
+        </ul>
+      </li>
       <li>Натисніть кнопку <strong>Jailbreak</strong>. Дочекайтеся сповіщення “<strong>GoldHEN by Sistro</strong>”.</li>
       <li>Зробіть резервну копію збереження Vue на флешку про всяк випадок. Для цього вставте USB-накопичувач у форматі <strong>exFAT</strong> і перейдіть у <strong>Налаштування</strong> -&gt; <strong>Керування збереженими даними додатків</strong> -&gt; <strong>Збережені дані в пам’яті системи</strong> -&gt; <strong>Копіювання на накопичувач USB</strong>.
         <ul>
@@ -450,116 +484,94 @@
   <div class="spoiler-close-footer" role="button" aria-label="Згорнути спойлер" tabindex="0">Спрощене встановлення Vue Initial Files <span class="close-icon" aria-hidden="true"></span></div>
 </details>
 
-<details class="spoiler" id="spoiler-e9681bc2">
-  <summary>Впровадження download0 через FTP</summary>
+<details class="spoiler" id="spoiler-54fd45a0">
+  <summary>Впровадження download0 через FTP (можна використовувати як оновлення Vue)</summary>
   <div class="spoiler-content">
 
-    <h4 class="sr-only toc-extra toc-spoiler-title" id="download0--ftp">Впровадження download0 через FTP</h4>
+    <h4 class="sr-only toc-extra toc-spoiler-title" id="download0--ftp-----vue">Впровадження download0 через FTP (можна використовувати як оновлення Vue)</h4>
+
+    <p>Вам знадобиться будь-який USB-накопичувач (флешка).</p>
 
     <ol>
       <li>Переконайтеся, що ви налаштували DNS в налаштуваннях мережі (див. спойлер вище).</li>
       <li>Відформатуйте USB-накопичувач на ПК у файловій системі <strong>exFAT</strong>.</li>
-      <li>Завантажте на ПК архів: <a href="https://drive.google.com/file/d/1X3o5fp68f9brPuSNJlxHxNuW-yF13vdZ/view?usp=sharing">PS_Vue_CUSA00960.zip</a> і розрізархівуйте його.</li>
-      <li>Скопіюйте отримані <code class="language-plaintext highlighter-rouge">.pkg</code> файли в корінь USB-накопичувача та підключіть його до PS4.</li>
-      <li>Встановіть через <strong>GoldHEN</strong> -&gt; <strong>Package Installer</strong> обидва файли <strong>суворо по черзі</strong> (<code class="language-plaintext highlighter-rouge">A0101</code> -&gt; <code class="language-plaintext highlighter-rouge">A0124</code>).</li>
-      <li>Переконайтеся, що ваш PS4 акаунт активований (у PSN або фейково через Apollo Save Tool).</li>
-      <li>Завантажте на ПК сейв <a href="/files/vue/Vue_save_v2.0.zip">Vue_save_v2.0.zip</a>, розпакуйте його і скопіюйте отриману папку <code class="language-plaintext highlighter-rouge">PS4</code> в корінь USB-накопичувача (exFAT).</li>
-      <li>Підключіть цей USB-накопичувач до PS4. <strong>Якщо ваш акаунт відрізняється від ID “1111…”, вам необхідно перепідписати сейв:</strong>
+      <li>Завантажте і розпакуйте в корінь флешки: <a href="https://drive.google.com/file/d/1YNc1pnsoExlP8Trzbu4bRl7PTD3ckw6O/view?usp=sharing" target="_blank">Vue_base_files.zip</a>.
         <ul>
-          <li>Запустіть встановлений застосунок <strong>Apollo Save Tool</strong> (можна завантажити <code class="language-plaintext highlighter-rouge">.pkg</code> <a href="https://github.com/bucanero/apollo-ps4/releases/latest" target="_blank">тут</a>).</li>
-          <li>Перейдіть до розділу <strong>USB Saves</strong> і виберіть збереження <strong>PS Vue</strong>.</li>
-          <li>Натисніть опцію <strong>Resign</strong>, щоб перепідписати його під ваш поточний акаунт.</li>
-          <li>Натисніть <strong>Copy to HDD</strong> для встановлення збереження на консоль. 
-<em>(Якщо перепідпис не потрібен, просто відновіть його через <strong>Налаштування</strong> -&gt; <strong>Керування збереженими даними додатків</strong> -&gt; <strong>Збережені дані на накопичувачі USB</strong> -&gt; <strong>Копіювання в пам’ять системи</strong>).</em></li>
+          <li>На флешці має стати <code class="language-plaintext highlighter-rouge">01_Vue_base_v1.01.pkg</code>, <code class="language-plaintext highlighter-rouge">02_Vue_update_v1.24.pkg</code>, <code class="language-plaintext highlighter-rouge">03_Vue_Initial_Files_2.0.pkg</code> та папка <code class="language-plaintext highlighter-rouge">PS4</code></li>
         </ul>
       </li>
-      <li>Завантажте на ПК модифікований файл <a href="/files/vue/Vue_download0_v2.0.zip">Vue_download0_v2.0.zip</a> і розпакуйте його (отримаєте <code class="language-plaintext highlighter-rouge">download0.dat</code>).</li>
+      <li>Завантажте останню версію <a href="https://github.com/bucanero/apollo-ps4/releases/latest" target="_blank">Apollo Save Tool</a> (файл <code class="language-plaintext highlighter-rouge">IV0000-APOL00004_00-APOLLO0000000PS4.pkg</code>).</li>
+      <li>Завантажте останню версію <a href="https://github.com/GoldHEN/GoldHEN/releases" target="_blank">GoldHEN</a> (файл <code class="language-plaintext highlighter-rouge">GoldHEN_v2.x.7z</code> під спойлером <code class="language-plaintext highlighter-rouge">Assets</code>), покладіть <code class="language-plaintext highlighter-rouge">goldhen.bin</code> в корінь вашої картки пам’яті з іменем <code class="language-plaintext highlighter-rouge">payload.bin</code></li>
+      <li>Встановіть через <strong>GoldHEN</strong> -&gt; <strong>Debug Settings</strong> -&gt; <strong>Package Installer</strong> (меню знаходиться над списком ігор або на самому початку <strong>Налаштувань</strong>) всі <code class="language-plaintext highlighter-rouge">.pkg</code> файли <strong>суворо по черзі</strong>:
+        <ol>
+          <li><code class="language-plaintext highlighter-rouge">01_Vue_base_v1.01.pkg</code></li>
+          <li><code class="language-plaintext highlighter-rouge">02_Vue_update_v1.24.pkg</code></li>
+          <li><code class="language-plaintext highlighter-rouge">03_Vue_Initial_Files_2.0.pkg</code></li>
+          <li><code class="language-plaintext highlighter-rouge">IV0000-APOL00004_00-APOLLO0000000PS4.pkg</code></li>
+        </ol>
+      </li>
+      <li>Запустіть встановлений застосунок <strong>Vue Initial Files</strong>, допоміжні файли будуть скопійовані автоматично.
+        <ul>
+          <li>Можете видалити цей застосунок після того як він закінчіть копіювання</li>
+        </ul>
+      </li>
+      <li>Переконайтеся, що ваш PS4 акаунт активований (у PSN або фейково через <strong>Apollo Save Tool</strong> &gt; <strong>User Tools</strong> &gt; <strong>Activate PS4 Accounts</strong>, не активований акаунт матиме id ‘0000000000000000’).</li>
+      <li>Запустіть застосунок <strong>Apollo Save Tool</strong>, перейдіть до розділу <strong>USB Saves</strong>.</li>
+      <li>Виберіть у списку збереження <strong>PS Vue (CUSA00960)</strong> і скористайтеся опцією <strong>Copy to HDD</strong> (або <strong>Copy save game to HDD</strong>), щоб перенести його на консоль. <em>(Це збереження не потребує перепідпису, оскільки воно генерується безпосередньо на вашій консолі)</em>.</li>
+      <li>Завантажте на ПК модифікований файл <a href="/files/vue/Vue_download0_v2.0.zip" target="_blank">Vue_download0_v2.0.zip</a> і розпакуйте його (отримаєте <code class="language-plaintext highlighter-rouge">download0.dat</code>).</li>
       <li>Відкрийте FTP-клієнт на ПК (або застосунок <code class="language-plaintext highlighter-rouge">PS4-Xplorer</code> на консолі). Підключіться до консолі.</li>
       <li>Скопіюйте розпакований файл <code class="language-plaintext highlighter-rouge">download0.dat</code> в директорію консолі <code class="language-plaintext highlighter-rouge">/user/download/CUSA00960/</code> (якщо папки немає, створіть її).</li>
       <li>Перезапустіть консоль.</li>
-      <li>Завантажте на ПК архів <a href="/files/vue/payload.zip">payload.zip</a>, розпакуйте його та скопіюйте файл <code class="language-plaintext highlighter-rouge">payload.bin</code> в корінь USB-накопичувача (exFAT). Підключіть його до PS4.</li>
-      <li>Запустіть застосунок <strong>Vue</strong> (без попереднього злому).</li>
+      <li>Перезавантажте консоль і запустіть застосунок Vue не запускаючи попередньо взлом іншим способом</li>
       <li>Під час запуску виберіть режим:
         <ul>
           <li><strong>Lite install</strong> (Спрощений режим без зайвих налаштувань).</li>
         </ul>
       </li>
       <li>Натисніть кнопку <strong>Jailbreak</strong>. Дочекайтеся сповіщення “<strong>GoldHEN by Sistro</strong>”.</li>
+      <li>Зробіть резервну копію збереження Vue на флешку про всяк випадок. Для цього вставте USB-накопичувач у форматі <strong>exFAT</strong> і перейдіть у <strong>Налаштування</strong> -&gt; <strong>Керування збереженими даними додатків</strong> -&gt; <strong>Збережені дані в пам’яті системи</strong> -&gt; <strong>Копіювання на накопичувач USB</strong>.
+        <ul>
+          <li><a href="/backup" target="_blank">Детальніше про бекапи</a></li>
+        </ul>
+      </li>
     </ol>
 
   </div>
-  <div class="spoiler-close-footer" role="button" aria-label="Згорнути спойлер" tabindex="0">Впровадження download0 через FTP <span class="close-icon" aria-hidden="true"></span></div>
+  <div class="spoiler-close-footer" role="button" aria-label="Згорнути спойлер" tabindex="0">Впровадження download0 через FTP (можна використовувати як оновлення Vue) <span class="close-icon" aria-hidden="true"></span></div>
 </details>
 
 <h3 id="приставка-не-взламана">Приставка не взламана</h3>
 
-<details class="spoiler" id="spoiler-6a386522">
-  <summary>Встановлення за допомогою USB (Без втрати даних)</summary>
-  <div class="spoiler-content">
-
-    <h4 class="sr-only toc-extra toc-spoiler-title" id="usb---">Встановлення за допомогою USB (Без втрати даних)</h4>
-
-    <p class="notice--warning">Увага: потрібен попередньо активований акаунт користувача (неважливо онлайн чи офлайн). Даний метод дозволяє зберегти на приставці налаштування і всі ваші дані. Але потребує наявності у вас USB-накопичувача <strong>не менше 256 ГБ</strong>.</p>
-
-    <ol>
-      <li>Переконайтеся, що ви налаштували DNS в налаштуваннях мережі (див. спойлер вище).</li>
-      <li>Завантажте файл образу USB, відповідний розміру 256GB і вище: <a href="https://drive.google.com/file/d/1UI85SD4IyXuUhZAocS47sju9v9elpUO-/view?usp=sharing">VueExtImg.7z</a></li>
-      <li>Розпакуйте вміст архіву на ПК (наприклад, на робочий стіл). Отримаєте образ.</li>
-      <li>Завантажте та встановіть програму <a href="https://www.balena.io/etcher/">BalenaEtcher</a>. Відкрийте її та виконайте наступні кроки для запи4. Використовуйте програму для запису образів, наприклад, <strong>BalenaEtcher</strong>. За допомогою неї запишіть розпакований образ на ваш USB-накопичувач.   * <em>Програма BalenaEtcher може зависнути на 0%, а потім на 85-99% на кілька хвилин. Це нормально, не переривайте процес!</em></li>
-      <li>Підключіть USB-накопичувач до незламаної PS4.</li>
-      <li>Увімкніть приставку і перейдіть у <strong>Налаштування</strong> -&gt; <strong>Пам’ять</strong> -&gt; <strong>Розширене USB-сховище</strong> -&gt; <strong>Програми</strong>.</li>
-      <li>На USB-диску ви побачите застосунок <strong>PlayStation Vue</strong>. Перемістіть його з USB-накопичувача на внутрішню пам’ять PS4.</li>
-      <li>Після цього витягніть USB-накопичувач з консолі і обов’язково відформатуйте його на ПК у файловій системі <strong>exFAT</strong>.</li>
-      <li>Завантажте і розпакуйте архів зі збереженням: <a href="/files/vue/Vue_save_v2.0.zip">Vue_save_v2.0.zip</a>. Скопіюйте отриману папку <code class="language-plaintext highlighter-rouge">PS4</code> з усім її вмістом в корінь вашого відформатованого USB-накопичувача (exFAT) і підключіть його до PS4.</li>
-      <li><strong>Важливо: Перепідпис сейву.</strong> Збереження Vue за замовчуванням підписане під акаунт ID <code class="language-plaintext highlighter-rouge">1111111111111111</code>. Якщо ваш ID відрізняється, вам необхідно перепідписати сейв:
-        <ul>
-          <li>Для цього вам потрібно тимчасово зламати консоль старим методом (через веб-браузер або PPPoE).</li>
-          <li>Встановіть <a href="https://github.com/bucanero/apollo-ps4/releases/latest" target="_blank">Apollo Save Tool</a>.</li>
-          <li>Запустіть <strong>Apollo Save Tool</strong>, перейдіть у <strong>USB Saves</strong>, знайдіть збереження <strong>PS Vue</strong> і натисніть <strong>Resign</strong>.</li>
-          <li>Після цього натисніть <strong>Copy to HDD</strong> для його копіювання на консоль. 
-<em>(Якщо акаунт збігається з підписом, просто відновіть його: <strong>Налаштування</strong> -&gt; <strong>Керування збереженими даними додатків</strong> -&gt; <strong>Збережені дані на накопичувачі USB</strong> -&gt; <strong>Копіювання в пам’ять системи</strong>).</em></li>
-        </ul>
-      </li>
-      <li>Завантажте і розпакуйте корисне навантаження: <a href="/files/vue/payload.zip">payload.zip</a></li>
-      <li>Скопіюйте файл <code class="language-plaintext highlighter-rouge">payload.bin</code> в корінь USB-накопичувача (exFAT). Вставте флешку в PS4. (Це потрібно зробити лише один раз для першого запуску).</li>
-      <li>Перезавантажте консоль.</li>
-      <li>Запустіть застосунок <strong>PlayStation Vue</strong> (без попередньої активації іншого злому).
-        <ul>
-          <li>Якщо застосунок Vue запропонує підключитися до “PSN”, просто натисніть кнопку (Х) або (О).</li>
-        </ul>
-      </li>
-      <li>Натисніть кнопку <strong>Jailbreak</strong>, після чого буде запущено ланцюжок процесів злому.
-        <ul>
-          <li>Злом самостійно підбере відповідний Kernel експлойт залежно від вашої прошивки.</li>
-          <li>GoldHEN у вигляді <code class="language-plaintext highlighter-rouge">payload.bin</code> буде скопійований всередину приставки.</li>
-        </ul>
-      </li>
-      <li>Терпляче дочекайтеся візуального підтвердження “<strong>GoldHEN by Sistro</strong>” (займає близько 10 секунд).</li>
-      <li>З цього моменту приставка слухає порт 9090 для <code class="language-plaintext highlighter-rouge">bin/elf</code> та 2121 для <code class="language-plaintext highlighter-rouge">ftp</code>.</li>
-    </ol>
-
-  </div>
-  <div class="spoiler-close-footer" role="button" aria-label="Згорнути спойлер" tabindex="0">Встановлення за допомогою USB (Без втрати даних) <span class="close-icon" aria-hidden="true"></span></div>
-</details>
-
-<details class="spoiler" id="spoiler-c995c3d7">
+<details class="spoiler" id="spoiler-f389330a">
   <summary>Відновлення бекапу (Із втратою даних)</summary>
   <div class="spoiler-content">
 
-    <h4 class="sr-only toc-extra toc-spoiler-title" id="section">Відновлення бекапу (Із втратою даних)</h4>
+    <h4 class="sr-only toc-extra toc-spoiler-title" id="section-1">Відновлення бекапу (Із втратою даних)</h4>
+
+    <p>Зробите резервну копію важливих сейвів та акаунтів, інакше всі ваші дані будуть видалені та втрачені. Для цього вставте USB-накопичувач у форматі <strong>exFAT</strong> і перейдіть у <strong>Налаштування</strong> -&gt; <strong>Керування збереженими даними додатків</strong> -&gt; <strong>Збережені дані в пам’яті системи</strong> -&gt; <strong>Копіювання на накопичувач USB</strong>.
+    * <a href="/backup" target="_blank">Детальніше про бекапи</a></p>
 
     <p class="notice--danger">Увага: перед виконанням процедури настійно рекомендується попередньо виконати <strong>повне скидання налаштувань консолі</strong> до заводських значень. Всі ваші дані на консолі будуть видалені! Бекап зроблений на прошивці 07.00, використовувати його можна на прошивках <strong>від 07.00 до 13.00</strong>.</p>
 
     <ol>
       <li>Переконайтеся, що ви налаштували DNS в налаштуваннях мережі (див. спойлер вище).</li>
-      <li>Завантажте Vue After Free-бекап для прошивок 07.00 - 13.00 (за посиланнями у вашому джерелі).</li>
+      <li>Завантажте <a href="https://github.com/Vuemony/vue-after-free/releases" target="_blank">VueSystemBackup.7z</a></li>
       <li>Відформатуйте USB-накопичувач на ПК у форматі <strong>exFAT</strong>.</li>
       <li>Розпакуйте вміст бекапу на USB-накопичувач. Має вийти наступна структура: <code class="language-plaintext highlighter-rouge">/PS4/EXPORT/BACKUP/2026.../archive.dat</code></li>
       <li>Підключіть USB-накопичувач до PS4 і відновіть бекап на консолі: перейдіть у <strong>Налаштування</strong> -&gt; <strong>Система</strong> -&gt; <strong>Створення і відновлення резервних копій</strong> -&gt; <strong>Відновити PS4</strong>.</li>
       <li>Чекайте закінчення відновлення. Коли воно завершиться, приставка автоматично перезавантажиться.</li>
       <li>Переконайтеся, що ви налаштували локальну мережу, вказавши основний <strong>DNS: <code class="language-plaintext highlighter-rouge">62.210.38.117</code></strong>.</li>
-      <li>Завантажте і розпакуйте архів <a href="/files/vue/payload.zip">payload.zip</a>. Скопіюйте файл <code class="language-plaintext highlighter-rouge">payload.bin</code> в корінь вашого USB-накопичувача (exFAT) і підключіть його до PS4.</li>
-      <li>Запустіть застосунок <strong>Vue</strong> (без попередньої активації іншого злому). Ігноруйте пропозицію увійти в PSN, якщо вона з’явиться.</li>
+      <li>Завантажте останню версію <a href="https://github.com/GoldHEN/GoldHEN/releases" target="_blank">GoldHEN</a> (файл <code class="language-plaintext highlighter-rouge">GoldHEN_v2.x.7z</code> під спойлером <code class="language-plaintext highlighter-rouge">Assets</code>), покладіть <code class="language-plaintext highlighter-rouge">goldhen.bin</code> в корінь вашої картки пам’яті з іменем <code class="language-plaintext highlighter-rouge">payload.bin</code></li>
+      <li>Запустіть застосунок <strong>PlayStation Vue</strong> (без попередньої активації іншого злому).
+        <ul>
+          <li>Якщо застосунок Vue запропонує підключитися до “PSN”, просто натисніть кнопку (Х) або (О).</li>
+        </ul>
+      </li>
+      <li>Під час запуску виберіть режим:
+        <ul>
+          <li><strong>Lite install</strong> (Спрощений режим без зайвих налаштувань).</li>
+        </ul>
+      </li>
       <li>Натисніть кнопку <strong>Jailbreak</strong>. Після завершення ви побачите повідомлення “<strong>GoldHEN by Sistro</strong>”.</li>
       <li><strong>Важливо:</strong> Зробіть резервну копію щойно встановленого збереження програми Vue на вашу флешку про всяк випадок. Для цього вставте USB-накопичувач у форматі <strong>exFAT</strong> і перейдіть у <strong>Налаштування</strong> -&gt; <strong>Керування збереженими даними додатків</strong> -&gt; <strong>Збережені дані в пам’яті системи</strong> -&gt; <strong>Копіювання на накопичувач USB</strong>. Виберіть застосунок <strong>Vue</strong> та скопіюйте його.</li>
     </ol>
@@ -568,7 +580,11 @@
   <div class="spoiler-close-footer" role="button" aria-label="Згорнути спойлер" tabindex="0">Відновлення бекапу (Із втратою даних) <span class="close-icon" aria-hidden="true"></span></div>
 </details>
 
-<p class="notice--success">На головному екрані у верхній смужці має з’явитися значок GoldHEN, що вказує на те, що злом активовано успішно.</p>
+<p class="notice--info">Для оновлення версії GoldHEN, скачайте останній реліз <a href="https://github.com/GoldHEN/GoldHEN/releases" target="_blank">GoldHEN</a> (файл <code class="language-plaintext highlighter-rouge">GoldHEN_v2.x.7z</code> під спойлером <code class="language-plaintext highlighter-rouge">Assets</code>), покладіть <code class="language-plaintext highlighter-rouge">goldhen.bin</code> в корінь вашої картки пам’яті з іменем <code class="language-plaintext highlighter-rouge">payload.bin</code> та запустіть взлом. GoldHEN у вигляді <code class="language-plaintext highlighter-rouge">payload.bin</code> буде скопійований всередину приставки.</p>
+
+<p class="notice--info">Для оновлення плейграунда всередині Vue на інший, <a href="http://localhost:4000/start-hen-vue#download0--ftp">виконайте копіювання download0</a></p>
+
+<p class="notice--success">Якщо взлом активовано правильно, на головному екрані у верхній смужці має з’явитися значок GoldHEN, що вказує на те, що злом активовано успішно. Також меню <strong>GoldHEN</strong> можна знайти над іграми (поруч із піктограмою «Що нового») або у самому верху <strong>Налаштувань</strong> консолі.</p>
 
 <p class="notice--info">На цьому етапі ми вже активували GoldHEN і можна повноцінно користуватися консоллю.</p>
 
