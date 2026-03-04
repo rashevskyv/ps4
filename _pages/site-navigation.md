@@ -12,6 +12,7 @@ author_profile: true
 * [Запуск пейлоадів (payloads)](payloads){:target="_blank"}
 * [Запуск експлойта (DNS)](start-hen){:target="_blank"}
 * [Запуск експлойта через браузер](start-hen-browser){:target="_blank"}
+* [Запуск експлойта через VUE](start-hen-vue){:target="_blank"}
 * [Почнемо](get-started){:target="_blank"}
 * [Оновлення прошивки](usb-update){:target="_blank"}
 * [Опис пейлоадів, доступних через DNS](dns-payloads){:target="_blank"}
@@ -33,4 +34,5 @@ author_profile: true
 * [Пожертви](http://customfw.xyz/donations){:target="_blank"}
 * [Корисні інструкції](addons){:target="_blank"}
 * [Поширені запитання](faq){:target="_blank"}
+* [Проблеми та їх вирішення](troubleshootings){:target="_blank"}
 * [Глосарій](glossary){:target="_blank"}

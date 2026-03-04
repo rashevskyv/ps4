@@ -4,29 +4,21 @@ main:
     url: http://customfw.xyz
   - title: "FAQ"
     url: /faq
-  - title: "Глосарій"
-    url: /glossary
   - title: "Проблеми та<br>їх вирішення"
     url: /troubleshootings
   - title: "Важливо<br>знати"
     url: /info
-  - title: "Встановлення<br>ігор"
-    url: /games
-  - title: "Запуск експлойту<br>через DNS"
-    url: /start-hen
-  - title: Оновлення<br>прошивки
-    url: /usb-update-672
-  - title: "Запуск<br>експлойту з ПК"
-    url: /payloads
-  - title: "Дампінг<br>ігор"
-    url: /game-dumps
   - title: "Корисні<br>інструкції"
     url: /addons
-  - title: "Опис<br>пейлоадів"
-    url: /dns-payloads
-  - title: "Видалення<br>HEN"
-    url: /uninstall-hen
-  - title: "Навігація<br>по сайту"
+  - title: "Встановлення<br>ігор"
+    url: /games
+  - title: "Запуск<br>експлойту"
+    url: /start-hen
+  - title: Оновлення<br>прошивки
+    url: /usb-update
+  - title: "Запуск<br>пейлоадів"
+    url: /payloads
+  - title: "Навігація<br>по сайту"  
     url: /site-navigation
   - title: "Пожертвування"
     url: http://customfw.xyz/donations
