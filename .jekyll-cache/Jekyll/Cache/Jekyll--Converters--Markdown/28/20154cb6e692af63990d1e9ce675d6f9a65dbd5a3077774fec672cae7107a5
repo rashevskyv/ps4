@@ -1,0 +1,185 @@
+I"(6
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Розділи</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#основні-поняття" id="markdown-toc-основні-поняття">Основні поняття</a></li>
+  <li><a href="#індикатори-сейвів-у-меню" id="markdown-toc-індикатори-сейвів-у-меню">Індикатори сейвів у меню</a></li>
+  <li><a href="#можливості-керування" id="markdown-toc-можливості-керування">Можливості керування</a>    <ul>
+      <li><a href="#робота-з-hdd-внутрішні-сейви" id="markdown-toc-робота-з-hdd-внутрішні-сейви">Робота з HDD (Внутрішні сейви)</a></li>
+      <li><a href="#робота-з-usb" id="markdown-toc-робота-з-usb">Робота з USB</a></li>
+      <li><a href="#bulk-management" id="markdown-toc-bulk-management">Масове керування (Bulk Management)</a></li>
+      <li><a href="#section" id="markdown-toc-section">Спеціальні функції</a></li>
+      <li><a href="#fake-activation--" id="markdown-toc-fake-activation--">1. Fake Activation (Фейкова активація)</a></li>
+      <li><a href="#fake-usb" id="markdown-toc-fake-usb">2. Fake USB</a></li>
+      <li><a href="#appdb-management" id="markdown-toc-appdb-management">3. Відбудова бази даних (App.db Management)</a></li>
+      <li><a href="#keystone" id="markdown-toc-keystone">4. Виправлення пошкоджених сейвів (Keystone)</a></li>
+      <li><a href="#section-1" id="markdown-toc-section-1">Конвертація між регіонами та версіями</a></li>
+      <li><a href="#ftp" id="markdown-toc-ftp">Мережеві функції та FTP</a></li>
+    </ul>
+  </li>
+  <li><a href="#корисні-поради" id="markdown-toc-корисні-поради">Корисні поради</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<p><strong>Apollo Save Tool</strong> — це найзручніший інструмент для керування збереженими даними (сейвами) та трофеями безпосередньо на PS4. Він позбавляє потреби використовувати ПК або платні сервіси на кшталт Save Wizard для більшості завдань.</p>
+
+<p class="notice--warning"><strong>Важливо:</strong> Для повноцінної роботи (експорту та перепідпису сейвів від інших користувачів) ваш профіль має бути <strong>активований</strong> (реальним PSN ID або фейковою активацією).</p>
+
+<hr />
+
+<h2 id="основні-поняття">Основні поняття</h2>
+
+<ul>
+  <li><strong>Title ID:</strong> Код гри (наприклад, <code class="language-plaintext highlighter-rouge">CUSA00744</code>). Різні регіони однієї гри мають різні Title ID.</li>
+  <li><strong>User ID:</strong> Внутрішній ідентифікатор локального профілю (наприклад, <code class="language-plaintext highlighter-rouge">11cd8de</code>).</li>
+  <li><strong>Account ID:</strong> 16-бітний HEX-код, прив’язаний до PSN. Саме до нього “прив’язуються” сейви.</li>
+</ul>
+
+<hr />
+
+<h2 id="індикатори-сейвів-у-меню">Індикатори сейвів у меню</h2>
+
+<p>Поруч із назвою збереження ви побачите іконки:</p>
+<ol>
+  <li><strong>Замок (справа):</strong> Сейв зашифрований. Якщо замка немає — сейв дешифрований.</li>
+  <li><strong>Закладка (справа):</strong> Account ID сейва збігається з ID поточного користувача.</li>
+  <li><strong>Зірка (зліва):</strong> Сейв вибрано (натисканням на тачпад) для масових дій.</li>
+  <li><strong>Червоний знак оклику (!):</strong> Помилка структури або сейв від вищої прошивки, для якої змінилися ключі.</li>
+</ol>
+
+<hr />
+
+<h2 id="можливості-керування">Можливості керування</h2>
+
+<h3 id="робота-з-hdd-внутрішні-сейви">Робота з HDD (Внутрішні сейви)</h3>
+<ul>
+  <li><strong>Apply Changes &amp; Resign:</strong> Застосувати чити та перепідписати сейв.</li>
+  <li><strong>Copy save game:</strong> Копіювання дешифрованого сейва на USB за шляхом <code class="language-plaintext highlighter-rouge">/PS4/APOLLO/&lt;USER-ID&gt;/&lt;TITLE-ID&gt;</code>.</li>
+  <li><strong>Export save game to Zip:</strong> Створення зашифрованого архіву на USB.</li>
+  <li><strong>Export/Import Keystone:</strong> Резервне копіювання ключа Keystone (див. розділ “Виправлення”).</li>
+</ul>
+
+<h3 id="робота-з-usb">Робота з USB</h3>
+<ul>
+  <li><strong>Resign:</strong> Перепідпис сейвів під ваш поточний Account ID.</li>
+  <li><strong>Copy to HDD:</strong> Встановлення сейва з флешки на консоль.</li>
+</ul>
+
+<hr />
+
+<details class="spoiler" id="spoiler-81c1936f">
+  <summary>Масове керування (Bulk Management)</summary>
+  <div class="spoiler-content">
+
+    <h3 class="sr-only toc-extra toc-spoiler-title" id="bulk-management">Масове керування (Bulk Management)</h3>
+
+    <p>Ви можете вибирати кілька сейвів тачпадом або вибрати всі одразу в меню:</p>
+    <ul>
+      <li><strong>HDD:</strong> Копіювати всі вибрані сейви на USB у дешифрованому вигляді.</li>
+      <li><strong>USB:</strong> Перепідписати (Resign) всі дешифровані сейви на флешці під ваш акаунт.</li>
+    </ul>
+
+  </div>
+  <div class="spoiler-close-footer" role="button" aria-label="Згорнути спойлер" tabindex="0">Масове керування (Bulk Management) <span class="close-icon" aria-hidden="true"></span></div>
+</details>
+
+<details class="spoiler" id="spoiler-eab0585a">
+  <summary>Спеціальні функції</summary>
+  <div class="spoiler-content">
+
+    <h3 class="sr-only toc-extra toc-spoiler-title" id="section">Спеціальні функції</h3>
+
+    <h3 class="toc-spoiler-inner" id="fake-activation--">1. Fake Activation (Фейкова активація)</h3>
+    <p>Дозволяє перетворювати локальний офлайн-профіль на “активований”:</p>
+    <ol>
+      <li>Перейдіть у “<strong>User Tools</strong>” -&gt; “<strong>Activate PS4 Accounts</strong>”.</li>
+      <li>Виберіть профіль та введіть свій PSN Account ID (якщо хочете сумісність із хмарними сейвами) або дозвольте Apollo згенерувати випадковий.</li>
+      <li>Натисніть “<strong>Activate</strong>” та перезавантажте систему.</li>
+    </ol>
+
+    <h3 class="toc-spoiler-inner" id="fake-usb">2. Fake USB</h3>
+    <p>Apollo може емулювати USB-накопичувач, використовуючи папку <code class="language-plaintext highlighter-rouge">/data/fakeusb</code> на внутрішньому HDD.</p>
+    <ul>
+      <li>Це корисно, якщо у вас немає вільної флешки.</li>
+      <li>Увімкнути можна в налаштуваннях: “<strong>USB Saves Source</strong>”.</li>
+    </ul>
+
+    <h3 class="toc-spoiler-inner" id="appdb-management">3. Відбудова бази даних (App.db Management)</h3>
+    <p>Якщо після збою або відбудови офіційної бази зникли іконки ігор/Homebrew:</p>
+    <ol>
+      <li>У “<strong>User Tools</strong>” виберіть “<strong>App.db Database Management</strong>”.</li>
+      <li>Натисніть “<strong>Rebuild App.db Database</strong>”. Це поверне всі іконки на головний екран.</li>
+      <li>Тут же можна зробити бекап всієї бази даних системи.</li>
+    </ol>
+
+    <h3 class="toc-spoiler-inner" id="keystone">4. Виправлення пошкоджених сейвів (Keystone)</h3>
+    <p>Якщо сейв має правильний ID, але гра каже “Пошкодено”, проблема в Keystone (паролі розробника):</p>
+    <ol>
+      <li>Створіть новий збережений файл у цій же грі.</li>
+      <li>В Apollo виберіть новий сейв і натисніть “<strong>Export Keystone</strong>”.</li>
+      <li>Виберіть “пошкоджений” сейв і натисніть “<strong>Import Keystone</strong>”.</li>
+    </ol>
+
+  </div>
+  <div class="spoiler-close-footer" role="button" aria-label="Згорнути спойлер" tabindex="0">Спеціальні функції <span class="close-icon" aria-hidden="true"></span></div>
+</details>
+
+<details class="spoiler" id="spoiler-cf373837">
+  <summary>Конвертація між регіонами та версіями</summary>
+  <div class="spoiler-content">
+
+    <h3 class="sr-only toc-extra toc-spoiler-title" id="section-1">Конвертація між регіонами та версіями</h3>
+
+    <p>Якщо ви хочете використати сейв від США версії (CUSA12345) на Європейській (CUSA54321):</p>
+
+    <p><strong>Спосіб 1 (Простий):</strong></p>
+    <ol>
+      <li>Зробіть новий сейв у цільовій грі.</li>
+      <li>В Apollo виберіть його на HDD та натисніть “<strong>Export decrypted save files</strong>”.</li>
+      <li>Через <strong>PS4Xplorer</strong> перейдіть у <code class="language-plaintext highlighter-rouge">/data/apollo/&lt;your-id&gt;/</code> та перейменуйте папку старого Title ID на новий.</li>
+      <li>В Apollo виберіть нову гру та натисніть “<strong>Import decrypted save files</strong>”, потім “<strong>Apply Changes &amp; Resign</strong>”.</li>
+    </ol>
+
+    <p><strong>Спосіб 2 (Для іншого регіону):</strong></p>
+    <ol>
+      <li>Дешифруйте обидва сейви (Source та Target) на USB через “<strong>Copy save game</strong>”.</li>
+      <li>На ПК замініть файли в папці Target файлами з Source (крім папки <code class="language-plaintext highlighter-rouge">sce_sys</code>).</li>
+      <li>В Apollo скопіюйте Target сейв назад на HDD.</li>
+    </ol>
+
+  </div>
+  <div class="spoiler-close-footer" role="button" aria-label="Згорнути спойлер" tabindex="0">Конвертація між регіонами та версіями <span class="close-icon" aria-hidden="true"></span></div>
+</details>
+
+<details class="spoiler" id="spoiler-8b0608ed">
+  <summary>Мережеві функції та FTP</summary>
+  <div class="spoiler-content">
+
+    <h3 class="sr-only toc-extra toc-spoiler-title" id="ftp">Мережеві функції та FTP</h3>
+
+    <ul>
+      <li><strong>Online Database:</strong> Завантаження готових сейвів від спільноти прямо на HDD або USB.</li>
+      <li><strong>Власний FTP:</strong> Ви можете налаштувати Apollo на роботу з вашим власним FTP-сервером (PC/NAS/Android) для бекапу сейвів по повітрю.</li>
+      <li><strong>Web Server:</strong> Apollo запускає локальний сервер (<code class="language-plaintext highlighter-rouge">http://ip_ps4:8080</code>), де можна через браузер на ПК переглядати та завантажувати файли консолі.</li>
+    </ul>
+
+  </div>
+  <div class="spoiler-close-footer" role="button" aria-label="Згорнути спойлер" tabindex="0">Мережеві функції та FTP <span class="close-icon" aria-hidden="true"></span></div>
+</details>
+
+<hr />
+
+<h2 id="корисні-поради">Корисні поради</h2>
+<ul>
+  <li><strong>Трофеї:</strong> Apollo може робити бекап трофеїв у дешифрованому вигляді, що дозволяє переносити їх між консолями.</li>
+  <li><strong>Чити:</strong> Якщо гра підтримується, у меню сейва з’явиться пункт “<strong>Cheats</strong>”. Виберіть потрібні, натисніть “<strong>Apply changes</strong>”.</li>
+  <li><strong>Debug Log:</strong> Якщо програма працює нестабільно, увімкніть логування в налаштуваннях (<code class="language-plaintext highlighter-rouge">/data/apollo/apollo.log</code>).</li>
+</ul>
+
+<hr />
+
+<p class="notice--success"><a href="javascript:window.close();">Закрити сторінку</a></p>
+:ET

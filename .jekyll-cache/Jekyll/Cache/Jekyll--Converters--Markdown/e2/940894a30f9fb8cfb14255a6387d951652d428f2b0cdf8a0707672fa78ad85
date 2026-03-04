@@ -1,0 +1,108 @@
+I"9$
+<aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fa fa-file-text"></i> Разделы</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#підготовчі-роботи" id="markdown-toc-підготовчі-роботи">Підготовчі роботи</a></li>
+  <li><a href="#оновлення-прошивки-ps4" id="markdown-toc-оновлення-прошивки-ps4">Оновлення прошивки PS4</a>    <ul>
+      <li><a href="#usb" id="markdown-toc-usb">Звичайне оновлення через USB</a></li>
+      <li><a href="#section" id="markdown-toc-section">Оновлення через рекавері</a></li>
+    </ul>
+  </li>
+  <li><a href="#следующий-шаг-запуск-взлома" id="markdown-toc-следующий-шаг-запуск-взлома">Следующий шаг: Запуск взлома</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<h2 id="підготовчі-роботи">Підготовчі роботи</h2>
+
+<ol>
+  <li>Відформатуйте USB-флешку в <strong>exFAT</strong></li>
+  <li>У корені USB-флешки створіть папку <code class="language-plaintext highlighter-rouge">PS4</code>, а в ній папку <code class="language-plaintext highlighter-rouge">UPDATE</code></li>
+  <li>Завантажте звичайний файл оновлення для простого підняття версії прошивки, або файл оновлення для рекавері, якщо ви хочете змінити жорсткий диск на приставці, або у вас вже завантажилося оновлення на останню версію ПЗ, що не піддається зламу
+    <ul>
+      <li><a href="https://archive.org/download/PS4-System-Firmwares/Firmware%209.00/PS4UPDATE.PUP" target="_blank">Звичайний файл системного оновлення</a> (<a href="https://mega.nz/file/lWpEiTwD#HAH85qAVGuJbl0zVQjvcNPcrFe0UpKgPCZ_v7HvTP1E" target="_blank">дзеркало</a>) для Playstation 4 версії <strong>9.00</strong></li>
+      <li><a href="https://archive.org/download/PS4-Recovery-Firmwares/Firmware%209.00/PS4UPDATE.PUP" target="_blank">Версія для рекавері</a> (<a href="https://mega.nz/file/AGo2EZzQ#DE8LYDTkj1U0CFN9YckKYviU_DNgr5JG1A0q0B0Q9z4" target="_blank">дзеркало</a>) для Playstation 4 версії <strong>9.00</strong></li>
+    </ul>
+  </li>
+  <li>Перенесіть файл оновлення в папку <code class="language-plaintext highlighter-rouge">PS4/UPDATE</code> і перейменуйте його в <code class="language-plaintext highlighter-rouge">PS4UPDATE.PUP</code></li>
+</ol>
+
+<h2 id="оновлення-прошивки-ps4">Оновлення прошивки PS4</h2>
+
+<details class="spoiler" id="spoiler-95d9c0e2">
+  <summary>Звичайне оновлення через USB</summary>
+  <div class="spoiler-content">
+
+    <h3 class="sr-only toc-extra toc-spoiler-title" id="usb">Звичайне оновлення через USB</h3>
+
+    <ol>
+      <li>Вставте USB-накопичувач з файлами прошивки в USB-порт приставки</li>
+      <li>Відкрийте Налаштування, перейдіть до “<strong>Оновлення системного програмного забезпечення</strong>”</li>
+      <li>
+        <p>Приставка напише, що знайдено оновлення і вкаже його номер</p>
+
+        <p class="notice--warning"><strong>УВАЖНО ПЕРЕКОНАЙТЕСЯ, ЩО ОНОВЛЮЄТЕСЯ НА ВЕРСИЮ 9.00</strong></p>
+      </li>
+      <li>Завершіть встановлення оновлення, дотримуючись інструкцій на екрані
+        <ul>
+          <li>Якщо виникли проблеми, спробуйте прошити через рекавері</li>
+        </ul>
+      </li>
+    </ol>
+
+  </div>
+  <div class="spoiler-close-footer" role="button" aria-label="Згорнути спойлер" tabindex="0">Звичайне оновлення через USB <span class="close-icon" aria-hidden="true"></span></div>
+</details>
+
+<details class="spoiler" id="spoiler-1d901e3b">
+  <summary>Оновлення через рекавері</summary>
+  <div class="spoiler-content">
+
+    <h3 class="sr-only toc-extra toc-spoiler-title" id="section">Оновлення через рекавері</h3>
+
+    <details class="spoiler" id="spoiler-569bb090">
+  <summary>Відео</summary>
+  <div class="spoiler-content">
+
+        <div style="margin:0 auto;" class="text-center notice--info">
+  <div class="ytcontainer">
+    <iframe width="1667" height="946" class="yt" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" src="https://www.youtube.com/embed/gwFTeiIBw-E?start="></iframe>
+  </div>
+</div>
+
+      </div>
+  <div class="spoiler-close-footer" role="button" aria-label="Згорнути спойлер" tabindex="0">Відео <span class="close-icon" aria-hidden="true"></span></div>
+</details>
+
+    <ol>
+      <li>Вимкніть систему PS4, натиснувши кнопку живлення на передній панелі. Індикатор живлення кілька разів блимне і згасне</li>
+      <li>Вимкнувши систему PS4, знову натисніть і утримуйте кнопку живлення. Відпустіть її, почувши другий звуковий сигнал: один звуковий сигнал пролунає при натисканні на кнопку живлення, а другий — ще через кілька секунд</li>
+      <li>Підключіть контролер DUALSHOCK 4 за допомогою кабелю USB і натисніть кнопку PS на контролері</li>
+      <li>Виберіть пункт “<strong>Оновити системне програмне забезпечення</strong>”</li>
+      <li>Виберіть пункт “<strong>Оновити з накопичувача USB</strong>” і натисніть ОК</li>
+      <li>
+        <p>Приставка напише, що знайдено оновлення і вкаже його номер</p>
+
+        <p class="notice--warning"><strong>УВАЖНО ПЕРЕКОНАЙТЕСЯ, ЩО ОНОВЛЮЄТЕСЯ НА ВЕРСИЮ 9.00</strong></p>
+      </li>
+      <li>Завершіть встановлення оновлення, дотримуючись інструкцій на екрані</li>
+    </ol>
+
+  </div>
+  <div class="spoiler-close-footer" role="button" aria-label="Згорнути спойлер" tabindex="0">Оновлення через рекавері <span class="close-icon" aria-hidden="true"></span></div>
+</details>
+
+<p class="notice--warning">Якщо виникає помилка <strong>на прошитій приставці</strong> (наприклад <strong>CE-30778-5</strong> або <strong>SU-30634-6</strong>), насамперед переконайтеся, що файл оновлення названий <code class="language-plaintext highlighter-rouge">PS4UPDATE.PUP</code>. Якщо це не допомогло — видаліть вміст папки <code class="language-plaintext highlighter-rouge">update</code> на HDD вашої приставки, або <a href="payloads" target="_blank">скористайтеся пейлоадером</a> <strong>update-enabler</strong> (є за замовчуванням у складі ps4-exploit-host)</p>
+
+<p class="notice--warning">Якщо виникає помилка на <strong>не прошитій</strong> приставке, насамперед переконайтеся, що файл оновлення названий <code class="language-plaintext highlighter-rouge">PS4UPDATE.PUP</code>, спробуйте прошити з іншим USB-накопичувачем, спробуйте перекачати файл оновлення, спробуйте зробити повну ініціалізацію приставки. <strong>Якщо у вас проблеми з приводом, то скористайтеся <a href="https://www.youtube.com/watch?v=jwkuIY0UoNg" target="_blank">цим відео</a></strong></p>
+
+<p class="notice--info">Для заміни жорсткого диска використовуйте системне <a href="#%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D1%80%D0%B5%D0%BA%D0%B0%D0%B2%D0%B5%D1%80%D0%B8" target="_blank">оновлення для рекавері</a>. Вставте новий диск і встановіть це оновлення. Приставка сама підготує диск до роботи</p>
+
+<hr />
+
+<h2 class="notice--success" id="следующий-шаг-запуск-взлома">Следующий шаг: <a href="start-hen">Запуск взлома</a></h2>
+
+<p>(<a href="">дзеркало</a></p>
+:ET
