@@ -1,13 +1,13 @@
 minimal_mistakes_skin    : "default" # "air", "contrast", "dark", "dirt", "mint", "sunrise"
 
 # Site Settings
-locale                   : "uk-UA"  # Змінено на українську як основну мову
+locale                   : "uk"
 title                    : "Взлом Playstation 4"
 title_separator          : "-"
 name                     : "xHR"
 description              : "Повне керівництво з прошивки Playstation 4"  # Перекладено на українську
-url                      : "https://ps4.customfw.xyz" # змінено на відносний URL
-enforce_ssl              : "ps4.customfw.xyz"
+url                      : "https://ps4.customfw.xyz"
+enforce_ssl              : true
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rashevskyv/ps4" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /assets/images/, .e.g. "500x300.png"
