@@ -6,9 +6,10 @@ title                    : "Взлом Playstation 4"
 title_separator          : "-"
 name                     : "xHR"
 description              : "Повне керівництво з прошивки Playstation 4"  # Перекладено на українську
-url                      : "" # змінено на відносний URL
+url                      : "https://ps4.customfw.xyz" # змінено на відносний URL
+enforce_ssl              : "ps4.customfw.xyz"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "rashevskyv/switch" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "rashevskyv/ps4" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /assets/images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
